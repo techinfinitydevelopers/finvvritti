@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 
 const links = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "About Us", href: "#about" },
-  { label: "Case Studies", href: "#case-studies" },
-  { label: "FAQs", href: "#faqs" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
+  { label: "About Us", href: "/#about" },
+  { label: "Case Studies", href: "/#case-studies" },
+  { label: "FAQs", href: "/#faqs" },
+  { label: "Contact Us", href: "/#contact" },
 ];
 
 export default function Navbar() {

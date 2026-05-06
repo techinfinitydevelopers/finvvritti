@@ -29,12 +29,12 @@ export default function Footer() {
           </p>
           <ul className="mt-4 space-y-2.5 text-sm">
             {[
-              { label: "Home", href: "#home" },
-              { label: "Services", href: "#services" },
-              { label: "About Us", href: "#about" },
-              { label: "Case Studies", href: "#case-studies" },
-              { label: "FAQs", href: "#faqs" },
-              { label: "Contact Us", href: "#contact" },
+              { label: "Home", href: "/" },
+              { label: "Services", href: "/services" },
+              { label: "About Us", href: "/#about" },
+              { label: "Case Studies", href: "/#case-studies" },
+              { label: "FAQs", href: "/#faqs" },
+              { label: "Contact Us", href: "/#contact" },
             ].map((l) => (
               <li key={l.href}>
                 <a
