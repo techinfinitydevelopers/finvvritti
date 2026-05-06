@@ -114,8 +114,8 @@ function HeroVisual() {
       {/* Main photo */}
       <div className="relative aspect-[4/5] sm:aspect-[5/6] lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-elev-lg">
         <Image
-          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80"
-          alt="Finvvritti advisor reviewing financial reports with a client"
+          src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80"
+          alt="Finvvritti CA reviewing financial accounts and tax documents"
           fill
           priority
           sizes="(max-width: 1024px) 90vw, 45vw"

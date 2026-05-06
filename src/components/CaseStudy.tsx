@@ -14,7 +14,7 @@ const blocks = [
     Icon: Wrench,
     label: "Optimizations",
     text: "We streamline financial and compliance processes through structured, expert-driven solutions tailored to each business. From GST filings and income tax compliance to accounting and advisory, we ensure accuracy, transparency, and timely execution. Our approach focuses on simplifying complex regulations, improving financial clarity, and implementing efficient systems that reduce manual effort and risk.",
-    img: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=900&q=80",
+    img: "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=900&q=80",
   },
   {
     Icon: TrendingUp,

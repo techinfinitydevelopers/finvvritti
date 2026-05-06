@@ -24,8 +24,8 @@ export default function WhoWeAre() {
         >
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-elev-lg">
             <Image
-              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=80"
-              alt="Finvvritti team meeting on financial advisory"
+              src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80"
+              alt="Finvvritti CA & CS team meeting on financial advisory"
               fill
               sizes="(max-width: 1024px) 90vw, 40vw"
               className="object-cover"

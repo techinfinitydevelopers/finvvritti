@@ -21,7 +21,7 @@ const items = [
     Icon: Radio,
     name: "Communications",
     blurb: "Media, telecom & broadcasting",
-    img: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80",
+    img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=900&q=80",
   },
   {
     Icon: Cpu,
