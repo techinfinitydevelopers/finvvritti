@@ -5,19 +5,19 @@ import { Quote, Star } from "lucide-react";
 
 const items = [
   {
-    quote: "Enjoyed working with Finvvritti, great learning experience!",
+    quote: "Enjoyed working with CVM, great learning experience!",
     name: "Kamal K. Advani",
     role: "CEO, KK & Co",
     avatar: "https://i.pravatar.cc/120?img=12",
   },
   {
-    quote: "Exceptional service, great value & surprising insights.",
+    quote: "Exceptional Service, great value & surprising insights.",
     name: "Rajat Mehta",
     role: "Zedcom Global",
     avatar: "https://i.pravatar.cc/120?img=33",
   },
   {
-    quote: "Service-oriented, responsive, terrific value to add!",
+    quote: "Service Oriented, responsive, terrific value to add!",
     name: "A. Raghuvanshi",
     role: "CEO, VivaLife Pharma",
     avatar: "https://i.pravatar.cc/120?img=68",

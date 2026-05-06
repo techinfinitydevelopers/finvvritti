@@ -73,10 +73,13 @@ export default function WhoWeAre() {
             is a one-stop solution provider for your financial and corporate
             requirements. We act as a catalyst to your financial growth and
             have been consistently adding value to various companies with a
-            wide range of industry-oriented services. We combine the expertise
-            of CA & CS to assist you in all things finance and compliance — from
-            Auditing, Accounting & Taxation to Debt Advisory, CFO Services,
-            Valuation Advisory, and Company Secretarial support.
+            wide range of industry-oriented services. We combine expertise of
+            CA & CS to assist you in all things finance and compliance. We
+            render our client-driven services across domains concerning
+            Auditing, Accounting & Taxation, debt advisory, CFO services,
+            valuation advisory and Company Secretary. Owing to our tailor-made
+            financial advisory services, we continue to positively make a
+            difference to SMEs and Start-ups.
           </motion.p>
 
           <a

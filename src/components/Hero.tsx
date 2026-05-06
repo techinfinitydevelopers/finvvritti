@@ -24,7 +24,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/20 bg-white/5 text-xs md:text-sm tracking-wide"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-secondary)]" />
-            Accounting & Financial Advisory
+            Accounting and Financial Advisory
           </motion.span>
 
           <motion.h1

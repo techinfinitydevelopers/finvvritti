@@ -30,7 +30,7 @@ export default function CaseStudy() {
       <div className="container-x">
         <div className="max-w-3xl">
           <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary-dark)] font-semibold uppercase">
-            Case Studies
+            We Work With · Case Studies
           </span>
           <h2 className="font-display mt-3 text-3xl md:text-4xl lg:text-5xl text-[var(--color-primary)] leading-tight">
             Proven Financial Results for{" "}

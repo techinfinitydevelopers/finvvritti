@@ -3,27 +3,27 @@ import { motion } from "framer-motion";
 
 const steps = [
   {
-    n: "01",
+    n: "Step 1",
     title: "Understand your business",
     text: "We analyze your financial structure, operations, and goals to identify key challenges and growth opportunities.",
   },
   {
-    n: "02",
+    n: "Step 2",
     title: "Diagnose & plan",
     text: "We map gaps in compliance, accounting, and reporting, then design a tailored roadmap with clear priorities.",
   },
   {
-    n: "03",
+    n: "Step 3",
     title: "Implement systems",
     text: "We set up clean books, structured filings, and decision-grade dashboards — so your data works for you.",
   },
   {
-    n: "04",
+    n: "Step 4",
     title: "Advise & optimize",
     text: "Ongoing CFO-level guidance on tax, debt, valuation, and capital — turning numbers into next moves.",
   },
   {
-    n: "05",
+    n: "Step 5",
     title: "Scale with confidence",
     text: "With audit-ready records and forward-looking insights, you grow with control and zero compliance surprises.",
   },
@@ -55,7 +55,7 @@ export default function Process() {
               transition={{ duration: 0.5, delay: i * 0.07 }}
               className="relative rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm p-6 hover:bg-white/[0.1] transition-colors"
             >
-              <span className="font-display text-3xl text-[var(--color-secondary)]">
+              <span className="inline-block font-display text-sm tracking-[0.2em] uppercase text-[var(--color-secondary)]">
                 {s.n}
               </span>
               <h3 className="mt-3 font-semibold text-white text-base md:text-lg">
