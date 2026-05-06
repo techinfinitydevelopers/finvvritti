@@ -31,8 +31,8 @@ export default function Footer() {
             {[
               { label: "Home", href: "/" },
               { label: "Services", href: "/services" },
-              { label: "About Us", href: "/#about" },
-              { label: "Case Studies", href: "/#case-studies" },
+              { label: "About Us", href: "/about" },
+              { label: "Case Studies", href: "/case-studies" },
               { label: "FAQs", href: "/#faqs" },
               { label: "Contact Us", href: "/#contact" },
             ].map((l) => (
@@ -67,7 +67,7 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-2.5">
               <MapPin size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
-              <span>120 Financial Park, Suite 405, New York, NY 10005, USA</span>
+              <span>120 Financial Park, Suite 405 New York, NY 10005, USA</span>
             </li>
           </ul>
         </div>

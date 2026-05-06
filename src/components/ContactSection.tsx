@@ -27,7 +27,7 @@ export default function ContactSection() {
             <ContactRow
               Icon={MapPin}
               label="Office"
-              value="120 Financial Park, Suite 405, New York, NY 10005, USA"
+              value="120 Financial Park, Suite 405 New York, NY 10005, USA"
             />
           </div>
         </div>
