@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, ShieldCheck, TrendingUp, FileCheck2 } from "lucide-react";
 
@@ -15,7 +16,7 @@ export default function Hero() {
       <div className="absolute -bottom-40 -left-32 -z-10 h-[420px] w-[420px] rounded-full bg-[var(--color-secondary)]/15 blur-3xl" />
 
       <div className="container-x grid lg:grid-cols-12 gap-10 items-center">
-        <div className="lg:col-span-7 text-white">
+        <div className="lg:col-span-6 text-white">
           <motion.span
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -71,7 +72,6 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* Quick value props */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
@@ -94,40 +94,57 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Visual */}
+        {/* Visual: photo + floating dashboard cards */}
         <motion.div
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="lg:col-span-5 relative"
+          className="lg:col-span-6 relative"
         >
-          <HeroIllustration />
+          <HeroVisual />
         </motion.div>
       </div>
     </section>
   );
 }
 
-function HeroIllustration() {
+function HeroVisual() {
   return (
-    <div className="relative mx-auto max-w-md">
-      {/* Card stack */}
-      <div className="relative rounded-2xl bg-white shadow-elev-lg p-5 md:p-6 border border-white/40">
+    <div className="relative mx-auto max-w-xl lg:max-w-none">
+      {/* Main photo */}
+      <div className="relative aspect-[4/5] sm:aspect-[5/6] lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-elev-lg">
+        <Image
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80"
+          alt="Finvvritti advisor reviewing financial reports with a client"
+          fill
+          priority
+          sizes="(max-width: 1024px) 90vw, 45vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary)]/40 via-transparent to-transparent" />
+      </div>
+
+      {/* Floating revenue card */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.6, duration: 0.5 }}
+        className="absolute -left-3 sm:-left-6 top-6 sm:top-10 w-[220px] sm:w-[260px] rounded-2xl bg-white/95 backdrop-blur shadow-elev-lg p-4 sm:p-5 border border-white/40"
+      >
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-xs uppercase tracking-wider text-[var(--color-muted)]">
+            <p className="text-[10px] sm:text-xs uppercase tracking-wider text-[var(--color-muted)]">
               Q3 Revenue
             </p>
-            <p className="font-display text-2xl md:text-3xl text-[var(--color-primary)] mt-1">
+            <p className="font-display text-xl sm:text-2xl text-[var(--color-primary)] mt-0.5">
               ₹ 4.82 Cr
             </p>
           </div>
-          <span className="px-2.5 py-1 rounded-full bg-[var(--color-success)]/10 text-[var(--color-success)] text-xs font-semibold">
+          <span className="px-2 py-0.5 rounded-full bg-[var(--color-success)]/10 text-[var(--color-success)] text-[10px] sm:text-xs font-semibold">
             +18.4%
           </span>
         </div>
-        {/* Mini chart */}
-        <svg viewBox="0 0 240 80" className="mt-4 w-full h-20">
+        <svg viewBox="0 0 240 60" className="mt-3 w-full h-12">
           <defs>
             <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
               <stop offset="0%" stopColor="#0A2540" stopOpacity="0.18" />
@@ -135,58 +152,36 @@ function HeroIllustration() {
             </linearGradient>
           </defs>
           <path
-            d="M0 60 L30 50 L60 55 L90 38 L120 42 L150 28 L180 32 L210 18 L240 22 L240 80 L0 80 Z"
+            d="M0 45 L30 38 L60 42 L90 28 L120 32 L150 20 L180 24 L210 12 L240 16 L240 60 L0 60 Z"
             fill="url(#g1)"
           />
           <path
-            d="M0 60 L30 50 L60 55 L90 38 L120 42 L150 28 L180 32 L210 18 L240 22"
+            d="M0 45 L30 38 L60 42 L90 28 L120 32 L150 20 L180 24 L210 12 L240 16"
             fill="none"
             stroke="#0A2540"
             strokeWidth="2"
             strokeLinecap="round"
-            strokeLinejoin="round"
           />
         </svg>
-        <div className="grid grid-cols-3 gap-3 mt-3 pt-4 border-t border-[var(--color-line)]">
-          {[
-            { k: "GST", v: "Filed" },
-            { k: "Audit", v: "On track" },
-            { k: "Reports", v: "Live" },
-          ].map((s) => (
-            <div key={s.k}>
-              <p className="text-[11px] text-[var(--color-muted)]">{s.k}</p>
-              <p className="text-sm font-semibold text-[var(--color-primary)]">
-                {s.v}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
+      </motion.div>
 
-      {/* Floating gold badge */}
-      <div className="absolute -left-6 -bottom-6 hidden md:flex items-center gap-3 rounded-xl bg-white p-3 shadow-elev-lg border border-white/40">
-        <div className="h-10 w-10 rounded-lg gradient-gold flex items-center justify-center">
+      {/* Floating compliance card */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.75, duration: 0.5 }}
+        className="absolute -right-2 sm:-right-4 bottom-6 sm:bottom-10 flex items-center gap-3 rounded-2xl bg-white/95 backdrop-blur shadow-elev-lg p-3 sm:p-4 border border-white/40"
+      >
+        <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl gradient-gold flex items-center justify-center">
           <ShieldCheck size={20} className="text-[var(--color-primary)]" />
         </div>
         <div>
-          <p className="text-xs text-[var(--color-muted)]">Compliance</p>
+          <p className="text-[10px] sm:text-xs text-[var(--color-muted)]">Compliance</p>
           <p className="text-sm font-semibold text-[var(--color-primary)]">
             100% On-time
           </p>
         </div>
-      </div>
-
-      <div className="absolute -right-4 -top-4 hidden md:flex items-center gap-3 rounded-xl bg-white p-3 shadow-elev-lg border border-white/40">
-        <div className="h-10 w-10 rounded-lg bg-[var(--color-tertiary)] flex items-center justify-center">
-          <TrendingUp size={20} className="text-[var(--color-primary)]" />
-        </div>
-        <div>
-          <p className="text-xs text-[var(--color-muted)]">Growth</p>
-          <p className="text-sm font-semibold text-[var(--color-primary)]">
-            QoQ +12%
-          </p>
-        </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -23,22 +23,37 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // On hero (not scrolled): light text. On scrolled: dark text on white bg.
+  const onHero = !scrolled;
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "backdrop-blur-md bg-white/85 shadow-[0_1px_0_0_rgba(10,37,64,0.06)]"
+          ? "backdrop-blur-md bg-white/90 shadow-[0_1px_0_0_rgba(10,37,64,0.08)]"
           : "bg-transparent"
       }`}
     >
       <div className="container-x flex items-center justify-between h-16 md:h-20">
         <Link href="/" className="flex items-center gap-2">
-          <div className="h-9 w-9 rounded-lg gradient-primary flex items-center justify-center">
-            <span className="font-display text-[var(--color-secondary)] text-lg font-bold">
+          <div
+            className={`h-9 w-9 rounded-lg flex items-center justify-center transition-colors ${
+              onHero ? "bg-white/15 backdrop-blur" : "gradient-primary"
+            }`}
+          >
+            <span
+              className={`font-display text-lg font-bold ${
+                onHero ? "text-[var(--color-secondary)]" : "text-[var(--color-secondary)]"
+              }`}
+            >
               F
             </span>
           </div>
-          <span className="font-display text-xl md:text-2xl font-semibold text-[var(--color-primary)] tracking-tight">
+          <span
+            className={`font-display text-xl md:text-2xl font-semibold tracking-tight transition-colors ${
+              onHero ? "text-white" : "text-[var(--color-primary)]"
+            }`}
+          >
             Finvvritti
           </span>
         </Link>
@@ -48,7 +63,11 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-[var(--color-ink)]/80 hover:text-[var(--color-primary)] transition-colors"
+              className={`text-sm font-medium transition-colors ${
+                onHero
+                  ? "text-white/85 hover:text-[var(--color-secondary)]"
+                  : "text-[var(--color-ink)]/80 hover:text-[var(--color-primary)]"
+              }`}
             >
               {l.label}
             </a>
@@ -58,14 +77,20 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3">
           <a
             href="tel:+17078920749"
-            className="flex items-center gap-2 text-sm font-medium text-[var(--color-primary)]"
+            className={`flex items-center gap-2 text-sm font-medium transition-colors ${
+              onHero ? "text-white/90" : "text-[var(--color-primary)]"
+            }`}
           >
             <Phone size={15} className="text-[var(--color-secondary)]" />
             +1 (707) 892-0749
           </a>
           <a
             href="#contact"
-            className="px-4 py-2 rounded-full bg-[var(--color-primary)] text-white text-sm font-semibold hover:bg-[var(--color-primary-light)] transition-colors"
+            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${
+              onHero
+                ? "bg-[var(--color-secondary)] text-[var(--color-primary)] hover:bg-[var(--color-secondary-light)]"
+                : "bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-light)]"
+            }`}
           >
             Book Consultation
           </a>
@@ -73,7 +98,9 @@ export default function Navbar() {
 
         <button
           aria-label="Open menu"
-          className="lg:hidden p-2 rounded-md text-[var(--color-primary)]"
+          className={`lg:hidden p-2 rounded-md transition-colors ${
+            onHero ? "text-white" : "text-[var(--color-primary)]"
+          }`}
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X size={22} /> : <Menu size={22} />}
