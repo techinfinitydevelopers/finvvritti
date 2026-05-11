@@ -87,7 +87,7 @@ export default function Hero() {
             className="font-display mt-4 text-[26px] sm:text-[38px] lg:text-[50px] xl:text-[50px] leading-[1.05] tracking-tight"
           >
             Your Finance,{" "}
-            <span className="text-gradient-gold">Our Responsibility</span>
+            <span className="text-gradient-gold whitespace-nowrap">Our Responsibility</span>
           </h1>
 
           <p
