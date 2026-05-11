@@ -78,27 +78,39 @@ export default function AdminDashboard() {
     e.preventDefault();
     if (!editForm) return;
     setSaving(true);
+    setMsg("");
     const res = await fetch("/api/admin/case-studies", {
       method: "PUT",
       headers: { "Content-Type": "application/json", "x-admin-token": token },
       body: JSON.stringify(editForm),
     });
+    const data = await res.json();
     if (res.ok) {
       setEditingSlug(null);
       setEditForm(null);
+      setMsg("Changes saved successfully!");
       fetchStudies(token);
+    } else {
+      setMsg(data.error || "Edit failed");
     }
     setSaving(false);
   }
 
   async function handleDelete(slug: string) {
     if (!confirm("Are you sure you want to delete this case study?")) return;
-    await fetch("/api/admin/case-studies", {
+    setMsg("");
+    const res = await fetch("/api/admin/case-studies", {
       method: "DELETE",
       headers: { "Content-Type": "application/json", "x-admin-token": token },
       body: JSON.stringify({ slug }),
     });
-    fetchStudies(token);
+    if (res.ok) {
+      setMsg("Deleted successfully!");
+      fetchStudies(token);
+    } else {
+      const data = await res.json().catch(() => ({}));
+      setMsg(data.error || "Delete failed");
+    }
   }
 
   function startEdit(s: Study) {

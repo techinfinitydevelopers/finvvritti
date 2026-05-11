@@ -13,7 +13,8 @@ function getBlobUrl() {
 export async function readStudies() {
   try {
     const url = getBlobUrl();
-    const res = await fetch(url, { cache: "no-store" });
+    // Cache-bust to bypass CDN caching after writes
+    const res = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) return [];
     const data = await res.json();
     return Array.isArray(data) ? data : [];
