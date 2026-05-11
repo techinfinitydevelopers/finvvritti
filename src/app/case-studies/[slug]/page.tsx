@@ -77,6 +77,8 @@ export default async function CaseStudyPage({
   if (!dynamic) notFound();
 
   const shortTitle = dynamic.title?.length > 36 ? dynamic.title.slice(0, 36) + "…" : dynamic.title;
+  const FALLBACK_IMG = "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80";
+  const heroImage = dynamic.image && dynamic.image.startsWith("http") ? dynamic.image : FALLBACK_IMG;
 
   return (
     <>
@@ -86,7 +88,7 @@ export default async function CaseStudyPage({
           eyebrow={dynamic.category || "Case Study"}
           title={dynamic.title || "Case Study"}
           description={dynamic.subtitle || ""}
-          image={dynamic.image || "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80"}
+          image={heroImage}
           imageAlt={dynamic.title || "Case Study"}
           crumbs={[
             { label: "Home", href: "/" },

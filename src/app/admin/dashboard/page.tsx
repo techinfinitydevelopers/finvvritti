@@ -54,6 +54,10 @@ export default function AdminDashboard() {
 
   async function handleAdd(e: React.FormEvent) {
     e.preventDefault();
+    if (form.image && !form.image.startsWith("http")) {
+      setMsg("Image must be a URL starting with http:// or https://");
+      return;
+    }
     setSaving(true);
     setMsg("");
     const payload = { ...form, slug: form.slug || autoSlug(form.title) };
