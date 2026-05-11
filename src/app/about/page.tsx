@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,7 +7,7 @@ import CTA from "@/components/CTA";
 import ContactSection from "@/components/ContactSection";
 import Testimonials from "@/components/Testimonials";
 import AboutAnimated from "@/components/AboutAnimated";
-import { team } from "@/lib/team";
+import TeamSection from "@/components/TeamSection";
 import {
   CheckCircle2,
   Award,
@@ -92,17 +91,6 @@ export default function AboutPage() {
             { label: "About Us" },
           ]}
         />
-
-        <div className="bg-[var(--color-primary)] -mt-2 pb-8 md:pb-12">
-          <div className="container-x">
-            <Link
-              href="/services"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[var(--color-secondary)] text-[var(--color-primary)] font-semibold hover:bg-[var(--color-secondary-light)] transition-colors text-sm"
-            >
-              View Services
-            </Link>
-          </div>
-        </div>
 
         {/* Mission & Vision */}
         <section className="py-16 md:py-24 bg-white">
@@ -230,7 +218,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <a
-                href="/#contact"
+                href="/contact"
                 className="mt-5 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[var(--color-primary)] text-white font-semibold text-sm hover:bg-[var(--color-primary-light)] transition-colors"
               >
                 Contact us
@@ -273,36 +261,10 @@ export default function AboutPage() {
                 </span>
               </h2>
             </div>
-            <AboutAnimated>
-              <div className="mt-12 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
-                {team.map((m) => (
-                  <div
-                    key={m.slug}
-                    className="group rounded-2xl bg-white border border-[var(--color-line)] p-5 hover:shadow-elev-lg hover:-translate-y-1 transition-all duration-300"
-                  >
-                    <div className="relative aspect-square rounded-xl overflow-hidden ring-2 ring-[var(--color-secondary)]/30">
-                      <Image
-                        src={m.avatar}
-                        alt={m.name}
-                        fill
-                        sizes="(max-width: 768px) 45vw, 200px"
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
-                    </div>
-                    <h4 className="mt-4 font-semibold text-[var(--color-primary)]">
-                      {m.name}
-                    </h4>
-                    <p className="text-xs text-[var(--color-muted)]">{m.role}</p>
-                    <span className="mt-3 inline-block text-xs font-semibold text-[var(--color-secondary-dark)]">
-                      read more -&gt;
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </AboutAnimated>
+            <TeamSection />
             <div className="mt-10 text-center">
               <a
-                href="/#contact"
+                href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[var(--color-primary)] text-white font-semibold hover:bg-[var(--color-primary-light)] transition-colors text-sm"
               >
                 Get Started
@@ -332,7 +294,7 @@ export default function AboutPage() {
                   steps with confidence?
                 </p>
                 <a
-                  href="/#contact"
+                  href="/contact"
                   className="mt-8 inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[var(--color-secondary)] text-[var(--color-primary)] font-semibold hover:bg-[var(--color-secondary-light)] transition-colors"
                 >
                   Talk to an Advisor

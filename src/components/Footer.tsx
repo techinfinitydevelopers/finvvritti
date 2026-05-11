@@ -33,8 +33,8 @@ export default function Footer() {
               { label: "Services", href: "/services" },
               { label: "About Us", href: "/about" },
               { label: "Case Studies", href: "/case-studies" },
-              { label: "FAQs", href: "/#faqs" },
-              { label: "Contact Us", href: "/#contact" },
+              { label: "FAQs", href: "/faq" },
+              { label: "Contact Us", href: "/contact" },
             ].map((l) => (
               <li key={l.href}>
                 <a
@@ -55,27 +55,45 @@ export default function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-white/75">
             <li className="flex items-start gap-2.5">
               <Phone size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
-              <a href="tel:+17078920749" className="hover:text-white">
-                +1 (707) 892-0749
+              <a href="tel:+918080386506" className="hover:text-white">
+                +91 80803 86506
               </a>
             </li>
             <li className="flex items-start gap-2.5">
               <Mail size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
-              <a href="mailto:info@finvvritti.com" className="hover:text-white">
-                info@finvvritti.com
+              <a href="mailto:gagan@finvvritti.com" className="hover:text-white">
+                gagan@finvvritti.com
               </a>
             </li>
             <li className="flex items-start gap-2.5">
               <MapPin size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
-              <span>120 Financial Park, Suite 405 New York, NY 10005, USA</span>
+              <span>Office No 504, D Wing, 5th Floor, Shreepati Jewels, Khattar Galli, Mumbai, Maharashtra 400004</span>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="container-x mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/55">
-        <p>© {year} FINVVRITTI. All rights reserved.</p>
-        <p>Built with care for clarity in finance.</p>
+        <div className="flex items-center gap-4">
+          <p>© {year} FINVVRITTI. All rights reserved.</p>
+          <a
+            href="/privacy-policy"
+            className="hover:text-[var(--color-secondary)] transition-colors"
+          >
+            Privacy Policy
+          </a>
+        </div>
+        <p>
+          Designed &amp; Developed by{" "}
+          <a
+            href="https://techinfinity.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/80 hover:text-[var(--color-secondary)] transition-colors font-medium"
+          >
+            TechInfinity
+          </a>
+        </p>
       </div>
     </footer>
   );

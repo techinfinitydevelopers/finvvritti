@@ -1,23 +1,34 @@
 "use client";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { services } from "@/lib/services";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function ServicesGrid() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(".service-card", {
+        immediateRender: false, opacity: 0, y: 28, duration: 0.55, stagger: 0.07, ease: "power3.out",
+        scrollTrigger: { trigger: sectionRef.current, start: "top 85%", toggleActions: "play none none none" },
+      });
+    }, sectionRef);
+    ScrollTrigger.refresh();
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section className="py-16 md:py-24 bg-[var(--color-tertiary)]">
+    <section ref={sectionRef} className="py-16 md:py-24 bg-[var(--color-tertiary)]">
       <div className="container-x">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
-          {services.map((s, i) => (
-            <motion.div
-              key={s.slug}
-              initial={{ opacity: 0, y: 22 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: (i % 6) * 0.05 }}
-            >
+          {services.map((s) => (
+            <div key={s.slug} className="service-card">
               <Link
                 href={`/services/${s.slug}`}
                 className="group block h-full rounded-2xl overflow-hidden border border-[var(--color-line)] bg-white hover:shadow-elev-lg hover:-translate-y-1 transition-all duration-300"
@@ -38,24 +49,16 @@ export default function ServicesGrid() {
                     {s.category}
                   </span>
                 </div>
-
                 <div className="p-5 md:p-6">
-                  <h3 className="font-display text-lg md:text-xl text-[var(--color-primary)] leading-tight">
-                    {s.title}
-                  </h3>
-                  <p className="mt-2 text-sm text-[var(--color-ink)]/70 leading-relaxed">
-                    {s.blurb}
-                  </p>
+                  <h3 className="font-display text-lg md:text-xl text-[var(--color-primary)] leading-tight">{s.title}</h3>
+                  <p className="mt-2 text-sm text-[var(--color-ink)]/70 leading-relaxed">{s.blurb}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-[var(--color-primary)] group-hover:text-[var(--color-secondary-dark)] transition-colors">
                     Learn more
-                    <ArrowUpRight
-                      size={14}
-                      className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
-                    />
+                    <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

@@ -1,15 +1,32 @@
 "use client";
-import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
 import { CheckCircle2, AlertTriangle, Wrench, TrendingUp } from "lucide-react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import type { CaseStudyContent } from "@/lib/case-study-content";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function CaseStudyDetail({
   content,
 }: {
   content: CaseStudyContent;
 }) {
+  const wrapRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(".csd-overview", {
+        immediateRender: false, opacity: 0, y: 18, duration: 0.6, ease: "power3.out",
+        scrollTrigger: { trigger: ".csd-overview", start: "top 85%", toggleActions: "play none none none" },
+      });
+    }, wrapRef);
+    ScrollTrigger.refresh();
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <>
+    <div ref={wrapRef}>
       {/* Overview */}
       {content.overview && (
         <section className="py-16 md:py-24 bg-white">
@@ -19,17 +36,11 @@ export default function CaseStudyDetail({
                 Overview
               </span>
             </div>
-            <motion.div
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.6 }}
-              className="lg:col-span-8"
-            >
+            <div className="csd-overview lg:col-span-8">
               <p className="text-[var(--color-ink)]/80 text-base md:text-lg leading-relaxed">
                 {content.overview}
               </p>
-            </motion.div>
+            </div>
           </div>
         </section>
       )}
@@ -66,7 +77,7 @@ export default function CaseStudyDetail({
           highlight
         />
       )}
-    </>
+    </div>
   );
 }
 
@@ -85,8 +96,24 @@ function Block({
   bullets?: string[];
   highlight?: boolean;
 }) {
+  const blockRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(".csd-block-content", {
+        immediateRender: false, opacity: 0, y: 18, duration: 0.6, ease: "power3.out",
+        scrollTrigger: { trigger: blockRef.current, start: "top 85%", toggleActions: "play none none none" },
+      });
+      gsap.from(".csd-bullet", {
+        immediateRender: false, opacity: 0, x: -8, duration: 0.4, stagger: 0.04, ease: "power2.out",
+        scrollTrigger: { trigger: ".csd-bullets", start: "top 85%", toggleActions: "play none none none" },
+      });
+    }, blockRef);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section className={`py-16 md:py-24 ${accent}`}>
+    <section ref={blockRef} className={`py-16 md:py-24 ${accent}`}>
       <div className="container-x grid lg:grid-cols-12 gap-10 items-start">
         <div className="lg:col-span-4">
           <div className="flex items-center gap-3">
@@ -99,13 +126,7 @@ function Block({
           </div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.6 }}
-          className="lg:col-span-8 space-y-5"
-        >
+        <div className="csd-block-content lg:col-span-8 space-y-5">
           {text &&
             text.split("\n\n").map((para, i) => (
               <p
@@ -117,19 +138,11 @@ function Block({
             ))}
 
           {bullets && bullets.length > 0 && (
-            <ul
-              className={`grid sm:grid-cols-2 gap-3 ${
-                text ? "mt-4" : ""
-              }`}
-            >
+            <ul className={`csd-bullets grid sm:grid-cols-2 gap-3 ${text ? "mt-4" : ""}`}>
               {bullets.map((b, i) => (
-                <motion.li
+                <li
                   key={i}
-                  initial={{ opacity: 0, x: -8 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, margin: "-40px" }}
-                  transition={{ duration: 0.4, delay: (i % 6) * 0.04 }}
-                  className={`flex items-start gap-3 rounded-xl border p-4 transition-all ${
+                  className={`csd-bullet flex items-start gap-3 rounded-xl border p-4 transition-all ${
                     highlight
                       ? "bg-white border-[var(--color-secondary)]/40 shadow-elev"
                       : "border-[var(--color-line)] bg-white hover:shadow-elev"
@@ -137,20 +150,16 @@ function Block({
                 >
                   <CheckCircle2
                     size={18}
-                    className={`mt-0.5 shrink-0 ${
-                      highlight
-                        ? "text-[var(--color-secondary-dark)]"
-                        : "text-[var(--color-secondary-dark)]"
-                    }`}
+                    className="mt-0.5 shrink-0 text-[var(--color-secondary-dark)]"
                   />
                   <span className="text-sm md:text-[15px] text-[var(--color-ink)]/85 leading-relaxed">
                     {b}
                   </span>
-                </motion.li>
+                </li>
               ))}
             </ul>
           )}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

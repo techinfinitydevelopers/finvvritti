@@ -1,166 +1,511 @@
 {
+  "online-registration-services": {
+    "title": "Online Registration Services",
+    "overview": [
+      "Running a business in India means navigating a web of statutory registrations, GST, MSME, IEC, FSSAI, PTEC, PTRC, Startup India, RERA, and more. Missing even one can mean penalties, compliance gaps, or delays in operations. Finvvritti simplifies this complexity with a single, end-to-end online registration service that covers every requirement your business needs.",
+      "Our platform and expert team handle all types of registrations for individuals, startups, SMEs, and established enterprises. From the initial inquiry to final certificate, we manage the entire process, documentation, portal submissions, follow-ups, and post-registration support, so you never have to deal with government portals or bureaucratic paperwork.",
+      "We are an ideal partner for startups looking to register with multiple statutory authorities quickly and correctly. Whether you are launching a food business that needs FSSAI clearance, a trading company requiring IEC, or an MSME seeking Udyog Aadhaar, Finvvritti provides accurate, timely, and affordable registration services across all categories.",
+      "With Finvvritti, business registration starts from ₹4,999 and other registrations from ₹500. Our process is simple: fill an inquiry form, get a call from our expert, make a secure payment, and let us handle the rest, with clear guidance and ongoing support throughout."
+    ],
+    "benefits": [
+      {
+        "icon": "trending-up",
+        "title": "Time-Saving Convenience",
+        "desc": "Register anytime, from anywhere, no in-person visits, no endless paperwork queues."
+      },
+      {
+        "icon": "shield",
+        "title": "Easy & Secure Process",
+        "desc": "User-friendly process with secure payment handling and complete protection of your data."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Clear Guidance",
+        "desc": "Step-by-step support through every registration, no confusion, no missed requirements."
+      },
+      {
+        "icon": "repeat",
+        "title": "Ongoing Post-Registration Support",
+        "desc": "We stay with you after registration for renewals, amendments, and compliance queries."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Affordable Pricing",
+        "desc": "Business registration from ₹4,999 and statutory registrations from ₹500, transparent fees."
+      }
+    ],
+    "sections": [
+      "GST Registration & Return Filing",
+      "MSME & Udyog Aadhaar Registration",
+      "IEC (Import Export Code) Registration",
+      "FSSAI Registration & Food Compliance",
+      "PTEC & PTRC Registration",
+      "Startup India, RERA & Trademark Registration"
+    ],
+    "bullets": [
+      "GST Registration: Online registration with all required documents, followed by return filing support and penalty-free compliance management.",
+      "MSME Registration: One-time Udyog Aadhaar registration unlocking government schemes, financial aid, tax deductions, and improved business credibility.",
+      "IEC Registration: Lifetime Import Export Code registration via DGFT portal, no renewal required, modifications and amendments also handled.",
+      "FSSAI Registration: Basic, state, and central FSSAI licences for food businesses, manufacturing blueprints, labelling compliance, and regulatory adherence.",
+      "PTEC & PTRC Registration: Professional Tax Enrolment Certificate and Professional Tax Registration Certificate, keeping businesses compliant with state professional tax obligations.",
+      "Startup India Registration: DPIIT recognition support, government scheme navigation, and access to startup-specific benefits and funding.",
+      "RERA Registration: Full compliance with Real Estate Regulatory Authority regulations for builders, promoters, and real estate agents.",
+      "Trademark Registration: Brand name, logo, or tagline trademark filing, examination response, and certificate procurement.",
+      "Business Registration: Company, partnership, proprietorship, and other business structure registrations, end-to-end handled.",
+      "Post-Registration Support: Ongoing assistance for amendments, renewals, compliance updates, and statutory changes across all registered entities."
+    ],
+    "faqs": [
+      {
+        "q": "What types of registrations does Finvvritti handle?",
+        "a": "Finvvritti handles all major statutory registrations including GST, MSME (Udyog Aadhaar), IEC (Import Export Code), FSSAI, PTEC and PTRC, Startup India (DPIIT), RERA, Trademark, and business entity registrations (company, partnership, proprietorship). All registrations are managed online with end-to-end support."
+      },
+      {
+        "q": "What documents are required for GST registration?",
+        "a": "Documents required for GST registration include proof of business incorporation, address proof for the business premises, bank account details, and identity and address documents for the authorised signatory. Finvvritti's team reviews your documents and ensures a complete, error-free submission."
+      },
+      {
+        "q": "Is MSME registration a one-time process or does it need renewal?",
+        "a": "MSME (Udyog Aadhaar) registration is a one-time process with no renewal requirement. However, it is important to keep your business information up to date and report any changes to the MSME portal. Finvvritti assists with both the initial registration and any subsequent amendments."
+      },
+      {
+        "q": "What is the validity of an IEC (Import Export Code)?",
+        "a": "An IEC is a lifetime registration, there is no renewal required. It remains valid as long as the business is operational. If there are any modifications or amendments needed (such as address change or addition of branch), Finvvritti's experts handle those updates as well."
+      },
+      {
+        "q": "What are the different types of FSSAI licences?",
+        "a": "FSSAI licences are categorised into three types: Basic Registration (for small food businesses with turnover below ₹12 lakh), State Licence (for medium-sized food businesses), and Central Licence (for large-scale food businesses and exporters). Finvvritti assesses your business size and nature to determine the correct category."
+      }
+    ]
+  },
   "what-is-sme-ipo": {
     "title": "What is SME IPO?",
     "overview": [
-      "Taking your company public is more than just raising funds it’s about scaling impact, enhancing valuation, and institutionalizing your business. At CFO Bridge, we specialize in guiding small and medium enterprises (SMEs) through their IPO journey with a strategic, compliance-first approach that ensures long-term sustainability and leadership.",
-      "Unlike traditional merchant bankers, Finvvritti steps in early to assess IPO readiness, fix gaps, and strengthen your internal systems, controls, and governance long before the formal process begins. Their support doesn’t end on listing day—they continue to assist with compliance, MIS reporting, and post-IPO strategy, acting as a true partner throughout the entire lifecycle.",
-      "The total cost of an IPO is typically 8-10% of the capital raised, but Finvvritti emphasizes this is not just a cost but a strategic investment to unlock significantly greater long-term value. To start your journey, you can assess your company's financial preparedness in under two minutes using a free online assessment tool provided by Finvvritti.",
-      "Access Growth Capital: Raise substantial funds without the constraints of debt covenants or covenants or dilutive private negotiations, creating a platform for platform for accelerated expansion.",
-      "Wealth Strategy Transformation: Founders can shift from salary income (taxed at ~40%) to capital gains capital gains (taxed at ~10%), creating significant personal financial financial advantages.",
-      "Strengthened Market Position: Listed companies gain credibility with customers, partners, and and talent, while accessing better financing terms through improved improved transparency."
+      "Taking your company public is more than just raising funds, it is about scaling impact, enhancing valuation, and institutionalising your business. Finvvritti specialises in guiding small and medium enterprises through their IPO journey with a strategic, compliance-first approach that ensures long-term sustainability and leadership.",
+      "Unlike traditional merchant bankers, Finvvritti steps in early, assessing IPO readiness, fixing gaps, and strengthening internal systems, controls, and governance long before the formal process begins. Our support does not end on listing day. We continue with compliance, MIS reporting, and post-IPO strategy as a true long-term partner.",
+      "Spending 8 to 10% of capital raised on an IPO is not a cost, it is a strategic investment. Public companies typically achieve 5 to 7x valuation multiples versus 3 to 4x for private firms. Promoters benefit from capital gains tax of 10 to 15% versus high personal income tax rates on salary. The return far outweighs the investment.",
+      "Finvvritti serves 550+ happy clients with 40+ CFOs across 8+ offices in India, USA, and UAE, bringing unmatched depth in SME IPO advisory from pre-IPO readiness through to post-listing compliance and Main Board migration."
+    ],
+    "benefits": [
+      {
+        "icon": "trending-up",
+        "title": "Scalable Growth Capital",
+        "desc": "Raise substantial funds from public markets without debt pressure."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Valuation Uplift",
+        "desc": "Achieve 5 to 7x multiples through transparent, market-based price discovery."
+      },
+      {
+        "icon": "shield",
+        "title": "Improved Governance",
+        "desc": "Listing enforces financial discipline, transparency, and regulatory compliance."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Tax-Efficient Wealth",
+        "desc": "Promoters benefit from 10 to 15% capital gains tax versus higher income tax rates."
+      },
+      {
+        "icon": "globe",
+        "title": "Competitive Advantage",
+        "desc": "Leverage listed status for acquisitions, talent, and better financing terms."
+      }
     ],
     "sections": [
-      "Why Choose an SME IPO?",
-      "What is the Timeline for an SME IPO?",
-      "Why Choose Finvvritti Over a Merchant Banker?",
-      "The Strategic Benefits Outweigh IPO Costs",
-      "End-to-End Protocols followed for IPO Advisory"
+      "Early Stage Assessment",
+      "Pre-IPO Planning",
+      "Regulatory Compliance & Documentation",
+      "IPO Execution Support",
+      "Post-IPO Strategy & Compliance",
+      "Main Board Migration Support"
     ],
     "bullets": [
-      "Access Growth Capital: Raise funds from public markets without debt pressure, fueling expansion, innovation, and working capital.",
-      "Enhanced Valuation: Public companies often command higher valuation multiples (5-7x) compared to private firms, driven by market-based price discovery and liquidity.",
-      "Tax-Efficient Wealth Creation: Promoters benefit from lower capital gains tax (10–15%) on equity appreciation versus high personal income tax rates.",
-      "Improved Governance & Credibility: Listing enforces financial discipline, transparency, and regulatory compliance, building trust with stakeholders.",
-      "The process with Finvvritti is structured into three key phases:",
-      "Pre-IPO Phase (Approx. 2 Months): Initial eligibility assessment, conversion to a public limited company, financial scrutiny, ESOP structuring, and governance alignment.",
-      "IPO Execution Phase (Approx. 4 Months): Appointment of a merchant banker, enterprise valuation, DRHP preparation, and issue launch.",
-      "Post-IPO Phase (Ongoing): Continuous compliance reporting, investor communication, and preparation for a potential Main Board migration.",
-      "Enhanced Business Valuation: Public companies typically enjoy higher multiples (5-7x vs 3-4x for private firms) due to market-based price discovery and improved liquidity.",
-      "Early Stage Assessment: IPO readiness evaluation Fund requirement & capital strategy",
-      "Pre-IPO Planning: Internal systems & control optimization Corporate governance alignment Business plan and financial scrutiny",
-      "Regulatory Compliance & Documentation: Due diligence support DRHP preparation and filing ESOP structuring and statutory compliance",
-      "IPO Execution Support: Merchant banker onboarding Valuation modeling & investor pitch Acting as liaison with regulators and intermediaries",
-      "Post-IPO Strategy & Compliance: Monthly MIS & KPI reportingInvestor relations management Support for Main Board migration",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Pre-IPO Phase (~2 months): Eligibility assessment, conversion to public limited company, financial scrutiny, ESOP structuring, and governance alignment.",
+      "IPO Execution Phase (~4 months): Merchant banker appointment, enterprise valuation, DRHP preparation, and issue launch.",
+      "Post-IPO Phase (Ongoing): Compliance reporting, investor communication, MIS & KPI reporting, and Main Board migration support.",
+      "IPO readiness evaluation and fund requirement & capital strategy planning.",
+      "Internal systems and control optimisation and corporate governance alignment.",
+      "Due diligence support and DRHP preparation and filing.",
+      "ESOP structuring and statutory compliance.",
+      "Merchant banker onboarding and valuation modelling & investor pitch preparation.",
+      "Liaison with SEBI, NSE Emerge/BSE SME, and all regulatory intermediaries.",
+      "Monthly MIS & KPI reporting and investor relations management post-listing."
+    ],
+    "faqs": [
+      {
+        "q": "What is an SME IPO and how is it different from a main board IPO?",
+        "a": "An SME IPO is a public offering on dedicated SME platforms, NSE Emerge or BSE SME, designed for small and medium enterprises. It has lower eligibility thresholds, simplified compliance requirements, and a faster listing process compared to main board IPOs, making it accessible to growing businesses."
+      },
+      {
+        "q": "What are the key benefits of listing via an SME IPO?",
+        "a": "Benefits include access to growth capital without debt pressure, valuation uplift (5 to 7x multiples), improved governance and credibility, tax-efficient wealth creation for promoters through capital gains (10 to 15% vs. 40% income tax), and a stronger competitive position in the market."
+      },
+      {
+        "q": "How long does the SME IPO process take?",
+        "a": "The typical timeline is approximately 6 months: 2 months for the pre-IPO phase (eligibility, governance, and financial preparation) and 4 months for IPO execution (merchant banker appointment, valuation, DRHP preparation, and listing)."
+      },
+      {
+        "q": "What does Finvvritti do differently from a merchant banker?",
+        "a": "Finvvritti steps in much earlier than a merchant banker, assessing IPO readiness, fixing gaps in governance and financials, and preparing the company structurally before the formal process begins. We also continue post-listing with compliance, MIS reporting, and Main Board migration support."
+      },
+      {
+        "q": "What is the cost of an SME IPO?",
+        "a": "The total cost is typically 8 to 10% of the capital raised, covering merchant banker fees, legal costs, SEBI filing fees, and advisory charges. Finvvritti positions this not as a cost but as a strategic investment that unlocks substantially greater long-term value through enhanced valuation and market access."
+      },
+      {
+        "q": "What happens if an SME IPO is undersubscribed?",
+        "a": "If an SME IPO is undersubscribed, the issue may be cancelled and application money refunded to investors. This is why thorough pre-IPO preparation, investor outreach, and realistic pricing are critical. Finvvritti's early-stage assessment and pre-IPO planning significantly reduces the risk of undersubscription."
+      },
+      {
+        "q": "Who typically invests in an SME IPO?",
+        "a": "SME IPO investors include High Net Worth Individuals (HNIs), retail investors, market makers, and institutional investors on NSE Emerge and BSE SME platforms. A dedicated market maker is appointed for each SME IPO to provide liquidity. Finvvritti's investor relations support helps build visibility with the right investor profiles."
+      }
     ]
   },
   "business-valuation-services-in-india": {
     "title": "Business Valuation Services in India",
     "overview": [
-      "Business valuation is an elaborate and dynamic process. It involves the collection and analysis of a wide range of financial and non-financial data, including financial statements, industry trends, market conditions, competitive landscape, management quality, and more. It is both an art and a science, requiring a combination of financial analysis, industry knowledge, and professional judgement. The goal is to estimate the fair market value of a business.",
-      "There is no one-size-fits-all approach to valuation. Different industries and business types may require different methods and assumptions. Companies with layers of capital structures, such as multiple classes of shares or convertible securities, can pose unique challenges. Making subjective judgements about future cash flows, growth rates, and risk factors adds to the complexity. Macro-economic factors such as interest rates and industry trends also introduce uncertainty.",
-      "Given these challenges, business valuation often requires a combination of financial expertise, industry knowledge, and careful analysis to arrive at a reasonable and defensible valuation. It is important to involve experienced professionals and consider multiple perspectives. Due to the complexity involved, obtaining a valuation from qualified professionals is recommended to ensure accuracy and credibility.",
-      "That is exactly where Finvvritti's unmatched talent pool of professionals with technical expertise comes in handy. Our experts have relevant certifications and a strong understanding of valuation methodologies. We assure consistent and trustworthy Business Valuation Services to our clients.",
-      "Under Section 247 of the Companies Act, 2013, valuation is mandatory for shares, stocks, debentures, prospectus, goodwill, securities, or any other asset listed under any provision of this Act.",
-      "Decades of Experience: Finvvritti has 30+ years of combined experience, possessing the right combination of expertise, resources, and qualities to provide accurate and reliable business valuation services."
+      "Business valuation is both an art and a science, requiring financial analysis, industry knowledge, and professional judgement to estimate the fair market value of a business. The process involves collecting and analysing a wide range of financial and non-financial data: financial statements, industry trends, market conditions, competitive landscape, and management quality.",
+      "There is no one-size-fits-all approach. Different industries and business types require different methods. Companies with complex capital structures, multiple share classes, convertible securities, pose unique challenges. Subjective judgements about future cash flows, growth rates, and risk factors, combined with macro-economic variables, make professional expertise essential.",
+      "Valuation is mandatory under Section 247 of the Companies Act, 2013 for shares, debentures, goodwill, and other securities. It is also required under the Income Tax Act, FEMA, SEBI regulations, IBC Code 2016, and the LLP Act 2008, in scenarios ranging from mergers and acquisitions to IPOs, fundraising, ESOPs, insolvency, and slump sales.",
+      "Finvvritti's qualified certified valuers bring 30+ years of combined experience and deep expertise across income, market, and asset-based approaches. We deliver consistent, credible, and legally defensible valuation reports, with full confidentiality and adherence to professional standards."
+    ],
+    "benefits": [
+      {
+        "icon": "trending-up",
+        "title": "Strategic Planning",
+        "desc": "Provides a baseline for investment analysis, capital budgeting, and future targets."
+      },
+      {
+        "icon": "users",
+        "title": "M&A Transactions",
+        "desc": "Essential for determining fair transaction value in mergers, acquisitions, and demergers."
+      },
+      {
+        "icon": "file-text",
+        "title": "Regulatory Compliance",
+        "desc": "Mandatory under Companies Act, FEMA, SEBI, IBC, and Income Tax Act."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Fundraising Support",
+        "desc": "Required for all fresh equity issuances, preference shares, and investor rounds."
+      },
+      {
+        "icon": "shield",
+        "title": "Certified & Confidential",
+        "desc": "Reports prepared by certified valuers with full client data confidentiality."
+      }
     ],
     "sections": [
-      "The Complexity of Valuation",
-      "Key Valuation Approaches",
-      "Why Use Business Valuation Services?",
-      "Why Choose Finvvritti for Business Valuation Services?"
+      "Income Approach, Discounted Cash Flow (DCF)",
+      "Market Approach",
+      "Asset-Based Approach",
+      "Hybrid Approaches",
+      "Mandatory Valuation Scenarios",
+      "Valuation Report Components"
     ],
     "bullets": [
-      "At Finvvritti, we follow several established approaches to business valuation, which include:",
-      "Income Approach – Discounted Cash Flow (DCF): This method focuses on the expected future earnings of a business, discounting them to present value.",
-      "Market Approach: This method looks at the prices paid for similar businesses in the marketplace.",
-      "Asset-Based Approach: This method determines the value based on the company's underlying assets and liabilities.",
-      "Hybrid Approaches: A combination of the above methods is used depending on the specific scenario.",
-      "Valuation is the heart of financial decision-making and is required in many contexts:",
-      "Strategic Planning: Provides a baseline for future targets and courses of action in scenarios like investment analysis and capital budgeting.",
-      "Mergers & Acquisitions: Essential for determining fair transaction value.",
-      "Financial Reporting & Taxation: Helps determine proper tax liability during taxable events.",
-      "Corporate Compliance:",
-      "RBI Guidelines: For any investments in shares or securities, valuation is required.",
-      "Liquidation: When a company is under liquidation, business valuation is mandated by law.",
-      "Sale Transactions: Valuation is mandatory during the sale of shares or the sale of a company.",
-      "Fundraising: Heavily required when a company undergoes fundraising via fresh equity or fresh issues of preference shares or securities.",
-      "Finvvritti stands out as a leader in the valuation space due to the following qualities:",
-      "Qualified Experts: We have a qualified team of certified valuers with strong educational backgrounds in finance, accounting, economics, and other related fields.",
-      "Versatility in Methodologies: We are well-versed in the income approach, market approach, and asset-based valuation approach.",
-      "Confidentiality: We prioritize maintaining the confidentiality and security of client information and sensitive business data.",
-      "Continuous Learning: The valuation field is dynamic; hence, we at Finvvritti maintain ongoing professional developments and stay updated on industry trends.",
-      "Ethical Standards: We adhere to ethical guidelines and professional standards, essential for maintaining objectivity, integrity, and client trust.",
-      "Adaptability: We adapt to changing market conditions, client preferences, and evolving valuation methodologies.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Fresh share issues or transfers to residents and non-residents.",
+      "Mergers, amalgamations, demergers, and slump sales.",
+      "Employee Stock Option Plans (ESOPs) and sweat equity.",
+      "Insolvency proceedings under the IBC Code 2016.",
+      "Financial reporting and business combinations under accounting standards.",
+      "IPOs and pre-IPO fundraising rounds.",
+      "Corporate disputes and shareholder disagreements.",
+      "Valuation report includes: background of asset, title and executive summary, assumptions and limiting conditions, deliverables and timelines, valuation approach used, key inputs, and estimates/projections.",
+      "30+ years of combined experience with certified valuers.",
+      "Expertise across income (DCF), market (comparable companies), and asset-based approaches.",
+      "Full confidentiality and security of all client data and business information.",
+      "Ongoing professional development to stay current with regulatory and market changes.",
+      "Adherence to ethical guidelines, professional standards, objectivity, and integrity."
+    ],
+    "faqs": [
+      {
+        "q": "When is business valuation mandatory in India?",
+        "a": "Valuation is mandatory under Section 247 of the Companies Act 2013 for shares, debentures, and assets. It is also required under FEMA for share transfers involving non-residents, under SEBI for listed company transactions, under the IBC Code for insolvency proceedings, and under the Income Tax Act for ESOPs and fundraising."
+      },
+      {
+        "q": "What valuation methods does Finvvritti use?",
+        "a": "Finvvritti uses three primary approaches: the Income Approach (Discounted Cash Flow), which focuses on expected future earnings; the Market Approach, which looks at prices paid for comparable businesses; and the Asset-Based Approach, which values the business based on its underlying assets and liabilities. A hybrid approach is used when a single method is insufficient."
+      },
+      {
+        "q": "How long does a business valuation take?",
+        "a": "The timeline varies from a few weeks to several weeks depending on the complexity of the business, the valuation method required, data availability, and the purpose of the valuation. Finvvritti provides a clear timeline upfront for each engagement."
+      },
+      {
+        "q": "When is the best time to get a business valuation?",
+        "a": "The optimal times are during M&A activity, capital raising, demergers, slump sales, business sales, shareholder disputes, IPO preparation, liquidation, share issuance to non-residents, and ESOPs. Regular valuations also help with strategic planning and investor readiness."
+      }
     ]
   },
   "business-plan": {
     "title": "Business Plan",
     "overview": [
-      "Company Overview Key Investment Highlights Company Evolution Mission & Vision Statement Current Business Model KPIs for Business Success Services & Products Details Detailed Pricing Structure Market Overview Promoter Background Strategy & Implementation Financial Plan",
-      "Your chance of winning over your investors rests on how well you simplify the complex data of your start-up idea, product or business in a short timeframe. The need to deconstruct your technical, business and strategic plan is absolutely crucial so that you get to present the synopsis of your data information in a crisp way.",
-      "Our experts of finance analysts, content creators and graphic designers collectively come together to weave in the narrative for your startup in a way that’s easy to understand along with eye-catching graphics and design that appeals straight to your target audience."
+      "Your chance of winning over investors rests on how well you simplify the complex data of your startup idea, product, or business, and present it crisply in a short timeframe. Finvvritti's team of finance analysts, content creators, and graphic designers collaborates to build a compelling narrative for your business that is easy to understand, visually engaging, and aimed directly at your target audience.",
+      "A strong business plan is not just for fundraising, it is your strategic roadmap. It guides growth, aligns your team, and communicates your vision clearly to partners, lenders, and investors. Even if you are not seeking investment today, a well-structured plan is essential for making sound decisions.",
+      "Finvvritti deconstructs your technical, business, and strategic data into a crisp, investor-ready document. We cover everything, from company overview and market analysis to financial projections and exit strategy, ensuring every section is backed by data and communicated with clarity.",
+      "We offer plan reviews and revisions as your business evolves, and provide ongoing support post-completion. Our pricing is transparent and customised to your needs, contact us for a quote tailored to your business stage and complexity."
+    ],
+    "benefits": [
+      {
+        "icon": "trending-up",
+        "title": "Investor Ready",
+        "desc": "Professionally structured plan that builds investor confidence and secures funding."
+      },
+      {
+        "icon": "file-text",
+        "title": "Strategic Clarity",
+        "desc": "A clear roadmap that aligns your team and guides strategic decisions."
+      },
+      {
+        "icon": "users",
+        "title": "Expert Team",
+        "desc": "Finance analysts, content creators, and designers working together on your plan."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Data-Backed",
+        "desc": "Every section supported by market research, financial analysis, and credible data."
+      },
+      {
+        "icon": "repeat",
+        "title": "Ongoing Support",
+        "desc": "Plan reviews and revisions available as your business evolves."
+      }
     ],
     "sections": [
-      "Business Plan",
-      "Getting started with us is easy. Don’t take our word for it, hear our client partners!",
-      "Why growing businesses like yours choose FinGurus?"
+      "Company Overview & Evolution",
+      "Key Investment Highlights",
+      "Market Overview & Competitive Analysis",
+      "Business Model & KPIs",
+      "Strategy & Implementation Roadmap",
+      "Financial Plan & Projections"
     ],
     "bullets": [
-      "Ready to pave the path to success with a strong business plan? Connect with us today and let’s start crafting your future.",
-      "Our Business Plan covers the following:",
-      "Simplifying Complexity",
-      "Business Narrative",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Company Overview: A clear summary of your company's identity, background, and purpose.",
+      "Key Investment Highlights: The most compelling reasons for investors to back your business.",
+      "Company Evolution: The story of how your company has grown and where it is headed.",
+      "Mission & Vision Statement: Your core purpose and long-term aspirations.",
+      "Current Business Model: How your company creates, delivers, and captures value.",
+      "KPIs for Business Success: The metrics that define and track your performance.",
+      "Services & Products Details: A detailed breakdown of your offerings and value proposition.",
+      "Detailed Pricing Structure: Transparent, well-justified pricing for your products or services.",
+      "Market Overview: Analysis of the market landscape, trends, opportunities, and competitive positioning.",
+      "Promoter Background: The credentials and track record of your founding team.",
+      "Strategy & Implementation: A clear, phased roadmap from concept to execution.",
+      "Financial Plan: Revenue projections, funding requirements, burn rate, and path to profitability."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a business plan even if I am not raising investment?",
+        "a": "Yes. A business plan is your strategic roadmap, it guides growth, helps you make informed decisions, aligns your team, and prepares you for future funding opportunities. Even without an immediate fundraise, having a clear plan is essential for sustainable business building."
+      },
+      {
+        "q": "How long does it take to prepare a business plan?",
+        "a": "The timeline varies from a few weeks to several weeks depending on the complexity of your business, the depth of market research required, and the availability of financial data. Finvvritti provides a clear timeline estimate upfront for each engagement."
+      },
+      {
+        "q": "Can Finvvritti update my existing business plan?",
+        "a": "Yes. Finvvritti offers plan reviews and revisions for evolving businesses, whether you need to update financials, refresh market data, reposition your narrative for a new investor audience, or add a new product/service line."
+      },
+      {
+        "q": "What makes a business plan investor-ready?",
+        "a": "An investor-ready plan clearly articulates the problem, solution, market size, business model, competitive advantage, team credentials, financial projections, and exit strategy, all backed by credible data and presented in a format that builds confidence quickly. Finvvritti's finance analysts, content creators, and designers ensure every element meets this standard."
+      },
+      {
+        "q": "What does the business plan include?",
+        "a": "Finvvritti's business plan covers: Company Overview, Key Investment Highlights, Company Evolution, Mission and Vision Statement, Current Business Model, KPIs for Business Success, Services and Products Details, Detailed Pricing Structure, Market Overview, Promoter Background, Strategy and Implementation, and a full Financial Plan with projections."
+      },
+      {
+        "q": "How much does a business plan cost?",
+        "a": "The cost depends on the complexity of your business, the depth of market research required, and the level of financial modelling needed. Finvvritti offers transparent pricing with no hidden charges. Contact us for a customised quote based on your specific requirements."
+      }
     ]
   },
   "transaction-advisory": {
     "title": "Transaction Advisory",
     "overview": [
-      "Acting as a project manager on behalf of the client Managing Due Diligence Condition Precedent & Subsequent Tax and Valuation advisory Coordinating with the Legal, CS and Finance team of both client and the investor Getting the closure of SPA, SSHA and SHA Managing end to end exit of the earlier investors Liaising with various departments including RBI Managing work related to FDI (Manage past issues related to FCGPR and FCTRS) Managing documentation with legal and CS team.",
-      "Finvvritti provides expert transaction advisory services to help businesses navigate complex deals such as mergers, acquisitions, and partnerships with confidence, ensuring every transaction is strategic, well-informed, and positioned for success. Their team of professionals delivers reliable investment solutions through detailed, critically analyzed reports, enabling clients to identify the most cost-effective investment options for their unique business needs. With a strong focus on a hassle-free process, they offer timely updates and expert advice, empowering businesses to make accurate and informed decisions.",
-      "As part of their comprehensive transaction advisory services, Finvvritti covers a wide range of critical activities including acting as a project manager on behalf of the client, managing end-to-end due diligence, handling condition precedents and subsequent requirements, providing tax and valuation advisory, coordinating with legal, company secretary, and finance teams of both client and investor, ensuring closure of key agreements such as Share Purchase Agreements (SPA), Share Subscription and Shareholders Agreements (SSHA), and Shareholders Agreements (SHA), managing complete exit of earlier investors, liaising with various government departments including RBI, managing work related to Foreign Direct Investment (FDI) including past issues related to FCGPR and FCTRS, and managing all necessary documentation with legal and CS teams.",
-      "Finvvritti's transaction advisory services are tailored to each client's specific needs, recognizing that every transaction is unique. Their approach benefits both buyers and sellers; buyers gain deep insights into a target's financial health, risks, and opportunities, while sellers receive expert guidance on positioning their business for a successful transaction. Even for clients in the early stages of considering a transaction, Finvvritti can provide preliminary analysis and strategic recommendations that influence decision-making and shape the overall approach. Their expertise extends to developing effective negotiation strategies by analyzing financial data, market trends, and deal dynamics, helping clients secure favorable terms and outcomes.",
-      "To initiate transaction advisory services with Finvvritti, potential clients can reach out directly, and the team will arrange an initial discussion to understand requirements in detail."
+      "Navigate your business transactions with experts who ensure every deal is strategic, well-informed, and positioned for success. Finvvritti provides comprehensive transaction advisory services to help businesses navigate complex mergers, acquisitions, fundraising rounds, and partnerships with confidence.",
+      "Finvvritti acts as your dedicated project manager throughout the entire transaction lifecycle, from initial due diligence to final closure. Our team provides detailed, critically analysed reports so you can take the most reliable and cost-effective decision for your business.",
+      "Our approach benefits both buyers and sellers. Buyers gain deep insight into a target's financial health, risks, and opportunities. Sellers receive expert guidance on positioning their business for a successful transaction at the right valuation. Every engagement is customised to the specific deal structure and client needs.",
+      "With expertise across FDI, RBI compliance, SPA/SSHA/SHA documentation, and investor exit management, Finvvritti handles every complex dimension of high-stakes transactions, so you can focus on the deal, not the paperwork."
+    ],
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Risk Mitigation",
+        "desc": "Deep due diligence identifies financial, legal, and operational risks before they become liabilities."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Value Maximisation",
+        "desc": "Expert valuation and negotiation support ensures you achieve the best deal terms."
+      },
+      {
+        "icon": "file-text",
+        "title": "End-to-End Management",
+        "desc": "From due diligence to RBI filings, every aspect of the deal managed seamlessly."
+      },
+      {
+        "icon": "globe",
+        "title": "FDI & RBI Compliance",
+        "desc": "Full management of foreign investment regulations, FCGPR, FCTRS, and RBI approvals."
+      },
+      {
+        "icon": "users",
+        "title": "Multi-Team Coordination",
+        "desc": "Coordinating legal, CS, and finance teams of both client and investor simultaneously."
+      }
     ],
     "sections": [
-      "Why growing businesses like yours choose FinGurus?"
+      "Project Management on Behalf of Client",
+      "End-to-End Due Diligence",
+      "Tax and Valuation Advisory",
+      "SPA, SSHA and SHA Closure",
+      "FDI & RBI Compliance",
+      "Investor Exit Management"
     ],
     "bullets": [
-      "Navigate your business transactions with experts. Connect with us today and let’s work together to ensure your deals are strategic, informed, and positioned for success.",
-      "As part of Transaction Advisory, we cover the followings:",
-      "Our team of experts provide detailed reports that are critically analysed so that you can take the most reliable and cost-effective investment solution for your business.",
-      "Get access to timely updates, expert advice and enjoy a hassle-free process that lets you make correct business decisions.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Acting as project manager on behalf of the client throughout the deal lifecycle.",
+      "Managing end-to-end due diligence, financial, legal, operational, and commercial.",
+      "Condition Precedent and Subsequent management and tracking.",
+      "Tax and valuation advisory for optimal deal structuring.",
+      "Coordinating with the legal, CS, and finance teams of both client and investor.",
+      "Closure of Share Purchase Agreement (SPA), Shareholders' Agreement (SHA), and SSHA.",
+      "Managing complete end-to-end exit of earlier investors.",
+      "Liaising with RBI and other regulatory departments on behalf of the client.",
+      "Managing all FDI-related work including past FCGPR and FCTRS issues.",
+      "Handling all transaction documentation with legal and CS teams."
+    ],
+    "faqs": [
+      {
+        "q": "What is transaction advisory and when do I need it?",
+        "a": "Transaction advisory covers the full spectrum of support during M&A deals, fundraising rounds, and business partnerships, including due diligence, valuation, negotiation, regulatory compliance, and documentation. You need it whenever a deal's complexity or stakes are high enough to require expert guidance."
+      },
+      {
+        "q": "How does Finvvritti help buyers and sellers differently?",
+        "a": "For buyers, Finvvritti provides deep due diligence, uncovering financial health, operational risks, and opportunities in the target. For sellers, we help position the business at its best valuation, prepare documentation, manage investor communications, and navigate the regulatory process to achieve a smooth, successful exit."
+      },
+      {
+        "q": "What does Finvvritti manage during the FDI and RBI compliance process?",
+        "a": "Finvvritti manages all FDI-related regulatory work including FCGPR (Form Foreign Currency-GPR) for inbound investments, FCTRS for share transfers, and liaison with the RBI and Ministry of Corporate Affairs to ensure all foreign investment compliances are completed accurately and on time."
+      },
+      {
+        "q": "Can Finvvritti manage the exit of existing investors?",
+        "a": "Yes. Finvvritti manages complete end-to-end investor exits, coordinating with all parties, preparing and executing the necessary share transfer documentation, handling RBI filings, and ensuring a clean, legally compliant exit for all outgoing investors."
+      },
+      {
+        "q": "Do I need transaction advisory for every deal?",
+        "a": "Not necessarily for every deal, but for larger or more complex transactions, professional advisory significantly reduces risk. Transactions involving significant capital, regulatory approvals, cross-border elements, or multiple stakeholders almost always benefit from expert transaction advisory support."
+      },
+      {
+        "q": "Can transaction advisory services help with deal negotiations?",
+        "a": "Yes. Finvvritti's advisors bring financial analysis, market benchmarks, and deal structuring expertise to negotiations, helping you develop effective strategies, identify leverage points, and achieve deal terms that protect your interests while advancing the transaction."
+      },
+      {
+        "q": "Are transaction advisory services only for acquisitions?",
+        "a": "No. Finvvritti's transaction advisory covers M&A, equity fundraising, investor exits, joint ventures, partnerships, business restructuring, and cross-border transactions. Both buyers and sellers, as well as businesses seeking growth capital, can benefit from our transaction advisory services."
+      }
     ]
   },
   "esop": {
-    "title": "ESOP",
+    "title": "ESOP, Employee Stock Ownership Plan",
     "overview": [
-      "Perfect ESOP MechanicsWhen it comes to setting up an ESOP program for your start-up, we work with you through all levels – from setting up the proper ESOP mechanics to handling government compliances and communication.",
-      "Advisory in the Selection of Incentive PlanPreparation of ESOP PolicyPreparation of Valuation ReportsPreparation of ESOP lettersESOP AccountingESOP Tax PlanningESOP Compliance with MCA",
-      "What is an Employee Stock Ownership Plan (ESOP), and how does it benefit my company and employees?An ESOP is a program that allows employees to become partial owners of the company by holding shares. It aligns employee interest with company success, boosts motivation, and creates multiple other benefits for employees.",
-      "How can Finvvritti help my company implement an ESOP?Finvvritti specialises in ESOP consulting and implementation. We guide you through the process, from designing the plan structure to communicating it to employees. Our goal is to ensure a seamless transition to employee ownership.",
-      "How does the valuation of the company work in an ESOP?Valuation is a critical aspect of ESOPs. At Finvvritti, we employ proven valuation methods to determine the fair value of your company’s shares. This value is used to set the price for employees to acquire shares over time.",
-      "Can ESOPs help with attracting and retaining talent?Absolutely! ESOPs provide employees with a tangible stake in the company’s success. This ownership interest can enhance employee engagement, loyalty, and long-term commitment.",
-      "What happens if an employee leaves the company before retirement?Employees leaving the company can either sell their ESOP shares back to the company or to the other employees in the plan. The plan’s rules and the company’s policies determine the specifics of this process.",
-      "Are ESOPs regulated?Yes, ESOPs are regulated and are in compliance with the requirements of the Companies Act of 2013 and the Companies (Share Capital and Debentures) Rules of 2014. This applies to all businesses other than those that are publicly listed.",
-      "Can an ESOP help my company with succession planning?Absolutely. ESOPs can be an effective tool for business succession, especially for founders looking to retire/exit. The ESOP can gradually buy out the founder’s shares, providing a smooth transition of ownership.",
-      "What are the tax advantages of implementing an ESOP?An ESOP can provide numerous tax benefits to an employer, including the deduction of contributions, the diversion of corporate income taxes, the deferral of capital gains taxes, increased depreciation deductions, improved employee retention and attraction, and estate planning benefits.",
-      "How do I start the process of implementing an ESOP with Finvvritti?To get started, reach out to Finvvritti India at [raman@fingurus.com] and our team will be ready to assist you and get on the first round of discussion to understand the requirements in detail. After assessing your requirements, our expert team will guide you through the process of implementation.",
-      "We are a fast growing business that started with one person in late 2016. We never had a CFO but thought we were reaching the point we could use one in 2019-20, but weren’t sure. Hence, we initiated Finvvritti India as our Virtual CFO. Our finance team and I always appreciate how onboarding Finvvritti, had helped us with streamlining of 'T'."
+      "Empower your employees and secure your company's future through a well-structured ESOP. Finvvritti works with you at every level, from designing the right incentive mechanics to handling all government compliances and employee communication.",
+      "An Employee Stock Ownership Plan (ESOP) allows employees to become partial owners of the company by holding shares. It directly aligns employee interest with company success, boosts motivation, enhances retention, and creates real wealth-building opportunities for your team.",
+      "Finvvritti specialises in ESOP consulting and end-to-end implementation. We guide you through plan design, policy drafting, valuation, MCA compliance, grant documentation, accounting, and tax structuring, ensuring a seamless and legally compliant rollout.",
+      "ESOPs are also a powerful succession planning tool for founders looking to transition or exit. The ESOP can gradually buy out founder shares, ensuring business continuity and a smooth ownership transition. All ESOPs are structured in compliance with the Companies Act 2013 and the Companies (Share Capital and Debentures) Rules 2014."
+    ],
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Attract & Retain Talent",
+        "desc": "Give employees a stake in the company's success, boosting loyalty and long-term commitment."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Align Incentives",
+        "desc": "Employee interests aligned with company growth, driving performance and ownership culture."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Tax Advantages",
+        "desc": "ESOPs offer deduction of contributions, capital gains deferral, and tax-efficient compensation."
+      },
+      {
+        "icon": "repeat",
+        "title": "Succession Planning",
+        "desc": "Smooth ownership transition for founders looking to retire or exit the business."
+      },
+      {
+        "icon": "badge-check",
+        "title": "MCA Compliant",
+        "desc": "Full compliance with Companies Act 2013 and Share Capital Rules 2014."
+      }
     ],
     "sections": [
-      "Why growing businesses like yours choose Finvvritti?",
-      "ESOP",
-      "Getting started with us is easy."
+      "Advisory in the Selection of Incentive Plan",
+      "Preparation of ESOP Policy",
+      "Preparation of Valuation Reports",
+      "Preparation of ESOP Letters & Grant Documentation",
+      "ESOP Accounting",
+      "ESOP Tax Planning & MCA Compliance"
     ],
     "bullets": [
-      "Empower your employees and secure your company’s future through an ESOP and Connect with us today and let’s embark on this journey of shared ownership and success.",
-      "A Robust ESOP PlanWe create a robust ESOP plan that can drive ownership and enable your employees to create wealth for themselves.",
-      "Our ESOP services will cover the following.",
-      "Don’t take our word for it, hear our client partners!",
-      "Companies | Total Experience # A+ LEAGUE",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Advisory on the right incentive plan structure for your business stage and goals.",
+      "Drafting a clear, compliant, and employee-friendly ESOP policy.",
+      "Fair value determination for ESOP shares using certified valuation methodologies.",
+      "Preparation of formal ESOP grant letters and employee documentation.",
+      "Accurate accounting treatment for ESOP-related entries in your financial statements.",
+      "Tax planning to minimise impact on both employer and employees.",
+      "All MCA filings, board and shareholder resolutions, and statutory compliance managed on time.",
+      "Guidance on handling ESOP shares when employees leave the company.",
+      "Ongoing support for ESOP vesting, exercise, and share allotment processes.",
+      "End-to-end implementation from plan design to employee communication and rollout."
+    ],
+    "faqs": [
+      {
+        "q": "What is an ESOP and what are its benefits?",
+        "a": "An ESOP (Employee Stock Ownership Plan) allows employees to acquire shares in the company at a pre-determined price. Benefits include attracting and retaining top talent, aligning employee incentives with company growth, tax advantages for both employer and employees, and creating a culture of ownership and long-term commitment."
+      },
+      {
+        "q": "How does Finvvritti help implement an ESOP?",
+        "a": "Finvvritti manages the entire ESOP implementation, from advising on the right incentive structure and drafting the ESOP policy, to valuation reports, MCA filings, grant letters, accounting entries, and tax planning. We handle every step so you can focus on running your business."
+      },
+      {
+        "q": "What happens to ESOP shares when an employee leaves?",
+        "a": "The treatment depends on the ESOP policy and vesting schedule. Unvested options typically lapse, while vested options may be exercised within a specified period post-exit or bought back by the company. Finvvritti structures ESOP policies that clearly define these scenarios to protect both the company and the employee."
+      },
+      {
+        "q": "Can ESOPs be used for succession planning?",
+        "a": "Yes. ESOPs are a powerful succession planning tool, the ESOP can gradually buy out a founder's or promoter's shares over time, ensuring business continuity, preserving company culture, and providing the exiting founder with a tax-efficient liquidity event."
+      },
+      {
+        "q": "What are the tax implications of an ESOP?",
+        "a": "For employees, ESOPs are taxed in two stages: at the time of exercise (as perquisite income) and at the time of sale of shares (as capital gains). For employers, ESOPs can provide contribution deductions. Finvvritti structures ESOPs to optimise tax efficiency for both parties within applicable laws."
+      },
+      {
+        "q": "How does ESOP valuation work?",
+        "a": "ESOP shares are valued using recognised methodologies such as the Discounted Cash Flow (DCF) method, comparable company analysis, or net asset value approach. The valuation determines the fair market price at which employees can acquire shares. Finvvritti uses certified valuation professionals to ensure fair, defensible, and compliant ESOP valuations."
+      },
+      {
+        "q": "Are ESOPs regulated in India?",
+        "a": "Yes. ESOPs for private and unlisted companies are governed by the Companies Act 2013 and the Companies (Share Capital and Debentures) Rules 2014. Listed companies are additionally subject to SEBI (Share Based Employee Benefits and Sweat Equity) Regulations 2021. Finvvritti ensures full compliance with all applicable regulations."
+      },
+      {
+        "q": "How do ESOPs help attract and retain talent?",
+        "a": "ESOPs give employees an ownership stake in the company's future success. This creates strong alignment between employee effort and company performance, improves engagement and loyalty, and makes your organisation significantly more attractive to high-quality talent compared to competitors offering only fixed compensation."
+      }
     ]
   },
   "business-setup-dubai": {
     "title": "Business Setup Company in Dubai for Company Formation & Incorporation Services",
     "overview": [
-      "Welcome to Finvvritti, your trusted partner for Business Incorporation Services in Dubai and complete business setup services in Dubai. We have been operational in the UAE since 2018, and our expert team brings over 20 years of combined experience in business setup and corporate services. As a leading business setup company in Dubai, we offer a full-service suite of business incorporation and formation solutions tailored to meet the specific needs of entrepreneurs and investors setting up their ventures in the UAE. With a strong client base that includes MNCs, Listed Entities, SMEs, and Startups, we understand the different needs of businesses at every stage. With more than a decade of industry expertise, we at Finvvritti assist businesses in successfully passing through all legal, administrative, and regulatory hurdles involved in company formation and Business Incorporation Services in Dubai.",
-      "Business Registration and Company Incorporation: We guide you in choosing the correct form of business and handle the entire registration process. Whether setting up an LLC, partnership, or branch office, we ensure compliance with local regulations.",
-      "Visa and Immigration Services for Business Formation: We provide visa services for business owners, investors, and workers, including residency visas, work permits, and dependent visas.",
-      "Office Space Solutions and Ejari Registration: We assist in obtaining office space suitable for your business needs and handle Ejari registration to ensure compliance with Dubai's legal standards.",
-      "Mainland Company Setup: Mainland UAE companies are registered with the UAE government and can operate freely within the local market, making them ideal for companies planning expansion throughout the UAE.",
-      "Free Zone Company Formation: With 100% foreign ownership and tax exemptions, Dubai free zones present a very conducive environment for foreign investors. We assist you in the selection of the best free zone for your business.",
-      "Branch Office and Representative Office Setup: If you already have a well-established business overseas and are interested in expanding to Dubai, we facilitate the setup of branch and representative offices.",
-      "IT & Technology Company Formation: We provide specific company formation services for technology startups, ensuring they fit within the particular regulatory regime for IT companies.",
-      "Healthcare & Medical Business Formation: If you are entering the healthcare sector, we offer bespoke services to assist your medical or healthcare business from licensing to permits and health safety standards.",
-      "Market Access and Trading Rights: While mainland companies can trade anywhere in the UAE, free zone companies are limited to their zones for trading activities unless they cooperate with a local distributor.",
-      "Cost and Taxes: Free zones typically offer tax exemptions and lower setup costs, attractive for small businesses. While mainland companies could be more costly, they provide greater market access.",
-      "Government Initiatives Supporting Business Formation: The UAE government has taken numerous initiatives to ensure business setup processes are hassle-free and establish the country as an attractive destination for foreign investors.",
-      "Foreign Ownership Rules and Regulations (2025 Update): Recent changes allow for 100% foreign ownership in certain jurisdictions. We will walk you through the latest regulations to ensure you're compliant."
+      "Welcome to Finvvritti, your trusted partner for Business Incorporation Services in Dubai and complete business setup services in Dubai. We have been operational in the UAE since 2018, and our expert team brings over 20 years of combined experience in business setup and corporate services.",
+      "As a leading business setup company in Dubai, we offer a full-service suite of business incorporation and formation solutions tailored to meet the specific needs of entrepreneurs and investors setting up their ventures in the UAE. With a strong client base that includes MNCs, Listed Entities, SMEs, and Startups, we understand the different needs of businesses at every stage.",
+      "With more than a decade of industry expertise, we at Finvvritti assist businesses in successfully passing through all legal, administrative, and regulatory hurdles involved in company formation and Business Incorporation Services in Dubai."
     ],
     "sections": [
       "Complete Company Setup Services We Offer in Dubai, UAE",
@@ -168,113 +513,156 @@
       "Step-by-Step Business Incorporation Services in the UAE",
       "Business License Types for Business Setup in the UAE",
       "Specialized Company Formation Solutions in Dubai",
-      "Mainland vs Free Zone Company Formation: A Complete Comparison",
+      "Mainland vs Free Zone Company Formation",
       "Why Dubai is the No.1 Choice for Business Setup in 2026",
       "Why Choose Finvvritti for Company Formation in Dubai?"
     ],
     "bullets": [
-      "Finvvritti can assist you in every step of setting up a company, from the initial stage to the end. The following is an overview of what we have to offer:",
+      "Business Registration and Company Incorporation: We guide you in choosing the correct form of business and handle the entire registration process.",
+      "Visa and Immigration Services for Business Formation: We provide visa services for business owners, investors, and workers, including residency visas, work permits, and dependent visas.",
+      "Office Space Solutions and Ejari Registration: We assist in obtaining office space suitable for your business needs and handle Ejari registration.",
       "Corporate Bank Account Opening Assistance: Our experts will help you open a corporate bank account with well-known banks in the UAE.",
-      "PRO (Public Relations Officer) Services: We ensure all paperwork and governmental processes are carried out efficiently, including obtaining licenses, permits, and clearances.",
-      "Post-Incorporation Business Support Services: Our support does not end with company formation, covering renewals of business licenses, visas, and administrative support.",
-      "Dubai has various options to form a company, depending on your business structure and goals. These options include:",
-      "Offshore Company Formation: Dubai offshore companies are for investors seeking confidentiality and tax advantages, suitable for asset protection.",
-      "Our streamlined process ensures a hassle-free setup experience:",
-      "Free Consultation and Business Planning (1-2 Days): We start with a free consultation to understand your business goals and help choose the most appropriate setup option for you.",
-      "Trade Name Approval and Reservation (2-3 Days): We assist in selecting and reserving a unique trade name for your business that complies with UAE naming conventions.",
-      "Legal Documentation and Initial Approval (3-5 Days): We prepare all required legal documents and obtain initial approvals from relevant authorities.",
-      "Company Registration and License Issuance (5-7 Days): We finalize the registration process and secure your business license.",
-      "Depending on the nature of your business, you can apply for a number of license types:",
-      "Commercial Trading License: The most common license in Dubai for businesses involved in the buying and selling of goods.",
-      "Professional Service License: This license is for companies offering professional services, such as consulting, legal advice, or accounting.",
-      "Industrial Manufacturing License: Targeted at manufacturing or production companies, this license permits the production of goods within the UAE.",
-      "Tourism and Hospitality License: Essential for businesses operating in the tourism and hospitality sector.",
-      "Tailored business setup services for specialized sectors:",
-      "E-Commerce Company Setup: We assist with the formation of e-commerce companies, including compliance with digital and online trade regulations in the UAE.",
-      "Food & Beverage Business Formation: We assist in establishing a food or beverage business in Dubai.",
-      "A mainland and free zone company setup is an option, which depends on your goals. Here is a comparison of some key factors:",
-      "Ownership and Sponsorship: While mainland companies must find a local sponsor, free zone companies offer 100% foreign ownership.",
-      "Visa Allocation: Mainland companies enjoy more flexibility in their visa allocations than free zones, which have limits.",
-      "Dubai's growing economy, business-friendly policies, and strategic location make it one of the top destinations for company incorporation.",
-      "Economic Growth and Market Opportunities: With its strong economy, Dubai offers immense opportunities in almost all fields.",
-      "International Recognition: Dubai is known around the world for its prime business destinations, ensuring access to international markets and world-class infrastructure.",
-      "What makes Finvvritti unique is its all-around, customer-centric approach:",
-      "Shareholder and Director Requirements: Your business structure may require you to have either local or international shareholders and directors.",
-      "Share Capital Requirements: Each kind of company has different share capital requirements, and we will guide you through them.",
-      "Visa Eligibility and Allocation: Visa eligibility depends on the type of company setup. We will ensure you understand how many visas can be allocated based on your business.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "PRO (Public Relations Officer) Services: We ensure all paperwork and governmental processes are carried out efficiently.",
+      "Post-Incorporation Business Support Services: Our support covers renewals of business licenses, visas, and administrative support.",
+      "Mainland Company Setup: Ideal for companies planning expansion throughout the UAE, registered with the UAE government.",
+      "Free Zone Company Formation: With 100% foreign ownership and tax exemptions, Dubai free zones offer a very conducive environment for foreign investors.",
+      "Branch Office and Representative Office Setup: We facilitate the setup of branch and representative offices for established overseas businesses.",
+      "Offshore Company Formation: For investors seeking confidentiality and tax advantages, suitable for asset protection.",
+      "IT & Technology Company Formation: Specific company formation services for technology startups.",
+      "Healthcare & Medical Business Formation: Bespoke services for medical or healthcare businesses from licensing to permits.",
+      "Commercial Trading License: For businesses involved in the buying and selling of goods.",
+      "Professional Service License: For companies offering professional services such as consulting, legal advice, or accounting.",
+      "Industrial Manufacturing License: For manufacturing or production companies.",
+      "Tourism and Hospitality License: For businesses operating in the tourism and hospitality sector.",
+      "Foreign Ownership Rules and Regulations (2025 Update): Recent changes allow for 100% foreign ownership in certain jurisdictions."
+    ],
+    "benefits": [
+      {
+        "icon": "globe",
+        "title": "100% Foreign Ownership",
+        "desc": "Recent UAE law changes permit full foreign ownership across many business sectors."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Fast Setup (5 to 21 Days)",
+        "desc": "Streamlined process from consultation to licensed business in as few as 5 business days."
+      },
+      {
+        "icon": "shield",
+        "title": "Mainland & Free Zone Options",
+        "desc": "Choose the right jurisdiction, mainland for UAE-wide operations or free zones for tax benefits."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Banking & Visa Support",
+        "desc": "Full assistance with corporate bank account opening, residency visas, and work permits."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Post-Setup Compliance",
+        "desc": "Ongoing license renewals, visa management, and PRO services to keep your business compliant."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between Mainland and Free Zone company setup in Dubai?",
+        "a": "A Mainland company is registered with the UAE government and can trade freely across the entire UAE market and beyond. A Free Zone company benefits from 100% foreign ownership, tax exemptions, and simplified setup but is primarily restricted to operating within the free zone or internationally. Finvvritti helps you select the right jurisdiction for your business model."
+      },
+      {
+        "q": "How long does it take to set up a business in Dubai?",
+        "a": "The typical timeline ranges from 5 to 21 business days depending on the company type, jurisdiction, and completeness of documentation. Mainland company setup generally takes 7 to 15 days, while many free zone setups can be completed in as few as 5 to 7 business days."
+      },
+      {
+        "q": "Can foreigners own 100% of a company in Dubai?",
+        "a": "Yes. Significant amendments to UAE commercial law now permit 100% foreign ownership in most sectors for both mainland and free zone companies. Certain strategic sectors may still require a local partner or sponsor arrangement. Finvvritti advises on your specific sector requirements."
+      },
+      {
+        "q": "What types of business licenses are available in Dubai?",
+        "a": "The four main license types are: Commercial Trading License (buying and selling of goods), Professional Service License (consulting, legal, accounting), Industrial Manufacturing License (manufacturing or production), and Tourism and Hospitality License (tourism and hospitality sector). The appropriate license depends on your business activity."
+      }
     ]
   },
   "incorporation-services-in-the-usa": {
     "title": "Incorporation Services in the USA",
     "overview": [
-      "Welcome to Finvvritti – your one-stop destination for affordable and best company incorporation services in the USA. Whether you're an aspiring entrepreneur or a growing business seeking to establish a presence in the US, we offer expert guidance, unbeatable value, and fast, compliant incorporation services tailored to your specific needs.",
-      "At Finvvritti, we bring a deep understanding of US incorporation laws, structures, and compliance requirements. Our team has helped hundreds of clients from various industries successfully incorporate their businesses, ensuring they are legally sound and strategically positioned for growth.",
-      "Starting a business shouldn't cost a fortune. That's why we offer reliable and affordable incorporation services that maintain high-quality standards while keeping your startup costs low. Our services are designed to provide you with maximum value, without any hidden fees.",
-      "Speed and simplicity are at the core of our service model. With our simplified process and expert guidance, you can form your company quickly and without hassle, whether you're setting up an LLC, S-Corp, or C-Corp.",
-      "Each US state has different rules and requirements. We offer customized incorporation packages for states such as Delaware, Wyoming, Nevada, Florida, and more—ensuring your business is set up in the most strategic jurisdiction for your specific goals.",
-      "Whether you want the simplicity of an LLC, the fundraising capabilities of a C-Corp, or the tax benefits of an S-Corp, our team will help you choose the proper structure and file all the necessary documents.",
-      "All US companies are required to maintain a registered agent. We provide this service in all 50 states, along with ongoing compliance support, including annual report filing, EIN registration, and assistance with business licenses.",
-      "No two businesses are the same, and neither should their incorporation strategy be. We assess your specific needs and offer tailored incorporation solutions that align with your industry, scale, and long-term vision.",
-      "From solo founders and tech startups to international clients and small business owners, we have earned a trusted reputation for delivering results. Our clients consistently recommend us for our professionalism, efficiency, and exceptional support.",
-      "Starting at just a fraction of what competitors charge, our budget-friendly incorporation packages include everything you need to get started. These packages are ideal for freelancers, small business owners, and startups with limited capital.",
-      "With Finvvritti, you can save even more with services such as: Free initial consultations, no-cost EIN registration with select packages, and discounts for bulk or multi-state incorporations.",
-      "Please select from our range of packages, tailored to your specific needs and budget. All packages include basic formation services, as well as optional add-ons such as EIN filing, business licenses, and compliance support."
+      "Finvvritti is your one-stop destination for affordable, fast, and fully compliant company incorporation services in the USA. Whether you are an aspiring entrepreneur or a growing business seeking a US presence, we offer expert guidance, transparent pricing, and seamless incorporation services tailored to your specific needs.",
+      "We bring a deep understanding of US incorporation laws, business structures, and compliance requirements across all 50 states. Our team has successfully incorporated businesses across industries, ensuring every entity is legally sound and strategically structured for growth.",
+      "Starting a business in the USA should not cost a fortune. Packages start from $99 plus state fees, with standard processing in 3 to 10 business days and expedited options in 1 to 2 business days. No hidden charges, no surprise add-ons, just expert, transparent service.",
+      "From LLC and C-Corp formation to registered agent services, EIN registration, annual report filings, and ongoing compliance, Finvvritti handles every aspect of your US business setup, so you can focus on building your business."
+    ],
+    "benefits": [
+      {
+        "icon": "globe",
+        "title": "All 50 States",
+        "desc": "Registered agent services and state-specific packages across all 50 US states."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Affordable Pricing",
+        "desc": "Packages from $99 plus state fees, no hidden charges or confusing terms."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Fast Processing",
+        "desc": "Standard 3 to 10 business days; expedited 1 to 2 business days with free consultation."
+      },
+      {
+        "icon": "shield",
+        "title": "Fully Compliant",
+        "desc": "All filings meet federal and state requirements, EIN, Articles, registered agent."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Expert Guidance",
+        "desc": "Deep expertise in LLC, C-Corp, and S-Corp structures across all states."
+      }
     ],
     "sections": [
-      "Why Choose Our Incorporation Services in the USA?",
-      "Comprehensive Incorporation Services for Your Business",
-      "Why Our Incorporation Services Are the Best in the USA",
-      "Cheapest Incorporation Services in USA",
-      "How to Get Started with Incorporation in the USA",
-      "Choose the Right Incorporation Package"
+      "LLC Formation",
+      "C-Corp Formation",
+      "S-Corp Formation",
+      "Registered Agent Services",
+      "EIN Registration",
+      "Annual Report & Compliance"
     ],
     "bullets": [
-      "Expertise in US Company Incorporation",
-      "Affordable and Reliable Incorporation Solutions",
-      "Quick and Easy Company Formation",
-      "State-Specific Incorporation Packages",
-      "LLC, C-Corp, and S-Corp Formation",
-      "Registered Agent and Compliance Services",
-      "Tailored Solutions for Different Business Needs",
-      "Transparent and Affordable Pricing",
-      "Unlike many other providers, we are fully transparent with our pricing. You'll know exactly what you're paying for—no hidden charges, surprise add-ons, or confusing terms.",
-      "Trusted by Entrepreneurs and Businesses Nationwide",
-      "Budget-Friendly Packages for Every Entrepreneur",
-      "Additional Cost-Saving Benefits",
-      "Step-by-Step Guide to Incorporating Your Business",
-      "Choose a Business Structure (LLC, C-Corp, S-Corp)",
-      "Select a State for incorporation",
-      "Submit Required Documents (Articles of Incorporation/Organization)",
-      "Appoint a Registered Agent",
-      "Obtain an EIN from the IRS",
-      "Maintain Compliance with ongoing filings",
-      "Fast-Track Your Incorporation with Our Expert Assistance",
-      "Need your company set up fast? Opt for our expedited services and get your company formed in as little as 24 hours, depending on the state.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Choose the right business structure: LLC, C-Corp, or S-Corp based on your goals.",
+      "Select the best state: Delaware, Wyoming, Nevada, Florida, New Mexico, or any of the 50 states.",
+      "Submit required documents: Articles of Incorporation or Articles of Organization.",
+      "Appoint a registered agent: Finvvritti provides registered agent services in all 50 states.",
+      "Obtain an EIN (Employer Identification Number) from the IRS.",
+      "Maintain compliance with ongoing state filings, annual reports, and franchise taxes.",
+      "State-specific packages customised for Delaware, Wyoming, Nevada, Florida, and more.",
+      "Expedited incorporation in 1 to 2 business days available for urgent requirements.",
+      "Free initial consultation included with all incorporation packages.",
+      "Post-incorporation support: business licenses, bank account guidance, and ongoing compliance."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best state to incorporate in the USA?",
+        "a": "Delaware is the most popular state for corporations due to its business-friendly laws, flexible governance, and established case law. Wyoming and Nevada are popular for LLCs due to strong privacy protections and no state income tax. The best state depends on your business type, goals, and where you operate."
+      },
+      {
+        "q": "What is the difference between an LLC, C-Corp, and S-Corp?",
+        "a": "An LLC offers pass-through taxation and flexible management. A C-Corp is a separate tax entity, ideal for venture-backed startups or businesses planning to raise investor capital. An S-Corp offers pass-through taxation with a corporate structure, subject to certain eligibility restrictions. Finvvritti helps you choose the right structure."
+      },
+      {
+        "q": "How long does incorporation in the USA take?",
+        "a": "Standard processing takes 3 to 10 business days depending on the state. Expedited processing is available in 1 to 2 business days for most states. Finvvritti manages all filings and handles the process end-to-end."
+      },
+      {
+        "q": "Do I need to be a US citizen or resident to incorporate in the USA?",
+        "a": "No. Non-US residents and foreign nationals can incorporate a company in the USA. Most states permit 100% foreign ownership. Finvvritti specialises in helping international entrepreneurs and businesses establish a US entity efficiently and compliantly."
+      }
     ]
   },
   "professional-financial-audit-services-in-the-usa": {
     "title": "Professional Financial Audit Services in the USA",
     "overview": [
-      "At Finvvritti, we provide comprehensive and accurate financial audit services designed to help businesses across the USA maintain compliance, build stakeholder confidence, and strengthen financial integrity. As one of the most reliable financial audit firms in USA, we are committed to delivering transparent, trustworthy, and regulatory-compliant audit solutions tailored to your business needs. Whether you're a startup, established enterprise, or nonprofit organization, our financial statement audit services in USA offer clarity, insight, and peace of mind.",
+      "At Finvvritti, we provide comprehensive and accurate financial audit services designed to help businesses across the USA maintain compliance, build stakeholder confidence, and strengthen financial integrity. As one of the most reliable financial audit firms in USA, we are committed to delivering transparent, trustworthy, and regulatory-compliant audit solutions tailored to your business needs.",
       "We conduct a meticulous review of your company's financial records, including balance sheets, income statements, cash flow statements, and disclosures. Our objective audit ensures that your financial statements accurately represent your financial position and performance.",
-      "An effective audit goes beyond financials it involves reviewing your internal control systems and procedures. We assess the design and effectiveness of these systems to identify weaknesses, suggest improvements, and reduce the risk of fraud or error.",
-      "Our financial statement audits also ensure that your financials align with tax laws and reporting obligations. We help you prepare for IRS scrutiny and avoid penalties by ensuring your statements meet all legal and regulatory requirements.",
-      "We start with a thorough consultation to understand your business, industry, and audit requirements. We then gather all necessary documentation, including prior financial statements, general ledgers, contracts, and internal reports.",
-      "During this stage, our auditors perform fieldwork—examining records, verifying transactions, assessing controls, and interviewing relevant staff. We ensure every figure is validated and supported by evidence.",
-      "After analysis, we deliver a comprehensive audit report that outlines our findings, highlights areas of concern, and offers actionable recommendations. We also hold a debrief session to walk you through the results.",
-      "Ensure Compliance and Mitigate Risks A financial audit ensures that your accounting practices are in accordance with all applicable standards and legal requirements, reducing your risk of regulatory sanctions and economic losses.",
-      "Improve Financial Management and Decision-Making Audits offer valuable insights that support better budgeting, financial planning, and long-term decision-making—giving your leadership team the tools to make informed choices.",
-      "With decades of combined experience in public accounting and audit, our team has a deep understanding of US Generally Accepted Accounting Principles (GAAP), International Financial Reporting Standards (IFRS), and evolving financial regulatory requirements. We bring the expertise and precision required to ensure your audit meets the highest professional standards",
-      "Our audits are conducted in full compliance with the auditing standards defined by the Public Company Accounting Oversight Board (PCAOB) and the American Institute of Certified Public Accountants (AICPA). We ensure that your financial statements reflect accurate and fair values—giving your stakeholders complete confidence.",
-      "We believe in audit integrity. Our process is structured to provide unbiased, independent assessments that emphasize transparency, detailed reporting, and accountability. We communicate clearly throughout the process and collaborate with your team to ensure a seamless experience.",
-      "Financial Audits for Small Businesses We understand the challenges small businesses face. Our audits are cost-effective, tailored, and focused on helping you grow with confidence and control.",
-      "Financial Audit Services for Large Corporations Our team is experienced in auditing complex, multi-entity corporations across various industries, ensuring full-scale compliance and thorough reporting.",
-      "Nonprofit Financial Audits We provide specialized audit services for nonprofits, ensuring accountability, fostering donor trust, and ensuring compliance with grant and regulatory reporting requirements.",
-      "Accounting Discrepancies and Fraud Prevention We detect and address inconsistencies in financial records, helping to prevent fraud and correct errors that can damage your business's reputation.",
-      "Compliance with Changing Regulations Financial regulations are constantly evolving. We keep you updated and compliant with the latest standards from the IRS, SEC, and other regulatory bodies.",
-      "Inconsistent Reporting and Unreliable Financial Data We standardize and verify financial reporting to ensure consistency, accuracy, and reliability—essential for meaningful business analysis and growth."
+      "An effective audit goes beyond financials, it involves reviewing your internal control systems and procedures. We assess the design and effectiveness of these systems to identify weaknesses, suggest improvements, and reduce the risk of fraud or error.",
+      "With decades of combined experience in public accounting and audit, our team has a deep understanding of US Generally Accepted Accounting Principles (GAAP), International Financial Reporting Standards (IFRS), and evolving financial regulatory requirements."
     ],
     "sections": [
       "Our Comprehensive Financial Statement Audit Services in the USA",
@@ -285,352 +673,766 @@
       "Common Financial Audit Issues We Address"
     ],
     "bullets": [
-      "Detailed Financial Statement Audits",
-      "Internal Control Evaluation",
-      "Tax Compliance and Reporting",
-      "Initial Consultation and Document Gathering",
-      "Fieldwork and Detailed Audit Review",
-      "Final Report and Recommendations",
-      "Increase Investor Confidence Whether you're raising capital or planning an IPO, having audited financials enhances investor trust and strengthens your ability to attract funding.",
-      "Trusted Financial Audit Experts with Years of Experience",
-      "Compliant with US Regulations and Standards",
-      "Commitment to Transparency and Finvvritticy",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Detailed Financial Statement Audits: Meticulous review of balance sheets, income statements, cash flow statements, and disclosures.",
+      "Internal Control Evaluation: Assessing design and effectiveness of internal systems to reduce fraud or error risk.",
+      "Tax Compliance and Reporting: Ensuring financials align with tax laws and IRS reporting obligations.",
+      "Initial Consultation and Document Gathering: Understanding your business, industry, and audit requirements.",
+      "Fieldwork and Detailed Audit Review: Examining records, verifying transactions, assessing controls, and interviewing staff.",
+      "Final Report and Recommendations: Comprehensive audit report with findings, concerns, and actionable recommendations.",
+      "Increase Investor Confidence: Audited financials enhance investor trust and strengthen your ability to attract funding.",
+      "Ensure Compliance and Mitigate Risks: Reduces risk of regulatory sanctions and economic losses.",
+      "Improve Financial Management and Decision-Making: Valuable insights supporting better budgeting and long-term planning.",
+      "Trusted Financial Audit Experts with Years of Experience.",
+      "Compliant with US Regulations and Standards (PCAOB and AICPA).",
+      "Commitment to Transparency and Integrity throughout the audit process.",
+      "Financial Audits for Small Businesses: Cost-effective, tailored audits focused on growth.",
+      "Financial Audit Services for Large Corporations: Full-scale compliance and thorough reporting.",
+      "Nonprofit Financial Audits: Specialized audits ensuring accountability and grant compliance."
+    ],
+    "benefits": [
+      {
+        "icon": "badge-check",
+        "title": "Regulatory Compliance",
+        "desc": "Full alignment with US GAAP, IFRS, PCAOB, and AICPA standards to avoid regulatory penalties."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Investor Confidence",
+        "desc": "Audited financials enhance credibility and strengthen your ability to attract funding and partnerships."
+      },
+      {
+        "icon": "shield",
+        "title": "Fraud Risk Reduction",
+        "desc": "Rigorous internal control evaluation identifies weaknesses and reduces exposure to fraud or error."
+      },
+      {
+        "icon": "file-text",
+        "title": "Actionable Insights",
+        "desc": "Comprehensive audit reports with clear findings and recommendations to improve financial management."
+      },
+      {
+        "icon": "globe",
+        "title": "Multi-Industry Expertise",
+        "desc": "Serving small businesses, large corporations, and nonprofits with sector-specific audit methodologies."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What does a financial audit involve?",
+        "a": "A financial audit is a systematic, independent examination of a company's financial records, statements, and internal controls. Finvvritti's audit process covers three phases: Initial Consultation and document gathering, detailed Fieldwork including transaction verification and control assessment, and delivery of a Final Report with findings and actionable recommendations."
+      },
+      {
+        "q": "How long does a financial audit take?",
+        "a": "The timeline typically ranges from 2 to 6 weeks depending on the size and complexity of the business, the completeness of financial records, and the scope of the audit. Finvvritti provides a clear timeline estimate during the initial consultation."
+      },
+      {
+        "q": "Is a financial audit required by law in the USA?",
+        "a": "Audit requirements vary by entity type and size. Public companies registered with the SEC are required to undergo annual audits. Private companies may be required to audit by lenders, investors, or grant-making organisations. Nonprofits receiving federal funding above certain thresholds are subject to federal Single Audit requirements."
+      },
+      {
+        "q": "What standards does Finvvritti follow for financial audits?",
+        "a": "Finvvritti's audit professionals follow US Generally Accepted Accounting Principles (GAAP), International Financial Reporting Standards (IFRS), and standards set by the Public Company Accounting Oversight Board (PCAOB) and the American Institute of Certified Public Accountants (AICPA), depending on the applicable regulatory framework."
+      }
     ]
   },
   "business-incorporation-services": {
     "title": "Business Incorporation Services",
     "overview": [
-      "Incorporating a business, whether in India or any other country, can be a complex process with various challenges. Navigating legal and regulatory requirements for business incorporation, licenses, permits and approvals can be a daunting task. Choosing the right business structure, documentation & paperwork, taxation & compliance, intellectual property protection, and labour laws all of these make the process burdensome and time-consuming. Finvvritti acts as a catalyst, guiding and supporting entrepreneurs through every step of business incorporation. Our expertise and experience can significantly streamline the process and help you sail through every challenge.",
-      "Incorporation gives your business a distinct legal identity separate from its owners with its own rights and obligations. Beyond registering a name, it grants credibility with customers, partners, and investors, while protecting personal assets and enabling long-term growth.",
-      "BCL India provides expert guidance ensuring that all legal and regulatory aspects are meticulously addressed. We offer insights into choosing the optimal business structure, streamline documentation, assist with necessary approvals, and simplify compliance procedures. BCL India brings a wealth of experience, enabling entrepreneurs to make informed decisions and embark on their entrepreneurial journey with confidence. By partnering with us entrepreneurs can navigate the incorporation process smoothly and set the stage for a thriving, compliant, and prosperous business venture.",
-      "It is important to remember that the post-incorporation phase is an ongoing process. Regularly assessing your business’s performance, reviewing your goals, and making necessary adjustments is the key to its continued success. As soon as the company gets incorporated, there is a list of tasks in its way ahead. Every director or promoter needs to accomplish it and mandatorily comply after getting a certificate of incorporation of the company. The specific requirements and deadlines can vary based on the type of company and the state you are operating in. BCL India offers you end to end business incorporation services to ensure you are fully compliant with all regulations and requirements."
+      "Incorporating a business, whether in India or abroad, is a complex process that demands careful navigation of legal and regulatory requirements. From choosing the right business structure and managing documentation to handling taxation, compliance, intellectual property protection, and labour laws, the process can be daunting for any entrepreneur.",
+      "Finvvritti acts as a catalyst, guiding and supporting you through every step of the incorporation journey. Our experts ensure all legal and regulatory aspects are meticulously addressed so you can focus on building your business with confidence.",
+      "Business incorporation marks the formal birth of a new legal entity, one that is separate from its owners, with its own rights, responsibilities, and obligations. Beyond registering a name, incorporation provides limited liability protection, perpetual existence, ease of ownership transfer, potential tax benefits, and enhanced credibility with customers, partners, and investors."
+    ],
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Limited Liability",
+        "desc": "Personal assets stay fully protected from business debts, risks, and legal obligations."
+      },
+      {
+        "icon": "infinity",
+        "title": "Perpetual Existence",
+        "desc": "The company continues to exist regardless of changes in ownership or management."
+      },
+      {
+        "icon": "repeat",
+        "title": "Easy Ownership Transfer",
+        "desc": "Shares can be transferred smoothly without disrupting business operations."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Tax Benefits",
+        "desc": "Access to deductions, efficient tax structures, and startup-specific exemptions."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Enhanced Credibility",
+        "desc": "Build instant trust with customers, investors, partners, and financial institutions."
+      }
     ],
     "sections": [
-      "About Business Incorporation Services",
-      "How Finvvritti Helps You in Business Incorporation & Post Incorporation",
-      "What is next after Incorporation"
+      "Optimal Business Structure Advisory",
+      "Documentation & Filing",
+      "Regulatory Approvals",
+      "Compliance Simplification",
+      "Post-Incorporation Support",
+      "Foreign & NRI Entry"
     ],
     "bullets": [
-      "Limited Liability: Shield personal assets from business risks.",
-      "Tax Benefits: Access deductions and efficient structures.",
-      "Raise Capital: Issue shares or secure loans with ease.",
-      "Clear Governance: Defined ownership and decision-making.",
-      "Get the Memorandum of Association & Articles of Association printed",
-      "Convene and hold the board meeting of the company within 30 days of incorporation.",
-      "Open Bank Account of Company and deposit the subscription money.",
-      "File a Form with ROC for commencement of Business and post that business can be commenced.",
-      "Issue Share Certificates to the subscribers of the memorandum within a period of 2 (two) month from the date of incorporation",
-      "Appoint an Auditor and file an Auditor appointment with ROC.",
-      "If the shareholders are from Foreign, then share capital receipt should be reported to RBI in form FCGPR.",
-      "Documentation & Filing: End-to-end preparation and filing of MOA, AOA, DIN, DSC, and all MCA/ROC forms with accuracy and speed.",
-      "Regulatory Approvals: We handle all necessary registrations including GST, PAN, TAN, Shops & Establishments, and sector-specific licenses.",
-      "Compliance Assurance: Finvvritti ensures all post-incorporation compliances under Companies Act 2013 are met on time, keeping you penalty-free.",
-      "Strategic Guidance: Beyond paperwork, our advisors help you plan your entry strategy, shareholding structure, and capital requirements.",
-      "Foreign & NRI Entry: Specialized support for foreign nationals and NRIs looking to set up business in India, including RBI/FEMA compliance.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Print the Memorandum of Association (MoA) and Articles of Association (AoA).",
+      "Convene and hold the first Board Meeting within 30 days of incorporation.",
+      "Open a company bank account and deposit the subscription money.",
+      "File Form 20A with the ROC for commencement of business.",
+      "Issue share certificates to all subscribers within 2 months of incorporation.",
+      "Appoint a statutory auditor and file the appointment with the ROC.",
+      "For foreign shareholders, report share capital receipt to RBI via Form FCGPR."
+    ],
+    "documents": [
+      "Proposed company name (minimum 2 options)",
+      "Memorandum of Association (MoA) and Articles of Association (AoA)",
+      "KYC documents of all Directors and Shareholders (Aadhaar, PAN, Passport)",
+      "Minimum 2 Directors and 2 Shareholders required",
+      "At least 1 Resident Director (residing in India for 182+ days in previous year)",
+      "Registered office address proof (utility bill, rent agreement, or NOC)",
+      "Objects and purpose of the company",
+      "Digital Signature Certificate (DSC) for all Directors"
+    ],
+    "faqs": [
+      {
+        "q": "Why should I incorporate a Company or LLP?",
+        "a": "Incorporating your business provides limited liability protection, shielding personal assets from business risks. It also unlocks potential tax benefits, the ability to raise capital by issuing shares, enhanced credibility with customers and investors, and perpetual existence independent of its owners."
+      },
+      {
+        "q": "Is incorporation expensive?",
+        "a": "Costs vary based on the type of entity and jurisdiction. You will need to budget for government filing fees, professional assistance, and ongoing compliance costs. Finvvritti offers transparent, competitively priced incorporation packages tailored to your business stage and goals."
+      },
+      {
+        "q": "What documents are required for incorporation?",
+        "a": "You will need: Proposed company name, Memorandum of Association (MoA), Articles of Association (AoA), KYC documents of all directors and shareholders, minimum two directors and shareholders, at least one resident director (residing in India for 182+ days), registered office address proof, and the objects/purpose of the company."
+      },
+      {
+        "q": "How long does incorporation take?",
+        "a": "With all documents in order, a Private Limited Company can typically be incorporated in 7 to 15 working days. LLP registration follows a similar timeline. Finvvritti streamlines the process to ensure the fastest possible turnaround."
+      },
+      {
+        "q": "What are the mandatory compliances after incorporation?",
+        "a": "Post-incorporation, you must hold the first Board Meeting within 30 days, open a bank account, file Form 20A for commencement of business, issue share certificates, and appoint a statutory auditor. Finvvritti guides you through every post-incorporation step to keep you fully compliant."
+      }
     ]
   },
   "accounting-bookkeeping-services": {
     "title": "Accounting & Bookkeeping Services",
     "overview": [
-      "Evolving business practices demand efficient accounting skills. Increased pressure for transparency, tax amendments, compliance with local GAAP or IFRS, and cybersecurity challenges have made accounting more complex. Finvvritti, with a trusted team of experts, tailors solutions to your requirements, bringing over 30+ years of combined experience to anticipate the needs of auditors, investors, and regulators.",
-      "Finvvritti provides a comprehensive suite of accounting and bookkeeping services designed to help businesses navigate financial complexities and maintain robust, compliant financial records. The core of the service is the meticulous recording of all financial transactions, which includes maintaining journals, ledgers, and preparing key financial statements like the Profit & Loss Account, Balance Sheet, and Cash Flow Statement.",
-      "The service emphasizes a proactive approach beyond basic number-crunching, aiming to provide clients with clear financial visibility for strategic decision-making, while leveraging modern, cloud-based tools for efficiency",
-      "Given these challenges, outsourcing to a specialized firm like Finvvritti allows business owners to focus on their core activities without being overwhelmed by financial administration.",
-      "Finvvritti's value proposition extends beyond compliance into strategic partnership through its Management Reporting services. This involves documenting, analyzing, and communicating a business's financial affairs on a monthly, quarterly, or yearly basis.",
-      "The goal is to provide business owners with visibility to overall performance, help them strategize operations, increase credibility with stakeholders, and disclose reliable financial information to investors, lenders, and government agencies.",
-      "Outsourcing accounting tasks to Finvvritti saves time and resources that would otherwise be spent on recruiting, training, upskilling, updating and managing an inhouse accounting team."
+      "Evolving business practices demand efficient accounting skills. Increased pressure for transparency, frequent tax amendments, compliance with local GAAP or IFRS, consolidations, mergers and acquisitions, and cybersecurity challenges have made accounting more complex than ever. Finvvritti, with 30+ years of combined experience, tailors solutions to your specific requirements, anticipating the needs of auditors, investors, and regulators before they arise.",
+      "Finvvritti provides a comprehensive suite of accounting and bookkeeping services designed to help businesses maintain accurate, compliant financial records. This includes meticulous recording of all financial transactions, journals, ledgers, and key statements such as the Profit & Loss Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
+      "Beyond compliance, Finvvritti delivers strategic value through Management Reporting, documenting, analysing, and communicating your business's financial affairs on a monthly, quarterly, or annual basis. Our KPI dashboards, variance analysis, and expert commentary give you the financial visibility needed for confident decision-making.",
+      "We leverage cloud-based accounting software to enhance accuracy, reduce manual error, and provide real-time access to your financials, while continuously upskilling our team to stay current with the latest regulations and industry standards."
+    ],
+    "benefits": [
+      {
+        "icon": "trending-up",
+        "title": "Tax Planning",
+        "desc": "Accurate books enable optimal tax planning, minimising liabilities and avoiding penalties."
+      },
+      {
+        "icon": "file-text",
+        "title": "Regulatory Compliance",
+        "desc": "Stay fully compliant with Income Tax, GST, Companies Act, and LLP Act requirements."
+      },
+      {
+        "icon": "users",
+        "title": "Stakeholder Confidence",
+        "desc": "Clean financials build trust with investors, lenders, and business partners."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Audit Readiness",
+        "desc": "Well-maintained records ensure a smooth, stress-free statutory audit every time."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Cost Savings",
+        "desc": "Outsourcing eliminates the overhead of recruiting, training, and retaining in-house accounts staff."
+      }
     ],
     "sections": [
-      "Accounting & Bookkeeping Services by Finvvritti",
-      "The Increasing Need for Professional Accounting",
-      "Legal and Compliance Mandates for Bookkeeping",
-      "Enhancing Strategic Insights with Management Reporting",
-      "Why Choose Finvvritti for Accounting & Bookkeeping?",
-      "We Club The Reports And Analytics:"
+      "Journals, Ledgers & Financial Statements",
+      "Income Tax Act Compliance",
+      "GST Act Compliance",
+      "Companies Act & LLP Act Compliance",
+      "Management Reporting & KPI Dashboards",
+      "Budgeting & Variance Analysis"
     ],
     "bullets": [
-      "Finvvritti highlights that modern accounting has become more complex due to various factors, including:",
-      "Evolving Business Practices: A greater demand for transparency and frequent tax amendments.",
-      "Regulatory Pressures: The need for strict compliance with local GAAP or IFRS standards.",
-      "Business Activities: The complexities involved in mergers, acquisitions, and ensuring cybersecurity.",
-      "Finvvritti emphasizes that maintaining books of accounts is not just a best practice but a legal requirement under multiple Indian laws:",
-      "Income Tax Act, 1961: Mandates bookkeeping for various professions (e.g., legal, medical, engineering, architecture) and all business entities.",
-      "CGST Act, 2017: Every registered person under GST must maintain all records at their principal place of business.",
-      "The Companies Act, 2013: Requires registered companies in India to maintain books of accounts.",
-      "The LLP Act, 2008: Makes it mandatory for registered LLPs to have Books of Accounts.",
-      "The required books include Journals, Ledgers, Trading Account, Profit & Loss Account, Balance Sheet, notes to accounts, and cash flow statements.",
-      "Key components of this service include:",
-      "Comprehensive Reports: Providing detailed income statements, balance sheets, cash flow statements, and performance dashboards of KPIs.",
-      "Budgeting & Variance Analysis: Helping clients with budgeting and variance reporting to track performance against goals.",
-      "Commentary: Including expert explanatory commentaries on financial data to provide context and actionable insights.",
-      "Finvvritti presents itself as a one-stop solution for all business compliance needs, distinguishing itself with:",
-      "Deep Expertise: A combined 30+ years of experience in accounting and other business support services.",
-      "Tailored & Agile Service: A dedicated team that ensures service is flexible, timely, and curated to each client's specific business operations.",
-      "Commitment to Quality: A mandate for continuous learning and upskilling at the firm to stay current with the latest regulations and technologies.",
-      "Continuous learning and upskilling is a mandate at Finvvritti.",
-      "We make sure recording of transactions and accounts comply with regulations and take care of applicable filings.",
-      "We rely on cloud-based accounting software to enhance performance and delivery while reducing human intervention and possible errors.",
-      "We stay up to date with the latest regulations and industry standards, ensure accurate and compliant financial reporting.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Income Tax Act, 1961: Mandatory bookkeeping for professionals (legal, medical, engineering) and all business entities.",
+      "CGST Act, 2017: Every GST-registered person must maintain all records at their principal place of business.",
+      "Companies Act, 2013: All registered companies must maintain prescribed books of accounts.",
+      "LLP Act, 2008: Mandatory books of accounts for all registered LLPs.",
+      "Books must be retained for a minimum of 8 years from the end of the relevant financial year.",
+      "Non-compliance under Companies Act 2013 attracts fines ranging from ₹50,000 to ₹5 lakh.",
+      "Records maintained: Journal, Ledgers, Trading Account, P&L Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
+      "Comprehensive Reports: Detailed income statements, balance sheets, cash flow statements, and KPI dashboards.",
+      "Budgeting & Variance Analysis: Track actual performance against targets and identify gaps early.",
+      "Expert Commentary: Contextual explanations on financial data to support management decisions.",
+      "Payroll & Labour Compliance: End-to-end payroll processing, PF, ESI, PT contributions, and salary structuring aligned with applicable labour laws.",
+      "International Taxation Support: Transfer pricing documentation, expatriate taxation, Tax Residency Certificates (TRC), and TDS on outward remittances for cross-border businesses."
+    ],
+    "faqs": [
+      {
+        "q": "Is maintaining books of accounts mandatory?",
+        "a": "Yes. Bookkeeping is mandatory under multiple Indian laws, the Income Tax Act 1961, the GST Act 2017, the LLP Act 2008, and the Companies Act 2013. Non-compliance attracts significant financial penalties and legal consequences."
+      },
+      {
+        "q": "For how long must financial records be retained?",
+        "a": "Financial records must be retained for a minimum of 8 years from the end of the relevant financial year, as prescribed under Indian accounting and tax laws."
+      },
+      {
+        "q": "What are the penalties for non-compliance?",
+        "a": "Under the Companies Act 2013, penalties range from a minimum of ₹50,000 to ₹5 lakh. Additional penalties apply under the Income Tax Act and GST Act, and repeated non-compliance can lead to prosecution."
+      },
+      {
+        "q": "What software does Finvvritti use for bookkeeping?",
+        "a": "Finvvritti primarily uses cloud-based accounting software such as Zoho Books, enabling real-time access to your financials, reduced manual errors, and seamless collaboration between your team and ours."
+      },
+      {
+        "q": "What is Management Reporting and why does it matter?",
+        "a": "Management Reporting involves preparing and analysing financial reports, including KPI dashboards, budget vs. actual variance analysis, and expert commentary, on a monthly, quarterly, or annual basis. It gives business owners and leadership teams the insights needed to make informed strategic decisions."
+      }
     ]
   },
   "company-secretary-services": {
     "title": "Company Secretary Services",
     "overview": [
-      "Keeping yourself updated with the Government's frequent list of compliances can become complicated and messy. Reach out to us for secretarial work to ensure that all your statutory obligations are duly met without any hassle.",
-      "Company Secretary services are an important aspect of a company’s growth and we understand if you have any questions about it. We've curated the below FAQs to address some of the common concerns. Please feel free to reach out to us with any specific questions.",
-      "We are a fast growing business that started with one person in late 2016. We never had a CFO but thought we were reaching the point we could use one in 2019-20, but weren't sure. Hence, we initiated Finvvritti as our Virtual CFO. Our finance team and I always appreciate on how onboarding Finvvritti had helped us with streamlining of 'T'. Finvvritti team is prompt in accounting and proactively guiding with best practices in finance and related issues.",
-      "\"We were very impressed with the professional work done by Finvvritti team and After about 9 months, they also bagged the contract for being our Due diligence partners for our successful maiden fund raise from A91 partners.\" Vikas Nahar, Happilo",
-      "\"For a small company looking to go big, one of the most important tools is the right financial advice, accompanied by robust support day to day accounting. For Your Design, in spite of having great market penetration, we always lacked a guiding hand where future projections were concerned.",
-      "A company secretary professional brings a wealth of knowledge and expertise in corporate law, governance, and compliance. This expertise is invaluable for businesses, individuals, and startups who may not have the in-house capabilities to manage these complex requirements.",
-      "Outsourcing company secretarial services can be a cost-effective solution for many companies. Company secretary fees are often more economical compared to the cost of hiring a full-time employee.",
-      "When looking for company secretary firms in Bangalore, it's important to choose a firm with local expertise. Firms that are familiar with regional regulations and business practices can provide more relevant and effective services.",
-      "The reputation and experience of the firm are critical factors to consider. Look for firms with a proven track record of providing high-quality services and positive client testimonials.",
-      "When considering the appointment of a company secretary, it is essential to understand the various fees associated with the process. These costs can vary based on several factors, including the size and complexity of the company, the specific services required, and the location of the firm.",
-      "Annual Filing Fees: Each year, companies must file annual returns and other statutory documents with the RoC. These filings come with associated fees, which can vary based on the company's share capital and other factors.",
-      "Company Secretary Charges: Ongoing services provided by the company secretary, such as preparing board meeting minutes, maintaining statutory registers, and ensuring compliance with regulatory changes, incur regular charges.",
-      "Advisory Services: Companies often seek strategic advice on governance, risk management, and regulatory compliance. These advisory services are billed based on the expertise required and the duration of the engagement.",
-      "Training and Development: For companies looking to train their in-house staff or new board members on compliance and governance, training programs are available. The costs for these programs vary based on their length and content.",
-      "Articleship for CS Students: Finvvritti and other CS firms in Bangalore offer articleship opportunities for CS students. These programs are designed to provide practical experience and are typically charged as per the duration and structure of the training.",
-      "Reputation and Experience: Look for firms with a proven track record and extensive experience in providing company secretary services. Finvvritti, for instance, has a stellar reputation for delivering high-quality services in Bangalore.",
-      "Range of Services: Ensure that the firm offers a comprehensive suite of services, including registration, compliance, advisory, and training. This ensures that all your needs are met under one roof.",
-      "Cost-Effectiveness: Compare the fees of different firms to ensure that you are getting value for your money. Firms like Finvvritti offer flexible packages tailored to meet the specific needs and budgets of their clients."
+      "We take care of your compliance so that you can focus on the real stuff, growing your business. Keeping pace with the government's ever-expanding list of statutory obligations can become complicated and time-consuming. Finvvritti's qualified CS professionals ensure all your secretarial and regulatory requirements are met accurately and on time.",
+      "A Company Secretary brings deep expertise in corporate law, governance, and compliance, managing everything from board meetings and statutory registers to ROC filings, FEMA compliances, and shareholder communications. This expertise is invaluable for businesses and startups that do not have in-house capabilities to manage these complex requirements.",
+      "Outsourcing company secretarial services is a cost-effective solution for most companies. Engaging Finvvritti is significantly more economical than hiring a full-time CS, while delivering superior expertise, responsiveness, and coverage across all applicable regulations.",
+      "When selecting a company secretary firm, local expertise, a proven track record, and strong client testimonials matter. Finvvritti has consistently delivered high-quality secretarial services, praised by clients for streamlining compliance, professional execution, and reliable financial guidance."
+    ],
+    "benefits": [
+      {
+        "icon": "badge-check",
+        "title": "Full Compliance",
+        "desc": "All statutory obligations met accurately and on time, zero missed deadlines."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Cost Effective",
+        "desc": "Far more economical than maintaining a full-time in-house company secretary."
+      },
+      {
+        "icon": "shield",
+        "title": "Legal Protection",
+        "desc": "Expert governance reduces risk of penalties, notices, and director liabilities."
+      },
+      {
+        "icon": "users",
+        "title": "Strategic Advice",
+        "desc": "Beyond paperwork, expert guidance on governance, restructuring, and risk."
+      },
+      {
+        "icon": "file-text",
+        "title": "ROC & FEMA Filings",
+        "desc": "All MCA, ROC, RBI, and FEMA filings handled by qualified professionals."
+      }
     ],
     "sections": [
-      "When it comes to Company Secretarial services",
-      "Our clients trust us to get their corporate compliance done and here's what they have to say.",
-      "The Importance of a Professional Company Secretary",
-      "Choosing the Right Company Secretary Firm",
-      "What are The Various Company Secretary Registration Fees That a Company Needs to Keep in Mind",
-      "Choosing the Right Firm"
+      "Incorporation & Company Formation",
+      "Maintenance of Statutory Registers",
+      "Board Minutes & General Meeting Documentation",
+      "ROC Compliances & Annual Filings",
+      "FEMA & RBI Compliances",
+      "Company Secretarial Audit"
     ],
     "bullets": [
-      "We can straighten the below things for your company.",
-      "Incorporation",
-      "Maintenance of Statutory registers",
-      "Mergers and Amalgamation Services",
-      "Drafting of board minutes & general meetings",
-      "ROC Compliances",
-      "Allotment and Issues of Share Certificates",
-      "Increase of Authorised Capital",
-      "Compliance related to investments",
-      "Company Secretarial Audit",
-      "FEMA & RBI Compliances",
-      "Closure of Company or Liquidation",
-      "Maintaining statutory register under Companies Act",
-      "Expertise and Knowledge",
-      "Cost-Effectiveness",
-      "Strategic Advice",
-      "Beyond administrative tasks, a company secretary can offer strategic advice on corporate governance, risk management, and compliance.",
-      "Local Expertise",
-      "Comprehensive Services",
-      "A good company secretary firm offers a range of corporate secretarial services, from compliance management to advisory services.",
-      "Reputation and Experience",
-      "The first step in appointing a company secretary is registration. This process involves several initial fees:",
-      "Company Secretary Registration Fees: This fee covers the cost of registering the company secretary with the relevant regulatory bodies.",
-      "Documentation and Filing Fees: Preparing and filing necessary documents with the Registrar of Companies (RoC) incurs additional charges.",
-      "Professional Fees: Engaging a certified company secretary or a reputable firm like Finvvritti involves professional fees.",
-      "After the initial registration, there are ongoing costs that companies must budget for to maintain compliance:",
-      "Audit and Compliance Review Fees: Periodic audits and compliance reviews are essential to ensure that the company adheres to all legal requirements.",
-      "Apart from the basic services, companies may require additional corporate secretarial services, which come with their own set of fees:",
-      "Selecting the right company secretary firm is crucial for ensuring compliance and effective governance. Here are a few factors to consider:",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Incorporation: Company formation, registration, and post-incorporation support.",
+      "Statutory Registers: Maintenance of all registers as required under the Companies Act 2013.",
+      "Mergers & Amalgamation: Expert CS support for corporate restructuring and M&A transactions.",
+      "Board Minutes & General Meeting Drafting: Accurate and legally compliant documentation.",
+      "ROC Compliances: Timely filing of all annual returns, financial statements, and event-based forms.",
+      "Share Certificate Allotment & Issuance: Managing the complete share issuance process.",
+      "Increase of Authorised Capital: Documentation, board/shareholder resolutions, and ROC filings.",
+      "Investment Compliance: Managing regulatory requirements for investments and fundraising.",
+      "Company Secretarial Audit: Independent review and certification of secretarial compliance.",
+      "FEMA & RBI Compliances: FCGPR, FCTRS, ODI, and all foreign exchange-related filings.",
+      "Company Closure or Liquidation: End-to-end support for voluntary strike-off and winding up."
+    ],
+    "faqs": [
+      {
+        "q": "Why does my company need a Company Secretary?",
+        "a": "A Company Secretary ensures your business remains compliant with the Companies Act, SEBI regulations, FEMA, and other applicable laws. They manage statutory filings, board documentation, shareholder communications, and governance, reducing your risk of penalties, director liabilities, and regulatory notices."
+      },
+      {
+        "q": "Is it mandatory to appoint a Company Secretary?",
+        "a": "Every listed company and every company with paid-up share capital of ₹10 crore or more is required to appoint a whole-time Company Secretary under the Companies Act 2013. Other companies can outsource these functions to a practising CS firm like Finvvritti."
+      },
+      {
+        "q": "What is the cost of company secretarial services?",
+        "a": "Costs vary based on company size, complexity, and the specific services required. Outsourcing to Finvvritti is significantly more cost-effective than hiring a full-time CS, with no additional overhead for training, benefits, or continuity during absences."
+      },
+      {
+        "q": "What is a Company Secretarial Audit?",
+        "a": "A Secretarial Audit is an independent examination of whether a company has complied with all applicable laws, rules, regulations, and procedures. It is mandatory for listed companies and certain other categories. Finvvritti's qualified CS professionals conduct thorough secretarial audits and issue compliance certificates."
+      }
     ]
   },
   "compliance-management-services": {
     "title": "Compliance Management Services",
     "overview": [
-      "Outsourcing this service enables you with complete management of various compliance requirements. Finvvritti guides you in all the statutory compliances that are enforced by Central and State authorities so that you are out of any non-compliance risk.",
-      "Compliance Management Services is a set of complex legal acquiescence required to be adhered to by organizations. The legal obligations differ with Central or State specific laws depending upon the industry, locations and jurisdictions and they are updated from time to time. Organizations irrespective of their size must adhere to statutory laws and regulations to keep the businesses out of any legal trouble and avoid penalties. Keeping track of changing government norms and regulations is not always easy and is a challenge for most companies. The experts at Finvvritti stay updated with recent legislation and provide end-to-end proficient service regarding registrations, renewals, filing, auditing, reporting, and collation of documents.",
-      "Why Compliance Matters The Most: Stakeholders are taking a substantially greater interest in making sure that the businesses they are affiliated with are compliant in a time of heightened responsibility. Investors, independent directors, and business partners have joined senior leadership in expecting a unified and uniform compliance management approach to assist enforce consistent regulatory compliance and controls processes."
+      "Outsourcing compliance management enables complete control over your statutory obligations. Finvvritti guides businesses through all compliances enforced by Central and State authorities, keeping you fully protected from non-compliance risk, penalties, and legal exposure.",
+      "Compliance Management is a set of complex legal requirements that every organisation must adhere to. Legal obligations vary across Central and State laws depending on industry, location, and jurisdiction, and they are updated frequently. Organisations of every size must stay compliant to avoid legal trouble, financial penalties, and reputational damage.",
+      "Keeping pace with changing government norms is a challenge for most companies. Finvvritti's experts stay ahead of recent legislation and provide end-to-end support across registrations, renewals, filings, audits, reporting, and document collation.",
+      "Today's stakeholders, investors, independent directors, and business partners, expect a unified and consistent compliance approach. Finvvritti delivers exactly that, ensuring your compliance posture remains strong across all regulatory fronts."
+    ],
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Stay Compliant",
+        "desc": "Stay updated with the ever-changing business and regulatory environment."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Avoid Penalties",
+        "desc": "Operate legally and avoid costly legal issues, fines, and penalties."
+      },
+      {
+        "icon": "users",
+        "title": "Build Trust",
+        "desc": "Build credibility and trust among investors, partners, and stakeholders."
+      },
+      {
+        "icon": "file-text",
+        "title": "Timely Filings",
+        "desc": "All registrations, renewals, and filings handled on time, no missed deadlines."
+      },
+      {
+        "icon": "trending-up",
+        "title": "End-to-End Support",
+        "desc": "From compliance assessment to checklists to project management, fully managed."
+      }
     ],
     "sections": [
-      "About Compliance Management Service",
-      "Why Use Compliance Service:",
-      "How can Finvvritti help you with Compliance Services?",
-      "Types of Compliances That We Help With",
-      "Our Compliances Support Ranges Across"
+      "Tax Deducted At Source (TDS)",
+      "Goods and Service Tax (GST)",
+      "Softex Filing Compliance",
+      "Export Oriented Units (EOU)",
+      "Special Economic Zones (SEZ)",
+      "Regulatory Compliance Assessment"
     ],
     "bullets": [
-      "Stay Compliant and updated with ever-changing business environment",
-      "To operate legally and avoid legal issues including penalties",
-      "Build trust and credibility among stakeholders",
-      "This section leads into the details about the types of compliances and support ranges listed below.",
-      "Tax Deducted At Source",
-      "Goods And Service Tax",
-      "Softex Filing Compliance",
-      "Export Oriented Units",
-      "Special Economic Zones",
-      "Periodic Regulatory Updates",
-      "Regulatory Compliance Assessment",
-      "Creation of Compliance Checklists",
-      "Project Management Support",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Periodic Regulatory Updates: Keeping your business informed of all relevant legislative changes.",
+      "Regulatory Compliance Assessment: Comprehensive review of your current compliance status and gaps.",
+      "Creation of Compliance Checklists: Structured checklists for all ongoing and periodic compliances.",
+      "Project Management Support: End-to-end management of compliance projects and critical deadlines.",
+      "TDS: Accurate deduction, timely deposit, and quarterly return filing.",
+      "GST: Complete GST compliance, registration, monthly/quarterly return filing, and reconciliation.",
+      "Softex Filing: Mandatory compliance for software export companies under STPI/RBI guidelines.",
+      "EOU Compliance: Regulatory and customs compliance for Export Oriented Units.",
+      "SEZ Compliance: Specific statutory requirements for businesses operating in Special Economic Zones.",
+      "Updates on Compliance: Proactive alerts on new regulations affecting your business.",
+      "Timely Process: All filings and submissions completed well within statutory deadlines.",
+      "Penalty Prevention: Structured systems to identify and mitigate compliance gaps before they attract notices."
+    ],
+    "faqs": [
+      {
+        "q": "Why should I outsource compliance management?",
+        "a": "Keeping up with constantly changing Central and State regulations is a full-time job. Outsourcing to Finvvritti ensures your business stays compliant at all times, avoids penalties, and frees your internal team to focus on core business activities."
+      },
+      {
+        "q": "What types of compliances does Finvvritti handle?",
+        "a": "Finvvritti handles TDS, GST, Softex Filing, Export Oriented Unit (EOU) compliance, Special Economic Zone (SEZ) compliance, regulatory assessments, and ongoing compliance calendar management across Central and State regulations."
+      },
+      {
+        "q": "What happens if my business is non-compliant?",
+        "a": "Non-compliance can result in financial penalties, legal proceedings, business disruptions, and loss of stakeholder trust. The consequences vary by law but can range from monetary fines to criminal prosecution for directors and key managerial personnel."
+      },
+      {
+        "q": "How does Finvvritti keep track of regulatory changes?",
+        "a": "Finvvritti's compliance experts continuously monitor regulatory updates from the Ministry of Corporate Affairs, CBDT, CBIC, RBI, and State authorities, proactively alerting clients and updating their compliance calendars accordingly."
+      }
     ]
   },
   "entry-india-strategies": {
     "title": "Entry India Strategies",
     "overview": [
-      "Being the most populated country in the world with a 1.42 billion population, India has a massive and growing consumer market, offering significant opportunities for businesses to tap into diverse consumer preferences and needs. India has consistently maintained a steady rate of economic growth over the years making it an attractive market for investment and business expansion. India has a large pool of skilled professionals in various fields, including engineering, medicine, finance, and management, making it an attractive location for knowledge-based industries.",
-      "There are various ways in which you can start business in India. Usually preferred methods are Private Limited Company (PLC) or Limited Liability Partnership (LLP). A Private Limited Company needs to be registered under the provisions of the Companies Act, 2013. The PLC has advantage in tapping into funding and allocability of shares to the investors, however, it has elaborate legal & regulatory compliance requirements.",
-      "A Limited Liability partnership (LLP) offers limited liability for partners while allowing flexibility in management. It is suitable for service based businesses. Its registration cost is lesser compared to the PLC. LLPs enjoy many more tax benefits. Thus, starting a LLP is more profitable than the PLC.",
-      "If companies/LLPSs are present in GIFT CITY, they enjoy various benefits like, Duty free import, exemption from GST, enjoy single window clearance for central and state level approvals and exemption from Corporate Tax.",
-      "If the company is registered under startup India Initiative, it can avail tax holiday for 3 consecutive financial years out of its first ten years since incorporation under Section 80 IAC of Income tax Act.",
-      "We extend a warm and enthusiastic welcome to you as you embark on this exciting journey with Finvvritti. We believe that your decision to partner with us is the beginning of a remarkable collaboration and a pathway to mutual growth and success. We have 30+ years of combined experience in the field of startup consultations.",
-      "The Indian Government has been massively investing in infrastructure, transportation & logistics to improve ease of doing business, attract foreign investment, and stimulate economic growth.",
-      "Bangalore is a leader in software development, business process outsourcing (BPO), and IT-enabled services, home to numerous IT companies, including multinational corporations, startups, and R&D centres."
+      "With a population of 1.42 billion, India offers one of the world's largest and fastest-growing consumer markets. Consistent economic growth, a skilled workforce, strong government infrastructure investment, and an established banking sector make India an exceptionally attractive destination for foreign investment and business expansion.",
+      "Two routes are most commonly preferred for setting up a business in India: Private Limited Company (PLC) and Limited Liability Partnership (LLP). A PLC is registered under the Companies Act, 2013 and is well-suited for businesses seeking external funding and share-based investment, though it carries more elaborate compliance requirements.",
+      "An LLP offers limited liability for all partners while allowing direct management flexibility. It is particularly suitable for service-based businesses, with lower registration costs and greater tax advantages than a PLC. After paying corporate tax at 30%, profits can be freely withdrawn by partners without any additional tax liability.",
+      "Finvvritti brings 30+ years of combined experience in startup consultations and India market entry advisory. We guide international businesses and entrepreneurs through every step, from choosing the right structure and completing incorporation to navigating post-setup compliance and ongoing regulatory requirements."
+    ],
+    "benefits": [
+      {
+        "icon": "globe",
+        "title": "Massive Market",
+        "desc": "1.42 billion consumers with diverse preferences across urban and rural segments."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Steady Growth",
+        "desc": "One of the world's fastest-growing major economies with consistent GDP expansion."
+      },
+      {
+        "icon": "users",
+        "title": "Skilled Workforce",
+        "desc": "Large pool of qualified professionals in tech, finance, medicine, and engineering."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Tax Incentives",
+        "desc": "GIFT CITY, Startup India, and manufacturing incentives reduce effective tax burden."
+      },
+      {
+        "icon": "shield",
+        "title": "Strong Infrastructure",
+        "desc": "Modern business parks, co-working spaces, and excellent international connectivity."
+      }
     ],
     "sections": [
-      "Routes to start business in India",
-      "Taxes - The inevitable part of life",
-      "How Finvvritti can help you in the process of incorporation and Post Incorporation",
-      "Why India – and Especially Bangalore  is a Prime Destination for Business"
+      "Private Limited Company (PLC) Setup",
+      "Limited Liability Partnership (LLP) Setup",
+      "Corporate Tax Structure",
+      "GIFT CITY Benefits",
+      "Startup India Tax Holiday",
+      "Why Bangalore for Business"
     ],
     "bullets": [
-      "The Business Income attributable to India shall be taxed in India.",
-      "The Companies are taxable at 25% on the profit earned by them.",
-      "The Companies which are into Manufacturing activity will be eligible to 15% Corporate Tax.",
-      "LLP’s are need to pay Corporate Tax at 30% on the Profit earned by them.",
-      "Profit available after paying taxes can be freely withdrawn by its partners without paying any taxes.",
-      "India has a well-established banking and financial sector offering safe and secure financial services to help businesses grow.",
-      "Bangalore, being the Silicon Valley of India, is a global hub for IT & software services, offering a highly skilled and cost-effective workforce.",
-      "The city has a vibrant startup ecosystem supported by various incubators, accelerators, and funding opportunities, creating a culture of innovation and entrepreneurship.",
-      "Bangalore offers modern business infrastructure, including office spaces, co-working facilities, and technology parks, catering to the needs of diverse industries.",
-      "Bangalore has excellent international and domestic connectivity through its well-connected airport and railway network, making it convenient for business travel and trade.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Business income attributable to India is taxed in India.",
+      "Companies: taxable at 25% corporate tax on profits.",
+      "Manufacturing companies: eligible for reduced 15% corporate tax rate.",
+      "LLPs: taxable at 30% corporate tax; profits thereafter freely withdrawn by partners with no further tax.",
+      "GIFT CITY: duty-free imports, GST exemption, single-window clearance, and corporate tax exemption.",
+      "Startup India Tax Holiday: 3 consecutive years of income tax exemption within the first 10 years under Section 80 IAC.",
+      "Bangalore, Silicon Valley of India, leads in software development, BPO, and IT-enabled services.",
+      "Vibrant startup ecosystem with incubators, accelerators, and strong VC/angel funding networks.",
+      "Modern business infrastructure: tech parks, co-working spaces, and world-class connectivity.",
+      "Excellent international access via a well-connected international airport and rail network.",
+      "No travel required for company registration or bank account opening, Finvvritti manages it all remotely."
+    ],
+    "faqs": [
+      {
+        "q": "What are my options for starting a business in India?",
+        "a": "The two most common structures are a Private Limited Company (PLC) and a Limited Liability Partnership (LLP). A PLC is ideal for businesses seeking investment and scale, while an LLP is suited for service-based businesses wanting lower costs and management flexibility."
+      },
+      {
+        "q": "Are there geographic restrictions on where I can set up?",
+        "a": "No. You can incorporate anywhere in India. However, locations like Bangalore, Hyderabad, and Pune offer additional incentives including technology parks, talent pools, and startup ecosystem support."
+      },
+      {
+        "q": "Do I need to travel to India for incorporation or bank account opening?",
+        "a": "No. Finvvritti manages the entire process remotely. Directors and partners can complete all KYC and documentation requirements without visiting India."
+      },
+      {
+        "q": "What are the key tax benefits for startups in India?",
+        "a": "DPIIT-recognised startups can avail a 3-year consecutive income tax holiday under Section 80 IAC within their first 10 years. GIFT CITY entities enjoy GST exemption, duty-free imports, and corporate tax exemption. Manufacturing companies benefit from a 15% corporate tax rate."
+      }
     ]
   },
   "regulatory-registration": {
     "title": "Regulatory Registration",
     "overview": [
-      "Regulatory registration needs a comprehensive strategy that considers all regulatory requirements. The regulatory registration process often demands significant financial resources and manpower. Effective communication with regulatory authorities is essential throughout the registration process. Regulatory authorities often have strict and detailed requirements for the information and documentation that need to be submitted as part of the registration process. This can include technical data, safety and efficacy information, labelling details, manufacturing practices, and more. Sometimes, regulatory guidelines might lack clarity or consistency, leading to interpretation issues. This can cause delays as applicants and regulatory authorities try to align their understanding.",
-      "Regulatory registrations refer to the formal processes through which businesses and individuals comply with legal and regulatory requirements imposed by governmental authorities or agencies. These registrations are necessary to ensure that businesses operate within the bounds of the law and adhere to specific industry standards. Regulatory registrations vary widely depending on the industry, jurisdiction and the nature of the business activities.",
-      "Here are some common examples of regulatory registrations. Business Entity Registration, Trade and Business Licences, Health & Safety Registrations, Environmental Registrations, Intellectual Property Registrations, Financial Services Registrations, Employment Registrations, Tax Registration, Data Protection Registrations, Import & Export Registrations, Non profit & Charity Registrations & so on. It is essential to identify the registrations relevant to your business and complete them in a timely and accurate manner. Consulting experts like BCL India can be valuable in ensuring your compliance with these regulations.",
-      "BCL India has 30+ years of combined experience. We provide businesses with the expertise, guidance, and support needed to navigate complex regulatory landscapes. By partnering with BCL India, businesses can ensure compliance, avoid legal issues, and operate successfully within their chosen industries."
+      "Regulatory registration requires a comprehensive strategy that accounts for all applicable legal requirements. The process can demand significant financial resources, detailed documentation, and effective communication with governmental authorities, making professional guidance essential.",
+      "Regulatory registrations are the formal processes through which businesses comply with legal requirements imposed by government authorities or agencies. They ensure that businesses operate within the bounds of the law and adhere to specific industry standards, from tax and employment to environmental and intellectual property requirements.",
+      "Every industry has its own set of mandatory registrations. Finance businesses require RBI licensing, manufacturers need environmental and health clearances, exporters require IEC registration, and all businesses need GST and tax registrations. Regulations also change frequently, adding complexity to the process.",
+      "Finvvritti has 30+ years of combined experience navigating complex regulatory landscapes across industries. We provide the expertise, guidance, and end-to-end support needed to complete registrations accurately and on time, so your business stays compliant and penalty-free."
+    ],
+    "benefits": [
+      {
+        "icon": "badge-check",
+        "title": "Full Legal Compliance",
+        "desc": "All mandatory registrations completed accurately, no missed filings, no penalties."
+      },
+      {
+        "icon": "shield",
+        "title": "Risk Mitigation",
+        "desc": "Stay protected from regulatory sanctions, business disruption, and reputational damage."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Faster Market Entry",
+        "desc": "Streamlined registration process gets your business operational faster with no delays."
+      },
+      {
+        "icon": "globe",
+        "title": "Multi-Jurisdiction Expertise",
+        "desc": "Navigating registrations across industries, finance, manufacturing, exports, and more."
+      },
+      {
+        "icon": "file-text",
+        "title": "End-to-End Support",
+        "desc": "From documentation and filing to government communication and renewal management."
+      }
     ],
     "sections": [
-      "About Services",
-      "How Finvvritti can help you with Regulatory Registrations",
-      "How Finvvritti can help you in the process of incorporation and Post Incorporation",
-      "Why Partnering with Finvvritti Makes Sense"
+      "Business Entity Registration",
+      "Trade and Business Licences",
+      "Tax Registration (GST, TDS, PAN, TAN)",
+      "Import & Export Registration (IEC)",
+      "Intellectual Property Registration",
+      "Health, Safety & Environmental Registration"
     ],
     "bullets": [
-      "Changes in regulations and guidelines can occur frequently, further adding to the complexity.",
-      "Partnering with Finvvritti for consultation can be beneficial.",
-      "Finvvritti has a track record of successful registrations.",
-      "Finvvritti’s knowledge and experience can significantly simplify the process.",
-      "Partnering with Finvvritti ensures your business is compliant with all necessary regulations.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Business Entity Registration: Formal legal registration of your business structure with relevant authorities.",
+      "Trade and Business Licences: Sector and jurisdiction-specific operational licences for legal operation.",
+      "Health & Safety Registrations: Compliance with occupational health and safety regulations and inspections.",
+      "Environmental Registrations: Adherence to environmental laws, consent orders, and pollution control permits.",
+      "Tax Registration: GST, Income Tax PAN/TAN, TDS registrations with CBDT and CBIC.",
+      "Import & Export Registrations: IEC (Importer Exporter Code) and other trade compliance registrations.",
+      "Intellectual Property Registrations: Trademark, copyright, and patent filing and prosecution support.",
+      "Financial Services Registrations: RBI, SEBI, and IRDAI licensing for finance and fintech businesses.",
+      "Employment Registrations: PF, ESI, PT, Shops & Establishments registrations.",
+      "Data Protection Registrations: Compliance with applicable data privacy laws.",
+      "Non-profit & Charity Registrations: Section 8 company, trust, and society registrations."
+    ],
+    "faqs": [
+      {
+        "q": "Which industries require regulatory registrations?",
+        "a": "Every industry requires registrations based on its activities. For example, finance and lending businesses need RBI licensing, food businesses need FSSAI registration, exporters need IEC, and all businesses need GST and income tax registrations. Finvvritti assesses your specific industry requirements and handles all applicable registrations."
+      },
+      {
+        "q": "What are the consequences of non-compliance with regulatory requirements?",
+        "a": "Non-compliance can lead to financial penalties, legal action, product recalls, suspension of operations, reputational damage, and in serious cases, business closure. The specific consequences depend on the regulation violated and the authority involved."
+      },
+      {
+        "q": "Can a business register in multiple regions or states?",
+        "a": "Yes. Each state or region may have its own regulatory requirements and registration processes. Finvvritti manages multi-state and multi-jurisdiction registrations, ensuring compliance across all locations where your business operates."
+      },
+      {
+        "q": "Why should I register my business with a professional firm?",
+        "a": "Regulatory requirements are complex, frequently changing, and vary by industry and location. Finvvritti's 30+ years of experience ensures your registrations are accurate, timely, and complete, avoiding costly errors, rejections, and penalties that often arise from DIY attempts."
+      }
     ]
   },
   "trademark-registration": {
     "title": "Trademark Registration",
     "overview": [
-      "Simply put, a trademark is a symbol that represents your business. A visual symbol such as a verbal signature, name, device, label, number, or color combination used by a trademark owner for goods or services or other commercial products to distinguish them from other similar products or services of different companies. A trademark can be any word, symbol, brand name, packaging, tagline, or combination thereof, and is used by manufacturers or service providers to identify their own products and/or services. It is used to distinguish the owner's products or services from those of competitors. Anyone who is an individual, business, or legal entity claiming to be the owner of the trademark can apply. Trademark applications can be filed online and upon making a payment towards application, an acknowledgment number will be issued, after that one can start using the \"TM\" symbol. After receiving the application, the Registry will review the application and issue an examination report. In the examination report, if there are any observations, the applicant needs to give a suitable reply with supporting documents within 30 days from the date of receipt of the examination report. If the Registry is satisfied with the reply, the application will be published in Trademark Journal for the public to share comments if any. If no objections are received from the public, Trademark will be registered. Once registered, the applicant can use ® (registered symbol) next to your trademark. Once registered, the trademark is valid for 10 years from the filing date, renewable from time to time. Conducting a comprehensive Trademark Registration in Bangalore is crucial for businesses to ensure uniqueness and prevent potential conflicts with existing trademarks."
+      "Simply put, a trademark is a symbol that represents your business. A visual symbol such as a verbal signature, name, device, label, number, or color combination used by a trademark owner for goods or services or other commercial products to distinguish them from other similar products or services of different companies.",
+      "A trademark can be any word, symbol, brand name, packaging, tagline, or combination thereof, and is used by manufacturers or service providers to identify their own products and/or services. It is used to distinguish the owner's products or services from those of competitors.",
+      "Anyone who is an individual, business, or legal entity claiming to be the owner of the trademark can apply. Trademark applications can be filed online and upon making a payment towards application, an acknowledgment number will be issued, after that one can start using the 'TM' symbol.",
+      "Once registered, the trademark is valid for 10 years from the filing date, renewable from time to time. Conducting a comprehensive Trademark Registration is crucial for businesses to ensure uniqueness and prevent potential conflicts with existing trademarks."
+    ],
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Legal Protection",
+        "desc": "Exclusive right to use your brand name, logo, or tagline and prevent unauthorised use."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Brand Identity",
+        "desc": "A registered trademark differentiates your products and builds lasting market recognition."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Business Asset",
+        "desc": "Trademarks are valuable intellectual property that can be licensed, sold, or franchised."
+      },
+      {
+        "icon": "globe",
+        "title": "Use ® Symbol",
+        "desc": "Registration grants the right to use the ® symbol, signalling legal protection to competitors."
+      },
+      {
+        "icon": "infinity",
+        "title": "10-Year Validity",
+        "desc": "Trademark protection lasts 10 years from filing date and is renewable indefinitely."
+      }
     ],
     "sections": [
-      "Steps for trademark registration",
-      "Who is eligible for trademark registration?",
-      "Different Types of Trademarks"
+      "Trademark Search & Clearance",
+      "Application Filing & Documentation",
+      "Examination & Objection Response",
+      "Publication & Opposition Period",
+      "Registration & Certificate Issuance",
+      "Renewal & Ongoing Management"
     ],
     "bullets": [
-      "Trademark SearchCheck if your trademark (name/logo/tagline) is unique and not already registered.",
-      "Application FilingFile the application online and pay the fee. You receive an acknowledgment number and can start using the ™ symbol.",
-      "Examination by RegistryThe Trademark Registry reviews your application and issues an examination report.",
-      "Reply to Objections (if any)If there are objections, respond within 30 days with proper clarification and documents.",
-      "Publication in JournalIf accepted, the trademark is published for public review and opposition.",
-      "Registration & ValidityIf no opposition arises, the trademark is registered. You can use ®, and it remains valid for 10 years (renewable).",
-      "Individuals",
-      "Joint Owners",
-      "Proprietorship Firm",
-      "Partnership Firm",
-      "Limited Liability",
-      "Partnership",
-      "Indian Company",
-      "Foreign Company",
-      "Trust or Society",
-      "A name (including personal or surname of the applicant or predecessor in business or the signature of the person).",
-      "A coined word or an invented word or any arbitrary dictionary word or words, not being directly descriptive of the character or quality of the goods/service.",
-      "Alphanumeric or letters or numerals or any combination thereof.",
-      "Image, symbol, monograms, 3-dimensional shapes, letters, etc.Sound marks in audio format.",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Trademark Search: Check if your trademark (name/logo/tagline) is unique and not already registered.",
+      "Application Filing: File the application online and pay the fee. You receive an acknowledgment number and can start using the ™ symbol.",
+      "Examination by Registry: The Trademark Registry reviews your application and issues an examination report.",
+      "Reply to Objections (if any): If there are objections, respond within 30 days with proper clarification and documents.",
+      "Publication in Journal: If accepted, the trademark is published for public review and opposition.",
+      "Registration & Validity: If no opposition arises, the trademark is registered. You can use ®, valid for 10 years (renewable).",
+      "Eligible Applicants: Individuals, Joint Owners, Proprietorship Firm, Partnership Firm, Limited Liability Partnership, Indian Company, Foreign Company, Trust or Society.",
+      "Word Marks: A name including personal or surname of the applicant or predecessor in business.",
+      "Coined or Invented Words: Arbitrary dictionary words not directly descriptive of the goods/service.",
+      "Alphanumeric Marks: Letters, numerals, or any combination thereof.",
+      "Device and Image Marks: Images, symbols, monograms, 3-dimensional shapes.",
+      "Sound Marks: Distinct sounds in audio format."
+    ],
+    "faqs": [
+      {
+        "q": "Who can apply for a trademark in India?",
+        "a": "Any individual, joint owner, proprietorship firm, partnership firm, LLP, Indian company, foreign company, trust, or society claiming ownership of a trademark can apply. The applicant must be using or intending to use the trademark for goods or services."
+      },
+      {
+        "q": "How long does trademark registration take?",
+        "a": "From filing to final registration, the process typically takes 18 to 24 months in India, assuming no objections or oppositions. However, once the application is filed and acknowledged, you can start using the ™ symbol immediately. The ® symbol can only be used after full registration."
+      },
+      {
+        "q": "What is the validity of a registered trademark?",
+        "a": "A registered trademark is valid for 10 years from the date of filing. It can be renewed indefinitely for successive periods of 10 years by paying the renewal fee. Failure to renew results in the trademark being removed from the register."
+      },
+      {
+        "q": "Can a trademark be rejected?",
+        "a": "Yes. The Trademark Registry may raise objections if the mark is descriptive, deceptive, similar to an existing mark, or contrary to public morality. Finvvritti prepares and files a strong response to examination reports and objections to maximise the chances of successful registration."
+      }
     ]
   },
   "startup-registration": {
     "title": "Startup Registration",
     "overview": [
-      "Registering a startup in India offers several advantages that provide legal, financial, and operational benefits to entrepreneurs. Registered startups are eligible to raise funds from various sources as they have a clear legal structure and compliance status. Government initiatives like the Startup India Seed Fund Scheme, which provides financial assistance to startups, are accessible only to registered startups. Tax Benefits and Incentives are accessible only to registered startups. It can also access government schemes like Make in India, Digital India, facilitating business growth and expansion. Registered startups are eligible to join government-approved incubators and accelerators, gaining access to resources, mentoring, networking, and infrastructure support to accelerate growth. To encourage startups and create a supportive environment for new ideas and businesses across the country, the Indian government has come up with the Startup India Initiative. The initiative was launched on January 16, 2016, by the Prime Minister of India, Shri. Narendra Modi. The management of these initiatives falls under the responsibility of a specialised team within Startup India, reporting to the Department for Industrial Policy and Promotion (DPIIT).",
-      "For labour laws, startups will be exempt from routine inspections for a duration of 5 years. Inspections will only be initiated if there is a credible, written complaint of violation, duly approved by a superior officer one level higher than the inspecting officer",
-      "For environmental laws, startups categorised as ‘white category’ by the Central Pollution Control Board (CPCB) can self-verify compliance. Occasional random checks will be conducted for such startups",
-      "Post getting recognition a Startup may apply for Tax exemption under section 80 IAC of the Income Tax Act. Post getting clearance for Tax exemption, the Startup can avail tax holiday for 3 consecutive financial years out of its first ten years since incorporation.",
-      "Innovative & Scalable: The entity should be focused on enhancing or innovating a product, process, or service, and/or possess a scalable business model with significant potential for wealth creation and employment generation",
-      "Investments made by listed companies with a net worth exceeding INR 100 Crore or turnover surpassing INR 250 Crore into qualifying startups shall enjoy exemption under Section 56 (2) VIIB of the Income Tax Act",
-      "Investments in qualifying startups by Accredited Investors, Non-Residents, Category I AIFs, and listed companies with a net worth exceeding 100 crores or turnover surpassing INR 250 Crore, will be eligible for exemption under Section 56(2)(VIIB) of the Income Tax Act",
-      "Thus registering startups has a lot of benefits. However, it involves specific procedures and legal steps that are mandated by the Ministry of Corporate Affairs (MCA) and other relevant authorities. The process can be a bit bureaucratic. Dealing with government bureaucracy and the Registrar of Companies (RoC) can be challenging. India has a complex regulatory environment with multiple laws and regulations at the national, state, and local levels. Navigating through these regulations and ensuring compliance can be challenging, especially for first-time entrepreneurs. Lengthy and time consuming registration process, finding a desired and unique name, inconsistent interpretation of laws, overwhelming compliance and documentation requirements, Intellectual property challenges all these make new entrepreneurs’ tasks more complex.",
-      "However, the advantages outrun the challenges. With numerous advantages and challenges relating to startup registration, is there a way out for new entrepreneurs? The answer is YES.  Consulting an expert like BCL India makes new entrepreneurs’ jobs easy. BCL India is well-versed with the regulatory landscape and can guide startups through the intricate procedures, ensuring compliance with laws and regulations.  We can also help startups evaluate and select the most suitable legal structure based on the nature of their business, risk tolerance, growth plans, and tax implications. We can expedite the registration process by preparing the necessary documents, ensuring accuracy and completeness, and submitting applications on behalf of the startup. We have extensive networks and connections within the industry. We  can connect startups with relevant professionals, potential investors, or other startups, facilitating growth opportunities and partnerships. We optimise the process, minimise errors, and expedite the registration, saving valuable time and resources for the startup. Above all, by leveraging our expertise, startups can navigate the complexities of the registration process with ease, ensuring compliance, efficiency, and a strong foundation for their business.",
-      "Engaging with BCL India who have experience in the startup ecosystem and knowledge of the Startup India program can significantly streamline your registration process, enhance compliance, and maximise the benefits that startups can derive from this initiative. It’s important to select a consultant who understands the specific needs and goals of the startup and can provide tailored guidance accordingly."
+      "Registering a startup in India unlocks significant legal, financial, and operational benefits. Registered startups can raise funds from a variety of sources, access government schemes such as the Startup India Seed Fund, participate in incubator and accelerator programmes, and qualify for tax incentives available only to recognised entities.",
+      "The Indian government launched the Startup India Initiative on January 16, 2016, under the Department for Industrial Policy and Promotion (DPIIT). As of date, over 1,14,458 startups have received DPIIT recognition, supported by a government Fund of Funds worth ₹10,000 crore channelling capital through SIDBI to early-stage businesses.",
+      "DPIIT-recognised startups can apply for a 3-year consecutive income tax holiday under Section 80 IAC within their first 10 years of incorporation. Additionally, qualifying startups benefit from exemptions under Section 56(2)(VIIB) and the ability to self-certify compliance with six Labour Laws and three Environmental Laws.",
+      "Finvvritti guides startups through the entire registration process, from DPIIT recognition and legal structure selection to document preparation, ROC submissions, and ongoing compliance. Our expertise helps founders avoid the common pitfalls of bureaucratic complexity and regulatory ambiguity."
+    ],
+    "benefits": [
+      {
+        "icon": "piggy-bank",
+        "title": "Tax Holiday",
+        "desc": "3-year income tax exemption under Section 80 IAC within first 10 years."
+      },
+      {
+        "icon": "shield",
+        "title": "Legal Protection",
+        "desc": "Clear legal structure protects founders and unlocks access to formal funding."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Government Funding",
+        "desc": "Access Startup India Seed Fund, Make in India, and Digital India schemes."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Self-Certification",
+        "desc": "Self-certify compliance with 6 Labour Laws and 3 Environmental Laws."
+      },
+      {
+        "icon": "users",
+        "title": "Investor Ready",
+        "desc": "Meet investor eligibility criteria and attract VC, angel, and PE funding."
+      }
     ],
     "sections": [
-      "Startups recognized by DPIIT are eligible for a range of benefits through the Startup India Initiative:",
-      "Three Environmental Laws:",
-      "Tax Exemption under Section 80IAC",
-      "To qualify for recognition as a DPIIT startup, the company must fulfil the following criteria:",
-      "Exemption under Section 56(2)(VIIB) of Income Tax Act :"
+      "DPIIT Recognition Eligibility",
+      "Labour Law Self-Certification",
+      "Environmental Law Benefits",
+      "Tax Exemption, Section 80IAC",
+      "Section 56(2)(VIIB) Exemption",
+      "Funding Stages & Sources"
     ],
     "bullets": [
-      "Startups have the opportunity to undergo a streamlined online process for self-certifying compliance with six Labor Laws and three Environmental Laws",
-      "Six Labour Laws:",
-      "The Building and Other Constructions Workers’ (Regulation of Employment & Conditions of Service) Act, 1996",
-      "The Inter-State Migrant Workmen (Regulation of Employment & Conditions of Service) Act, 1979",
-      "The Payment of Gratuity Act, 1972",
-      "The Contract Labour (Regulation & Abolition) Act, 1970",
-      "The Employees Provident Funds and Miscellaneous Provisions Act, 1952",
-      "The Employees State Insurance Act, 1948",
-      "The Water (Prevention & Control of Pollution) Act, 1974",
-      "The Water (Prevention & Control of Pollution) Cess (Amendment) Act, 2003",
-      "The Air (Prevention & Control of Pollution) Act, 1981",
-      "The entity should be a recognized Startup",
-      "Only Private limited or a Limited Liability Partnership is eligible for Tax exemption under Section 80IAC",
-      "The Startup should have been incorporated after 1st April, 2016",
-      "Company Age: The duration of existence and operations of the company should not exceed 10 years from the Date of Incorporation",
-      "Company Type: Established as a Private Limited Company, a Registered Partnership Firm, or a Limited Liability Partnership (LLP)",
-      "Annual Turnover: Annual turnover should remain below Rs. 100 crore for any financial year since its incorporation",
-      "Original Entity: The entity should be an original establishment and not a result of splitting up or reconstructing an existing business",
-      "The valuation of shares acquired by qualifying startups will be exempted up to a total cap of INR 25 Crore",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Entity type: Private Limited Company or Registered LLP only.",
+      "Company age: must not exceed 10 years from date of incorporation.",
+      "Annual turnover: must remain below ₹100 crore in any financial year since inception.",
+      "Must not be formed by splitting or reconstructing an existing business.",
+      "Must offer an innovative, scalable product, process, or service.",
+      "Self-certify compliance with 6 Labour Laws (Building Workers Act, Inter-State Migrant Workmen Act, Payment of Gratuity Act, Contract Labour Act, Employees PF Act, Employees State Insurance Act).",
+      "Self-certify compliance with 3 Environmental Laws (Water Pollution Act, Water Pollution Cess Act, Air Pollution Act).",
+      "Section 80IAC: incorporated after 1st April 2016; 3-year tax holiday within first 10 years.",
+      "Section 56(2)(VIIB): share valuation exemption up to ₹25 crore cap.",
+      "Listed companies with net worth > ₹100 crore or turnover > ₹250 crore investing in startups get Section 56(2)(VIIB) exemption.",
+      "Funding stages: Pre-Seed (self/family/grants), Seed (incubators/angels/crowdfunding), Early Traction (VC/banks), Scaling (PE/VC)."
+    ],
+    "faqs": [
+      {
+        "q": "What are the eligibility criteria for DPIIT recognition?",
+        "a": "The startup must be a Private Limited Company or LLP, not more than 10 years old, with annual turnover below ₹100 crore. It must not be formed from splitting an existing business, and must offer an innovative, scalable product or service."
+      },
+      {
+        "q": "What tax benefits do DPIIT-recognised startups get?",
+        "a": "Recognised startups can claim a 3-year consecutive income tax holiday under Section 80 IAC within their first 10 years. They also benefit from exemptions under Section 56(2)(VIIB) on share valuation up to ₹25 crore."
+      },
+      {
+        "q": "How many startups are currently DPIIT-recognised?",
+        "a": "Over 1,14,458 startups have received DPIIT recognition to date. The government has committed ₹10,000 crore through a Fund of Funds managed by SIDBI, with ₹8,294.95 crore committed to 103 AIFs and ₹3,654.89 crore disbursed to 74 AIFs."
+      },
+      {
+        "q": "What compliance benefits do recognised startups get for labour and environmental laws?",
+        "a": "Recognised startups can self-certify compliance with 6 Labour Laws and 3 Environmental Laws through a streamlined online process. This waives routine inspections under labour laws for 5 years and allows self-verification for 'white category' startups under environmental laws."
+      }
     ]
   },
   "llp-registration-services": {
     "title": "LLP Registration Services",
     "overview": [
-      "A Limited Liability Partnership (LLP) is a hybrid business structure that combines the advantages of both a partnership and a corporation. It provides the flexibility of a partnership, allowing partners to manage the business directly, while offering limited liability protection, meaning partners are not personally liable for the debts of the business beyond their investment. LLPs are distinct legal entities separate from their partners; they can own property, enter into contracts, and sue or be sued in their own name.",
-      "Finvvritti provides LLP Registration services in Bangalore, India. We specialize in navigating the legal and regulatory landscape for business entities, offering comprehensive support throughout the LLP registration process to ensure full compliance with statutory obligations. Our services include expert consultation on the suitability of an LLP as a business structure tailored to client needs, assistance in preparing and filing necessary documents, and ensuring regulatory adherence to mitigate risks of penalties. We streamline administrative tasks, allowing business owners to focus on core activities, while providing ongoing compliance and advisory services post-incorporation.",
-      "In particular, Finvvritti manages name availability checks and reservations with the Registrar of Companies, drafts LLP agreements outlining partner rights and duties, prepares and files incorporation forms, facilitates obtaining approvals such as Director Identification Number (DIN) and Digital Signature Certificate (DSC), manages LLP registration fee payments, and ensures timely issuance of the Certificate of Incorporation from the ROC."
+      "A Limited Liability Partnership (LLP) is a hybrid business structure that combines the best of a partnership and a corporation. It offers the flexibility of a partnership, allowing partners to manage the business directly, while providing limited liability protection. Partners are not personally liable for the debts of the business beyond their agreed investment. LLPs are distinct legal entities that can own property, enter into contracts, and sue or be sued in their own name.",
+      "Finvvritti provides comprehensive LLP registration services across India. We specialise in navigating the legal and regulatory landscape for business entities, offering end-to-end support throughout the registration process to ensure full statutory compliance.",
+      "Our services cover the entire registration journey: name availability check with the Registrar of Companies, LLP agreement drafting, preparation and filing of incorporation forms, obtaining DIN and DSC approvals for partners, managing registration fee payments, and securing the Certificate of Incorporation from the ROC.",
+      "Beyond registration, Finvvritti provides ongoing post-incorporation support, from PAN/TAN acquisition and bank account opening to annual ROC filings, GST registration, statutory audit coordination, and compliance advisory. We streamline all administrative tasks so you can focus on growing your business."
+    ],
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Limited Liability",
+        "desc": "Partners are protected from personal liability beyond their agreed investment."
+      },
+      {
+        "icon": "file-text",
+        "title": "Separate Legal Entity",
+        "desc": "LLP can own property, enter contracts, and sue or be sued in its own name."
+      },
+      {
+        "icon": "piggy-bank",
+        "title": "Tax Advantages",
+        "desc": "LLPs enjoy greater tax benefits and lower compliance costs than a Private Limited Company."
+      },
+      {
+        "icon": "repeat",
+        "title": "Management Flexibility",
+        "desc": "Partners manage the business directly without a rigid board structure."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Lower Setup Cost",
+        "desc": "Registration and ongoing compliance costs are significantly lower than a Pvt Ltd company."
+      }
     ],
     "sections": [
-      "How Finvvritti Assists in LLP Registration?",
-      "Key Services Offered by Finvvritti",
-      "Additional Services We Assist With",
-      "The LLP Registration Process & Required Documents"
+      "Name Availability Check & Reservation",
+      "LLP Agreement Drafting",
+      "DIN & DSC Facilitation",
+      "Incorporation Form Filing with ROC",
+      "Certificate of Incorporation",
+      "Post-Registration Compliance Support"
     ],
     "bullets": [
-      "Obtaining the Permanent Account Number (PAN) and Tax Deduction and Collection Account Number (TAN)",
-      "Opening a dedicated bank account in the name of your LLP",
-      "Providing comprehensive accounting and taxation services",
-      "Timely filing of annual returns and statements of accounts with the ROC",
-      "GST registration process",
-      "Coordinating the statutory audit of the LLP's accounts",
-      "Keeping your LLP updated on compliance changes",
-      "Offering continuous legal and regulatory advice",
-      "Assisting with the closure or conversion of the LLP into another business entity, if required.",
-      "Identity and address proof of partners",
-      "PAN card and photographs of partners",
-      "Passport (in case of Foreign Nationals/NRIs)",
-      "Digital Signature Certificate (DSC) for partners",
-      "Address proof of the registered office",
-      "120 Financial Park, Suite 405  New York, NY 10005, USA"
+      "Identity and address proof of all partners.",
+      "PAN card and photographs of all partners.",
+      "Passport (for Foreign Nationals and NRIs).",
+      "Digital Signature Certificate (DSC) for all designated partners.",
+      "Address proof of the registered office.",
+      "Obtaining PAN and TAN for the LLP.",
+      "Opening a dedicated bank account in the LLP's name.",
+      "Timely filing of annual returns and statements of accounts with the ROC.",
+      "GST registration when applicable.",
+      "Coordinating the statutory audit of the LLP's accounts.",
+      "Ongoing compliance updates and legal advisory.",
+      "Assistance with LLP closure or conversion to another entity, if required."
+    ],
+    "documents": [
+      "Identity and address proof of all partners (Aadhaar, Voter ID, or Passport)",
+      "PAN card of all partners",
+      "Passport-size photographs of all partners",
+      "Digital Signature Certificate (DSC) for all designated partners",
+      "Registered office address proof (utility bill, rent agreement, or NOC from owner)",
+      "Passport (mandatory for Foreign Nationals and NRI partners)"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between an LLP and a Private Limited Company?",
+        "a": "An LLP offers limited liability and a separate legal identity like a Pvt Ltd, but with lower compliance requirements, lower setup costs, and greater management flexibility. An LLP is ideal for service-based businesses, while a Pvt Ltd is better suited for businesses seeking external equity investment."
+      },
+      {
+        "q": "What documents are required to register an LLP?",
+        "a": "You will need identity and address proof of all partners, PAN cards and photographs, a Digital Signature Certificate (DSC) for designated partners, address proof of the registered office, and a Passport for any foreign national or NRI partners."
+      },
+      {
+        "q": "How long does LLP registration take?",
+        "a": "With all documents in order, LLP registration typically takes 7 to 15 working days. Finvvritti manages the entire process, from name reservation to receiving the Certificate of Incorporation from the ROC."
+      },
+      {
+        "q": "What are the ongoing compliances for an LLP?",
+        "a": "An LLP must file annual returns and financial statements with the ROC, maintain books of accounts, conduct a statutory audit if turnover exceeds ₹40 lakh or contribution exceeds ₹25 lakh, and comply with GST, income tax, and other applicable laws. Finvvritti provides ongoing compliance support."
+      }
     ]
   }
 }

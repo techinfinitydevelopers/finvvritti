@@ -1,5 +1,9 @@
 "use client";
-import { motion } from "framer-motion";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutAnimated({
   children,
@@ -8,15 +12,22 @@ export default function AboutAnimated({
   children: React.ReactNode;
   className?: string;
 }) {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(ref.current, {
+        immediateRender: false, opacity: 0, y: 22, duration: 0.6, ease: "power3.out",
+        scrollTrigger: { trigger: ref.current, start: "top 85%", toggleActions: "play none none none" },
+      });
+    }, ref);
+    ScrollTrigger.refresh();
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 22 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.6 }}
-      className={className}
-    >
+    <div ref={ref} className={className}>
       {children}
-    </motion.div>
+    </div>
   );
 }

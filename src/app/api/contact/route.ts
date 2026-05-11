@@ -4,11 +4,12 @@ import { Resend } from "resend";
 const resendApiKey = process.env.RESEND_API_KEY;
 const toEmail = process.env.CONTACT_TO_EMAIL || "info@finvvritti.com";
 const fromEmail = process.env.CONTACT_FROM_EMAIL || "Finvvritti <onboarding@resend.dev>";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbxl_S7cI2Tk8tn-_laIprSUooA437KDeuisI-UYdtqf7seADveJqpSiRcMPhf09ySRV/exec";
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { name, email, phone, company, message } = body || {};
+    const { name, email, phone, company, message, source } = body || {};
 
     if (!name || !email || !message) {
       return NextResponse.json(
@@ -16,6 +17,25 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
+
+    // Send to Google Sheet — get redirect URL first, then POST to it
+    (async () => {
+      try {
+        const payload = JSON.stringify({ name, email, phone, message, source: source || "Unknown" });
+        const headers = { "Content-Type": "application/json", "Content-Length": String(Buffer.byteLength(payload)) };
+
+        // Step 1: get the redirect location
+        const r1 = await fetch(SHEET_URL, { method: "POST", redirect: "manual", headers, body: payload });
+        const location = r1.headers.get("location");
+
+        if (location) {
+          // Step 2: POST to the actual script endpoint
+          await fetch(location, { method: "POST", headers, body: payload });
+        }
+      } catch (err) {
+        console.warn("[sheet] failed:", err);
+      }
+    })();
 
     if (!resendApiKey) {
       console.warn("[contact] RESEND_API_KEY not set — message:", body);
@@ -34,7 +54,7 @@ export async function POST(req: Request) {
       html: `
         <div style="font-family:Inter,Arial,sans-serif;max-width:560px;margin:auto;color:#0F172A">
           <h2 style="color:#0A2540;margin:0 0 12px">New consultation request</h2>
-          <p style="margin:0 0 16px;color:#64748B">Submitted via finvvritti.com contact form</p>
+          <p style="margin:0 0 16px;color:#64748B">Submitted via finvvritti.com — <strong>${escape(source || "Unknown")}</strong></p>
           <table style="width:100%;border-collapse:collapse">
             <tr><td style="padding:8px 0;color:#64748B">Name</td><td style="padding:8px 0">${escape(name)}</td></tr>
             <tr><td style="padding:8px 0;color:#64748B">Email</td><td style="padding:8px 0">${escape(email)}</td></tr>

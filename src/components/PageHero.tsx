@@ -1,8 +1,12 @@
 "use client";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 type Crumb = { label: string; href?: string };
 
@@ -23,8 +27,23 @@ export default function PageHero({
   imageAlt: string;
   crumbs?: Crumb[];
 }) {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+      tl.from(".page-hero-crumb", { opacity: 0, y: 8, duration: 0.4 })
+        .from(".page-hero-badge", { opacity: 0, y: 12, duration: 0.5 }, "-=0.2")
+        .from(".page-hero-title", { opacity: 0, y: 16, duration: 0.6 }, "-=0.35")
+        .from(".page-hero-desc", { opacity: 0, y: 16, duration: 0.6 }, "-=0.4")
+        .from(".page-hero-image", { opacity: 0, scale: 0.96, duration: 0.7 }, "-=0.5");
+    }, sectionRef);
+    ScrollTrigger.refresh();
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section className="relative pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden">
+    <section ref={sectionRef} className="relative pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden">
       <div className="absolute inset-0 -z-10 gradient-primary" />
       <div className="absolute inset-0 -z-10 opacity-[0.06] [background-image:radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]" />
       <div className="absolute -top-32 -right-32 -z-10 h-[420px] w-[420px] rounded-full bg-[var(--color-secondary)]/25 blur-3xl" />
@@ -32,12 +51,9 @@ export default function PageHero({
 
       <div className="container-x">
         {crumbs.length > 0 && (
-          <motion.nav
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
+          <nav
+            className="page-hero-crumb flex items-center gap-1.5 text-xs md:text-sm text-white/70"
             aria-label="Breadcrumb"
-            className="flex items-center gap-1.5 text-xs md:text-sm text-white/70"
           >
             {crumbs.map((c, i) => (
               <span key={c.label} className="flex items-center gap-1.5">
@@ -56,27 +72,17 @@ export default function PageHero({
                 )}
               </span>
             ))}
-          </motion.nav>
+          </nav>
         )}
 
         <div className="grid lg:grid-cols-12 gap-10 items-center mt-6">
           <div className="lg:col-span-7 text-white">
-            <motion.span
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/20 bg-white/5 text-xs md:text-sm tracking-[0.2em] uppercase"
-            >
+            <span className="page-hero-badge inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/20 bg-white/5 text-xs md:text-sm tracking-[0.2em] uppercase">
               <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-secondary)]" />
               {eyebrow}
-            </motion.span>
+            </span>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.05 }}
-              className="font-display mt-5 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-tight"
-            >
+            <h1 className="page-hero-title font-display mt-5 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-tight">
               {title}
               {highlight && (
                 <>
@@ -84,26 +90,16 @@ export default function PageHero({
                   <span className="text-gradient-gold">{highlight}</span>
                 </>
               )}
-            </motion.h1>
+            </h1>
 
             {description && (
-              <motion.p
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.15 }}
-                className="mt-5 text-base md:text-lg text-white/80 max-w-xl"
-              >
+              <p className="page-hero-desc mt-5 text-base md:text-lg text-white/80 max-w-xl">
                 {description}
-              </motion.p>
+              </p>
             )}
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.96 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="lg:col-span-5"
-          >
+          <div className="page-hero-image lg:col-span-5">
             <div className="relative aspect-[5/4] rounded-3xl overflow-hidden shadow-elev-lg ring-1 ring-white/10">
               <Image
                 src={image}
@@ -115,7 +111,7 @@ export default function PageHero({
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary)]/40 via-transparent to-transparent" />
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

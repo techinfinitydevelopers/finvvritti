@@ -1,18 +1,29 @@
 "use client";
+import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
-import { motion } from "framer-motion";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function CTA() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(".cta-card", {
+        immediateRender: false, opacity: 0, y: 22, duration: 0.7, ease: "power3.out",
+        scrollTrigger: { trigger: ".cta-card", start: "top 85%", toggleActions: "play none none none" },
+      });
+    }, sectionRef);
+    ScrollTrigger.refresh();
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="contact-cta" className="py-20 md:py-28 bg-white">
+    <section ref={sectionRef} id="contact-cta" className="py-20 md:py-28 bg-white">
       <div className="container-x">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6 }}
-          className="relative rounded-3xl overflow-hidden gradient-primary p-8 md:p-14 text-center"
-        >
+        <div className="cta-card relative rounded-3xl overflow-hidden gradient-primary p-8 md:p-14 text-center">
           <div className="absolute inset-0 opacity-[0.06] [background-image:radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]" />
           <div className="absolute -top-20 -right-20 h-72 w-72 rounded-full bg-[var(--color-secondary)]/25 blur-3xl" />
           <div className="absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-[var(--color-secondary)]/15 blur-3xl" />
@@ -30,14 +41,14 @@ export default function CTA() {
               financial insights that help your business grow.
             </p>
             <a
-              href="#contact"
+              href="/contact"
               className="mt-8 inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[var(--color-secondary)] text-[var(--color-primary)] font-semibold hover:bg-[var(--color-secondary-light)] transition-colors"
             >
               Book a Free Consultation
               <ArrowRight size={18} />
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

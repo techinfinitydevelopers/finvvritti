@@ -4,7 +4,7 @@ import { Send, Loader2, CheckCircle2, AlertCircle } from "lucide-react";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-export default function ContactForm() {
+export default function ContactForm({ source }: { source?: string }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string>("");
 
@@ -14,11 +14,20 @@ export default function ContactForm() {
     setError("");
     const fd = new FormData(e.currentTarget);
     const payload = Object.fromEntries(fd.entries());
+
+    // Auto-detect source from page if not passed explicitly
+    const pageSource = source || (typeof window !== "undefined"
+      ? window.location.pathname === "/" ? "Homepage"
+        : window.location.pathname.startsWith("/services/") ? `Service - ${window.location.pathname.split("/services/")[1]}`
+        : window.location.pathname === "/contact" ? "Contact Page"
+        : window.location.pathname
+      : "Unknown");
+
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, source: pageSource }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data?.error || "Something went wrong");
@@ -44,7 +53,7 @@ export default function ContactForm() {
           required
           placeholder="you@company.com"
         />
-        <Field label="Phone" name="phone" placeholder="+1 (707) 892-0749" />
+        <Field label="Phone" name="phone" placeholder="+91 80803 86506" />
         <Field label="Company" name="company" placeholder="Your business" />
       </div>
       <div className="mt-4">
@@ -55,6 +64,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={5}
+          suppressHydrationWarning
           placeholder="Tell us about your business and what you need..."
           className="w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-tertiary)] px-4 py-3 text-sm text-[var(--color-ink)] placeholder:text-[var(--color-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--color-secondary)]/40 focus:border-[var(--color-secondary)]"
         />
@@ -78,7 +88,7 @@ export default function ContactForm() {
 
       {status === "success" && (
         <p className="mt-4 inline-flex items-center gap-2 text-sm text-[var(--color-success)]">
-          <CheckCircle2 size={16} /> Message sent — we'll get back within 1
+          <CheckCircle2 size={16} /> Message sent, we'll get back within 1
           business day.
         </p>
       )}
@@ -115,6 +125,7 @@ function Field({
         type={type}
         required={required}
         placeholder={placeholder}
+        suppressHydrationWarning
         className="w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-tertiary)] px-4 py-3 text-sm text-[var(--color-ink)] placeholder:text-[var(--color-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--color-secondary)]/40 focus:border-[var(--color-secondary)]"
       />
     </div>

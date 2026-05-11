@@ -65,7 +65,7 @@ export default function CaseStudiesPage() {
                   financial decision-making for your business.
                 </p>
                 <a
-                  href="/#contact"
+                  href="/contact"
                   className="mt-8 inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[var(--color-secondary)] text-[var(--color-primary)] font-semibold hover:bg-[var(--color-secondary-light)] transition-colors"
                 >
                   Get Started

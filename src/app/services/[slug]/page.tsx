@@ -38,7 +38,7 @@ export default async function ServiceDetailPage({
 
   const content = getServiceContent(slug);
   const heroTitle = content?.title || service.title;
-  const heroDescription = content?.overview?.[0]?.slice(0, 200) || service.blurb;
+  const heroDescription = service.blurb;
 
   return (
     <>

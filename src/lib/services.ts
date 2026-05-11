@@ -16,6 +16,7 @@ import {
   Calculator,
   Handshake,
   TrendingUp,
+  ListChecks,
   type LucideIcon,
 } from "lucide-react";
 
@@ -33,7 +34,7 @@ export const services: Service[] = [
     slug: "llp-registration-services",
     title: "LLP Registration Services",
     blurb:
-      "End-to-end LLP setup — name reservation, partner KYC, agreement drafting, and ROC filings.",
+      "End-to-end LLP setup, name reservation, partner KYC, agreement drafting, and ROC filings.",
     Icon: FileText,
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=80",
@@ -63,10 +64,20 @@ export const services: Service[] = [
     slug: "regulatory-registration",
     title: "Regulatory Registration",
     blurb:
-      "FSSAI, IEC, MSME, ISO, GST, Shop & Establishment — all your registrations in one place.",
+      "FSSAI, IEC, MSME, ISO, GST, Shop & Establishment, all your registrations in one place.",
     Icon: Stamp,
     image:
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80",
+    category: "Compliance",
+  },
+  {
+    slug: "online-registration-services",
+    title: "Online Registration Services",
+    blurb:
+      "GST, MSME, IEC, FSSAI, PTEC, PTRC, Trademark, Startup India & RERA, all online registrations handled end-to-end.",
+    Icon: ListChecks,
+    image:
+      "https://images.unsplash.com/photo-1568992687947-868a62a9f521?auto=format&fit=crop&w=900&q=80",
     category: "Compliance",
   },
   {
@@ -83,7 +94,7 @@ export const services: Service[] = [
     slug: "compliance-management-services",
     title: "Compliance Management Services",
     blurb:
-      "Calendar-driven filings, statutory reviews, and proactive monitoring — never miss a date.",
+      "Calendar-driven filings, statutory reviews, and proactive monitoring, never miss a date.",
     Icon: ClipboardCheck,
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80",
@@ -93,7 +104,7 @@ export const services: Service[] = [
     slug: "accounting-bookkeeping-services",
     title: "Accounting & Bookkeeping Services",
     blurb:
-      "Accurate ledgers, monthly MIS, payroll, and audit-ready records — finance you can trust.",
+      "Accurate ledgers, monthly MIS, payroll, and audit-ready records, finance you can trust.",
     Icon: BookOpen,
     image:
       "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=900&q=80",
@@ -103,7 +114,7 @@ export const services: Service[] = [
     slug: "business-incorporation-services",
     title: "Business Incorporation Services",
     blurb:
-      "Pvt Ltd, OPC, Partnership — incorporated right with the optimal structure for your goals.",
+      "Pvt Ltd, OPC, Partnership, incorporated right with the optimal structure for your goals.",
     Icon: Building,
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",

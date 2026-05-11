@@ -1,7 +1,11 @@
 "use client";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { AlertTriangle, Wrench, TrendingUp } from "lucide-react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const blocks = [
   {
@@ -25,18 +29,33 @@ const blocks = [
 ];
 
 export default function CaseStudy() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(".casestudy-header", {
+        immediateRender: false, opacity: 0, y: 22, duration: 0.7, ease: "power3.out",
+        scrollTrigger: { trigger: ".casestudy-header", start: "top 85%", toggleActions: "play none none none" },
+      });
+      gsap.from(".casestudy-card", {
+        immediateRender: false, opacity: 0, y: 28, duration: 0.6, stagger: 0.1, ease: "power3.out",
+        scrollTrigger: { trigger: ".casestudy-grid", start: "top 85%", toggleActions: "play none none none" },
+      });
+    }, sectionRef);
+    ScrollTrigger.refresh();
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="case-studies" className="py-20 md:py-28 bg-white">
+    <section ref={sectionRef} id="case-studies" className="py-20 md:py-28 bg-white">
       <div className="container-x">
-        <div className="max-w-3xl">
+        <div className="casestudy-header max-w-3xl">
           <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary-dark)] font-semibold uppercase">
             We Work With · Case Studies
           </span>
           <h2 className="font-display mt-3 text-3xl md:text-4xl lg:text-5xl text-[var(--color-primary)] leading-tight">
             Proven Financial Results for{" "}
-            <span className="italic text-[var(--color-secondary-dark)]">
-              Growing Businesses
-            </span>
+            <span className="italic text-[var(--color-secondary-dark)]">Growing Businesses</span>
           </h2>
           <p className="mt-4 text-[var(--color-ink)]/75 text-base md:text-lg">
             See how Finvvritti helps businesses across industries gain control,
@@ -44,15 +63,11 @@ export default function CaseStudy() {
           </p>
         </div>
 
-        <div className="mt-12 grid md:grid-cols-3 gap-5 md:gap-6">
-          {blocks.map((b, i) => (
-            <motion.article
+        <div className="casestudy-grid mt-12 grid md:grid-cols-3 gap-5 md:gap-6">
+          {blocks.map((b) => (
+            <article
               key={b.label}
-              initial={{ opacity: 0, y: 22 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.55, delay: i * 0.08 }}
-              className="group rounded-2xl overflow-hidden border border-[var(--color-line)] bg-[var(--color-tertiary)] hover:shadow-elev-lg hover:bg-white transition-all duration-300"
+              className="casestudy-card group rounded-2xl overflow-hidden border border-[var(--color-line)] bg-[var(--color-tertiary)] hover:shadow-elev-lg hover:bg-white transition-all duration-300"
             >
               <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
@@ -68,14 +83,10 @@ export default function CaseStudy() {
                 </div>
               </div>
               <div className="p-6 md:p-7">
-                <h3 className="font-display text-2xl text-[var(--color-primary)]">
-                  {b.label}
-                </h3>
-                <p className="mt-3 text-sm md:text-[15px] text-[var(--color-ink)]/75 leading-relaxed">
-                  {b.text}
-                </p>
+                <h3 className="font-display text-2xl text-[var(--color-primary)]">{b.label}</h3>
+                <p className="mt-3 text-sm md:text-[15px] text-[var(--color-ink)]/75 leading-relaxed">{b.text}</p>
               </div>
-            </motion.article>
+            </article>
           ))}
         </div>
       </div>

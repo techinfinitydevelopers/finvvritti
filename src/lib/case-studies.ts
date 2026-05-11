@@ -4,6 +4,7 @@ export type CaseStudyMeta = {
   subtitle: string;
   image: string;
   category: string;
+  createdAt?: string;
 };
 
 export const caseStudies: CaseStudyMeta[] = [
