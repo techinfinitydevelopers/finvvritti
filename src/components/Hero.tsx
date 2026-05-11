@@ -84,7 +84,7 @@ export default function Hero() {
 
           <h1
             ref={headingRef}
-            className="font-display mt-4 text-4xl sm:text-5xl lg:text-6xl xl:text-6xl leading-[1.05] tracking-tight"
+            className="font-display mt-4 text-[26px] sm:text-[38px] lg:text-[50px] xl:text-[50px] leading-[1.05] tracking-tight"
           >
             Your Finance,{" "}
             <span className="text-gradient-gold">Our Responsibility</span>

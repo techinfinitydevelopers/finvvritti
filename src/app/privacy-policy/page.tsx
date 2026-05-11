@@ -96,7 +96,7 @@ export default function PrivacyPolicyPage() {
             <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary)] font-semibold uppercase">
               Legal
             </span>
-            <h1 className="font-display mt-3 text-4xl md:text-5xl leading-tight">
+            <h1 className="font-display mt-3 text-[26px] md:text-[38px] leading-tight">
               Privacy Policy
             </h1>
             <p className="mt-4 text-white/70 max-w-xl">

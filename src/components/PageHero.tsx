@@ -82,7 +82,7 @@ export default function PageHero({
               {eyebrow}
             </span>
 
-            <h1 className="page-hero-title font-display mt-5 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-tight">
+            <h1 className="page-hero-title font-display mt-5 text-[26px] sm:text-[38px] lg:text-[50px] xl:text-[62px] leading-[1.05] tracking-tight">
               {title}
               {highlight && (
                 <>
