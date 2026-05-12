@@ -2,7 +2,6 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Menu, X, Phone, ChevronDown, ArrowRight } from "lucide-react";
-import { services } from "@/lib/services";
 
 const otherLinks = [
   { label: "Home", href: "/" },
@@ -12,15 +11,66 @@ const otherLinks = [
   { label: "Contact Us", href: "/contact" },
 ];
 
-const categories = ["Setup", "Compliance", "Advisory", "Global", "Capital"] as const;
+type MenuItem = { label: string; slug: string | null }; // null = page not yet created
+type MenuGroup = { title: string; color: string; items: MenuItem[] };
 
-const categoryColors: Record<string, string> = {
-  Setup: "#0A2540",
-  Compliance: "#1E6B4F",
-  Advisory: "#7C3AED",
-  Global: "#0369A1",
-  Capital: "#B45309",
-};
+const megaGroups: MenuGroup[] = [
+  {
+    title: "Corporate Finance Services",
+    color: "#0A2540",
+    items: [
+      { label: "Company Incorporation", slug: "business-incorporation-services" },
+      { label: "Accounting & Bookkeeping", slug: "accounting-bookkeeping-services" },
+      { label: "Compliance Management Services", slug: "compliance-management-services" },
+      { label: "Company Secretarial Services", slug: "company-secretary-services" },
+      { label: "Goods & Service Tax (GST)", slug: null },
+      { label: "Tax Deduction at Source (TDS)", slug: null },
+    ],
+  },
+  {
+    title: "International Taxation",
+    color: "#0369A1",
+    items: [
+      { label: "Company Incorporation in USA", slug: "incorporation-services-in-the-usa" },
+      { label: "Company Incorporation in Dubai", slug: "business-setup-dubai" },
+      { label: "Financial Audits & Special Purpose Audit", slug: "professional-financial-audit-services-in-the-usa" },
+      { label: "Company Incorporation in Singapore", slug: null },
+      { label: "Foreign Compliances & Ongoing Reporting", slug: null },
+    ],
+  },
+  {
+    title: "Business Setup Services",
+    color: "#1E6B4F",
+    items: [
+      { label: "Business Incorporation", slug: "business-incorporation-services" },
+      { label: "Regulatory Registrations", slug: "regulatory-registration" },
+      { label: "Startup Registration", slug: "startup-registration" },
+      { label: "LLP Registration Services", slug: "llp-registration-services" },
+      { label: "Registration Services", slug: "online-registration-services" },
+    ],
+  },
+  {
+    title: "Business Advisory Services",
+    color: "#7C3AED",
+    items: [
+      { label: "Entry India Strategies", slug: "entry-india-strategies" },
+      { label: "IPO Advisory", slug: "what-is-sme-ipo" },
+      { label: "Transaction Advisory", slug: "transaction-advisory" },
+      { label: "Business Valuation", slug: "business-valuation-services-in-india" },
+      { label: "Business Plan", slug: "business-plan" },
+      { label: "ESOP Advisory", slug: "esop" },
+    ],
+  },
+  {
+    title: "Specialized Services",
+    color: "#B45309",
+    items: [
+      { label: "Virtual CFO Services", slug: null },
+      { label: "Opinion on Direct Tax Matters", slug: null },
+      { label: "Opinion on Indirect Tax Matters", slug: null },
+    ],
+  },
+];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -137,46 +187,45 @@ export default function Navbar() {
           onMouseLeave={closeMega}
         >
           <div className="container-x py-8">
-            <div className="grid grid-cols-5 gap-8">
-              {categories.map((cat) => {
-                const catServices = services.filter((s) => s.category === cat);
-                return (
-                  <div key={cat}>
-                    <p
-                      className="text-[10px] font-bold tracking-[0.18em] uppercase mb-3 pb-2 border-b border-[var(--color-line)]"
-                      style={{ color: categoryColors[cat] }}
-                    >
-                      {cat}
-                    </p>
-                    <ul className="flex flex-col gap-1">
-                      {catServices.map((s) => (
-                        <li key={s.slug}>
+            <div className="grid grid-cols-5 gap-6">
+              {megaGroups.map((group) => (
+                <div key={group.title}>
+                  <p
+                    className="text-[10px] font-bold tracking-[0.16em] uppercase mb-3 pb-2 border-b border-[var(--color-line)] leading-snug"
+                    style={{ color: group.color }}
+                  >
+                    {group.title}
+                  </p>
+                  <ul className="flex flex-col gap-0.5">
+                    {group.items.map((item) => (
+                      <li key={item.label}>
+                        {item.slug ? (
                           <Link
-                            href={`/services/${s.slug}`}
+                            href={`/services/${item.slug}`}
                             onClick={() => setMegaOpen(false)}
-                            className="group flex items-start gap-2.5 rounded-lg px-2.5 py-2 hover:bg-[var(--color-tertiary)] transition-colors"
+                            className="group flex items-start gap-2 rounded-lg px-2 py-1.5 hover:bg-[var(--color-tertiary)] transition-colors"
                           >
-                            <div
-                              className="mt-0.5 h-7 w-7 rounded-md flex items-center justify-center shrink-0"
-                              style={{ background: `${categoryColors[cat]}12` }}
-                            >
-                              <s.Icon size={14} style={{ color: categoryColors[cat] }} />
-                            </div>
-                            <span className="text-[13px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-primary)] leading-snug">
-                              {s.title}
+                            <span className="text-[12.5px] font-medium text-[var(--color-ink)] group-hover:text-[var(--color-primary)] leading-snug">
+                              {item.label}
                             </span>
                           </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                );
-              })}
+                        ) : (
+                          <span className="flex items-start gap-2 rounded-lg px-2 py-1.5 opacity-40 cursor-not-allowed">
+                            <span className="text-[12.5px] font-medium text-[var(--color-ink)] leading-snug">
+                              {item.label}
+                            </span>
+                          </span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
 
             {/* Footer strip */}
             <div className="mt-6 pt-4 border-t border-[var(--color-line)] flex items-center justify-between">
-              <p className="text-xs text-[var(--color-muted)]">17 services across 5 practice areas</p>
+              <p className="text-xs text-[var(--color-muted)]">25 services across 5 practice areas</p>
               <Link
                 href="/services"
                 onClick={() => setMegaOpen(false)}
@@ -216,27 +265,29 @@ export default function Navbar() {
 
               {mobileServicesOpen && (
                 <div className="pb-3 space-y-4">
-                  {categories.map((cat) => {
-                    const catServices = services.filter((s) => s.category === cat);
-                    return (
-                      <div key={cat}>
-                        <p className="text-[10px] font-bold tracking-[0.16em] uppercase px-1 mb-1.5" style={{ color: categoryColors[cat] }}>
-                          {cat}
-                        </p>
-                        {catServices.map((s) => (
+                  {megaGroups.map((group) => (
+                    <div key={group.title}>
+                      <p className="text-[10px] font-bold tracking-[0.16em] uppercase px-1 mb-1.5" style={{ color: group.color }}>
+                        {group.title}
+                      </p>
+                      {group.items.map((item) =>
+                        item.slug ? (
                           <Link
-                            key={s.slug}
-                            href={`/services/${s.slug}`}
+                            key={item.label}
+                            href={`/services/${item.slug}`}
                             onClick={() => { setOpen(false); setMobileServicesOpen(false); }}
                             className="flex items-center gap-2.5 py-2 px-2 rounded-lg hover:bg-[var(--color-tertiary)]"
                           >
-                            <s.Icon size={14} style={{ color: categoryColors[cat] }} />
-                            <span className="text-sm text-[var(--color-ink)]">{s.title}</span>
+                            <span className="text-sm text-[var(--color-ink)]">{item.label}</span>
                           </Link>
-                        ))}
-                      </div>
-                    );
-                  })}
+                        ) : (
+                          <span key={item.label} className="flex items-center gap-2.5 py-2 px-2 opacity-40">
+                            <span className="text-sm text-[var(--color-ink)]">{item.label}</span>
+                          </span>
+                        )
+                      )}
+                    </div>
+                  ))}
                   <Link
                     href="/services"
                     onClick={() => setOpen(false)}
