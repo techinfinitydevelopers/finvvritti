@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, ChevronDown, ArrowRight } from "lucide-react";
 
 const otherLinks = [
@@ -112,8 +113,8 @@ export default function Navbar() {
       <div className="container-x flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className={`h-9 w-9 rounded-lg flex items-center justify-center transition-colors ${onHero ? "bg-white/15 backdrop-blur" : "gradient-primary"}`}>
-            <span className="font-display text-lg font-bold text-[var(--color-secondary)]">F</span>
+          <div className="h-10 w-10 rounded-lg bg-white flex items-center justify-center overflow-hidden shadow-sm flex-shrink-0">
+            <Image src="/logo-icon.avif" alt="Finvvritti" width={40} height={40} className="object-contain w-full h-full" />
           </div>
           <span className={`font-display text-xl md:text-2xl font-semibold tracking-tight transition-colors ${onHero ? "text-white" : "text-[var(--color-primary)]"}`}>
             Finvvritti

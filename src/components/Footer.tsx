@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
@@ -8,10 +9,8 @@ export default function Footer() {
       <div className="container-x grid md:grid-cols-12 gap-8 md:gap-10">
         <div className="md:col-span-5">
           <Link href="/" className="flex items-center gap-2">
-            <div className="h-10 w-10 rounded-lg gradient-gold flex items-center justify-center">
-              <span className="font-display text-[var(--color-primary)] text-xl font-bold">
-                F
-              </span>
+            <div className="h-10 w-10 rounded-lg bg-white flex items-center justify-center overflow-hidden flex-shrink-0">
+              <Image src="/logo-icon.avif" alt="Finvvritti" width={40} height={40} className="object-contain w-full h-full" />
             </div>
             <span className="font-display text-2xl font-semibold">
               Finvvritti
