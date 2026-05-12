@@ -51,7 +51,7 @@ export default function Testimonials() {
           <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary-dark)] font-semibold uppercase">
             Testimonials
           </span>
-          <h2 className="font-display mt-3 text-3xl md:text-4xl lg:text-5xl text-[var(--color-primary)] leading-tight">
+          <h2 className="font-display mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[var(--color-primary)] leading-tight">
             What Our{" "}
             <span className="italic text-[var(--color-secondary-dark)]">Clients Say</span>
           </h2>

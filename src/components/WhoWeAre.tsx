@@ -71,7 +71,7 @@ export default function WhoWeAre() {
     <section ref={sectionRef} id="about" className="py-20 md:py-28 bg-[var(--color-tertiary)] overflow-hidden">
       <div className="container-x grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
         <div className="whoweare-image lg:col-span-5 relative">
-          <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-elev-lg">
+          <div className="relative aspect-[16/9] sm:aspect-[4/3] lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-elev-lg">
             <Image
               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80"
               alt="Finvvritti CA & CS team meeting on financial advisory"
@@ -95,7 +95,7 @@ export default function WhoWeAre() {
           <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary-dark)] font-semibold uppercase">
             Who We Are
           </span>
-          <h2 className="whoweare-heading font-display mt-3 text-3xl md:text-4xl lg:text-5xl text-[var(--color-primary)] leading-tight">
+          <h2 className="whoweare-heading font-display mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[var(--color-primary)] leading-tight">
             Smarter Growth,{" "}
             <span className="italic text-[var(--color-secondary-dark)]">From Day One</span>
           </h2>

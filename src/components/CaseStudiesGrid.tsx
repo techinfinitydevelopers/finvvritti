@@ -38,7 +38,7 @@ export default function CaseStudiesGrid() {
             <button
               key={f}
               onClick={() => setActive(f)}
-              className={`px-4 py-2 rounded-full text-sm font-semibold border transition-colors ${
+              className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold border transition-colors ${
                 active === f
                   ? "bg-[var(--color-primary)] text-white border-[var(--color-primary)]"
                   : "bg-white text-[var(--color-primary)] border-[var(--color-line)] hover:border-[var(--color-primary)]"

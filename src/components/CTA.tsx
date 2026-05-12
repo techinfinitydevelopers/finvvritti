@@ -23,7 +23,7 @@ export default function CTA() {
   return (
     <section ref={sectionRef} id="contact-cta" className="py-20 md:py-28 bg-white">
       <div className="container-x">
-        <div className="cta-card relative rounded-3xl overflow-hidden gradient-primary p-8 md:p-14 text-center">
+        <div className="cta-card relative rounded-3xl overflow-hidden gradient-primary p-6 sm:p-8 md:p-14 text-center">
           <div className="absolute inset-0 opacity-[0.06] [background-image:radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]" />
           <div className="absolute -top-20 -right-20 h-72 w-72 rounded-full bg-[var(--color-secondary)]/25 blur-3xl" />
           <div className="absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-[var(--color-secondary)]/15 blur-3xl" />
@@ -32,7 +32,7 @@ export default function CTA() {
             <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary)] font-semibold uppercase">
               Get In Touch
             </span>
-            <h2 className="font-display mt-3 text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
+            <h2 className="font-display mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
               Take Your Business to The{" "}
               <span className="text-gradient-gold">Next Financial Level</span>
             </h2>

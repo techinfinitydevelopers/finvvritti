@@ -192,7 +192,7 @@ function HeroVisual() {
 
   return (
     <div className="relative mx-auto max-w-xl lg:max-w-none overflow-visible">
-      <div className="relative aspect-[4/5] sm:aspect-[5/6] lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-elev-lg">
+      <div className="relative aspect-[16/9] sm:aspect-[5/6] lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-elev-lg">
         <Image
           src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80"
           alt="Finvvritti CA reviewing financial accounts and tax documents"

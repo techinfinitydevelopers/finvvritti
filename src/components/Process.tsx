@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -66,7 +66,7 @@ export default function Process() {
           <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary)] font-semibold uppercase">
             Our 5-Step Process
           </span>
-          <h2 className="font-display mt-3 text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
+          <h2 className="font-display mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
             From clarity to{" "}
             <span className="text-gradient-gold">confident growth</span>
           </h2>
@@ -75,8 +75,8 @@ export default function Process() {
         {/* Desktop: horizontal steps with connectors */}
         <div className="process-grid mt-12 hidden lg:flex items-start gap-0">
           {steps.map((s, i) => (
-            <>
-              <div key={s.n} className="process-step flex-1 min-w-0 group relative rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm p-6 hover:bg-white/[0.1] transition-colors">
+            <React.Fragment key={s.n}>
+              <div className="process-step flex-1 min-w-0 group relative rounded-2xl bg-white/[0.06] border border-white/10 backdrop-blur-sm p-6 hover:bg-white/[0.1] transition-colors">
                 {/* Step number circle */}
                 <div className="flex items-center gap-2.5 mb-4">
                   <div className="h-8 w-8 rounded-full border border-[var(--color-secondary)]/50 bg-[var(--color-secondary)]/10 flex items-center justify-center shrink-0">
@@ -103,7 +103,7 @@ export default function Process() {
                   </div>
                 </div>
               )}
-            </>
+            </React.Fragment>
           ))}
         </div>
 

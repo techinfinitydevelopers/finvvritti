@@ -26,22 +26,20 @@ export default function TrustedBy() {
       {/* Full-width marquee — no container-x so it bleeds edge to edge */}
       <div className="overflow-hidden w-full">
         <div
-          className="flex items-center gap-12 md:gap-16 animate-[logoScroll_30s_linear_infinite] w-max"
+          className="flex items-center gap-8 md:gap-14 animate-[logoScroll_30s_linear_infinite] w-max"
           style={{ willChange: "transform" }}
         >
           {track.map((logo, i) => (
             <div
               key={i}
-              className="flex-shrink-0 flex items-center justify-center"
-              style={{ width: 180, height: 72 }}
+              className="flex-shrink-0 flex items-center justify-center w-[110px] h-[48px] md:w-[160px] md:h-[64px]"
             >
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                width={180}
-                height={72}
+                width={160}
+                height={64}
                 className="object-contain w-full h-full opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
-                style={{ maxWidth: 180, maxHeight: 72 }}
               />
             </div>
           ))}
