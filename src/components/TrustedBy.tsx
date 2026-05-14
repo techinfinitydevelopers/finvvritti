@@ -10,6 +10,9 @@ const logos = [
   { src: "/logos/logo6.png", alt: "Client Logo 6" },
   { src: "/logos/logo7.png", alt: "Client Logo 7" },
   { src: "/logos/logo8.png", alt: "Client Logo 8" },
+  { src: "/logos/logo12.jpg", alt: "India BBQ" },
+  { src: "/logos/logo13.jpg", alt: "Theona" },
+  { src: "/logos/logo14.jpg", alt: "Blacksphere" },
 ];
 
 export default function TrustedBy() {
