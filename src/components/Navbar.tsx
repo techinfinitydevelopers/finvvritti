@@ -113,15 +113,8 @@ export default function Navbar() {
       <div className="container-x flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <div className="bg-white rounded-xl px-3 py-1.5">
-            <Image
-              src="/logo-dark.png"
-              alt="Finvvritti"
-              width={233}
-              height={263}
-              className="h-10 w-auto object-contain"
-              priority
-            />
+          <div className="bg-white rounded-xl px-3 py-2 flex items-center justify-center shadow-sm">
+            <span className="font-display text-2xl font-bold tracking-tight text-[var(--color-primary)] leading-none">FV</span>
           </div>
         </Link>
 
