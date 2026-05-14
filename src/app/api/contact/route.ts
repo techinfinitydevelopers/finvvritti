@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
-const toEmail = process.env.CONTACT_TO_EMAIL || "info@finvvritti.com";
+const toEmail = process.env.CONTACT_TO_EMAIL || "gagan@finvvritti.com";
 const fromEmail = process.env.CONTACT_FROM_EMAIL || "Finvvritti <onboarding@resend.dev>";
 const SHEET_URL = "https://script.google.com/macros/s/AKfycbxl_S7cI2Tk8tn-_laIprSUooA437KDeuisI-UYdtqf7seADveJqpSiRcMPhf09ySRV/exec";
 
