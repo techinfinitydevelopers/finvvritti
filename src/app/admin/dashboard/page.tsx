@@ -139,12 +139,9 @@ export default function AdminDashboard() {
       {/* Header */}
       <header className="bg-[var(--color-primary)] text-white px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-xl bg-white flex items-center justify-center overflow-hidden">
-            <Image src="/logo-icon.avif" alt="Finvvritti" width={36} height={36} className="object-contain w-full h-full" />
-          </div>
-          <div>
-            <p className="font-display text-lg font-semibold">Finvvritti</p>
-            <p className="text-xs text-white/60">Admin Dashboard</p>
+          <div className="flex flex-col">
+            <Image src="/logo-dark.png" alt="Finvvritti" width={233} height={263} className="h-10 w-auto object-contain" />
+            <p className="text-[10px] text-white/60 -mt-0.5">Admin Dashboard</p>
           </div>
         </div>
         <button onClick={logout} className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">

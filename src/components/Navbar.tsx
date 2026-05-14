@@ -112,13 +112,17 @@ export default function Navbar() {
     >
       <div className="container-x flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="h-10 w-10 rounded-lg bg-white flex items-center justify-center overflow-hidden shadow-sm flex-shrink-0">
-            <Image src="/logo-icon.avif" alt="Finvvritti" width={40} height={40} className="object-contain w-full h-full" />
+        <Link href="/" className="flex items-center">
+          <div className="bg-white rounded-xl px-3 py-1.5">
+            <Image
+              src="/logo-dark.png"
+              alt="Finvvritti"
+              width={233}
+              height={263}
+              className="h-10 w-auto object-contain"
+              priority
+            />
           </div>
-          <span className={`font-display text-xl md:text-2xl font-semibold tracking-tight transition-colors ${onHero ? "text-white" : "text-[var(--color-primary)]"}`}>
-            Finvvritti
-          </span>
         </Link>
 
         {/* Desktop nav */}

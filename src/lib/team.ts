@@ -22,18 +22,6 @@ export const team: TeamMember[] = [
     ],
   },
   {
-    slug: "praveen",
-    name: "Praveen Mali",
-    role: "Chartered Accountant",
-    avatar: "/team/praveen.avif",
-    bio: [
-      "Praveen is a Chartered Accountant with more than 7 years of experience.",
-      "He has experience of handling corporate affairs in different areas for over a decade.",
-      "Over the years, he has played a pivotal role in helping numerous organizations establish and scale their operations. From obtaining registrations and licenses to setting up financial controls and compliance systems, Praveen has consistently ensured smooth entry and hassle-free functioning of businesses across sectors.",
-      "His holistic understanding of financial, legal, and regulatory environments enables him to provide end-to-end support to companies, making him a trusted advisor for SMEs and businesses.",
-    ],
-  },
-  {
     slug: "gagan",
     name: "Gagan Mittal",
     role: "Chartered Accountant",
@@ -47,19 +35,6 @@ export const team: TeamMember[] = [
     ],
   },
   {
-    slug: "kalpesh",
-    name: "Kalpesh Virwadia",
-    role: "Chartered Accountant",
-    avatar: "/team/kalpesh.avif",
-    bio: [
-      "Kalpesh is a Chartered Accountant with more than 7 years of experience.",
-      "He has vast knowledge and a thorough understanding of Indian laws and regulations, as well as the complex corporate taxation system.",
-      "He has successfully navigated the complexities of corporate tax compliance, strategic tax planning, and regulatory adherence for several clients and managed intricate tax matters for diverse industries, ensuring optimal tax positions while maintaining full compliance with Indian tax laws.",
-      "Represented clients in proceedings before tax authorities, successfully resolving disputes and minimizing potential penalties.",
-      "Conducted comprehensive tax due diligence for clients in several sectors, identifying potential tax exposures and advising on mitigation strategies.",
-    ],
-  },
-  {
     slug: "aditi",
     name: "Aditi Mittal",
     role: "CA, CS, IBBI Reg RV",
@@ -70,6 +45,31 @@ export const team: TeamMember[] = [
       "Her motivation is to leverage skills in the Finance & Compliance domain to assist Business Owners/Founders, investors, and CFOs to scale up, monetize or help them partner effectively with the business. She has closely worked with CXOs, Board and Finance Professionals across industry verticals, business sizes, stage of growth and seen a variety of business and finance situations.",
       "She has previously headed finance & Compliance in companies like Loginext, Care24 India and Grofers India. Her expertise lies in business valuation, financial modelling, intangible valuations, brand valuation and ESOP valuation.",
       "She has worked with several startups helping them with their valuation advisory and preparing business plans.",
+    ],
+  },
+  {
+    slug: "praveen",
+    name: "Praveen Mali",
+    role: "Chartered Accountant",
+    avatar: "/team/praveen.avif",
+    bio: [
+      "Praveen is a Chartered Accountant with more than 7 years of experience.",
+      "He has experience of handling corporate affairs in different areas for over a decade.",
+      "Over the years, he has played a pivotal role in helping numerous organizations establish and scale their operations. From obtaining registrations and licenses to setting up financial controls and compliance systems, Praveen has consistently ensured smooth entry and hassle-free functioning of businesses across sectors.",
+      "His holistic understanding of financial, legal, and regulatory environments enables him to provide end-to-end support to companies, making him a trusted advisor for SMEs and businesses.",
+    ],
+  },
+  {
+    slug: "kalpesh",
+    name: "Kalpesh Virwadia",
+    role: "Chartered Accountant",
+    avatar: "/team/kalpesh.avif",
+    bio: [
+      "Kalpesh is a Chartered Accountant with more than 7 years of experience.",
+      "He has vast knowledge and a thorough understanding of Indian laws and regulations, as well as the complex corporate taxation system.",
+      "He has successfully navigated the complexities of corporate tax compliance, strategic tax planning, and regulatory adherence for several clients and managed intricate tax matters for diverse industries, ensuring optimal tax positions while maintaining full compliance with Indian tax laws.",
+      "Represented clients in proceedings before tax authorities, successfully resolving disputes and minimizing potential penalties.",
+      "Conducted comprehensive tax due diligence for clients in several sectors, identifying potential tax exposures and advising on mitigation strategies.",
     ],
   },
 ];

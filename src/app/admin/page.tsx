@@ -27,9 +27,7 @@ export default function AdminLogin() {
     <div className="min-h-screen gradient-primary flex items-center justify-center p-4">
       <div className="w-full max-w-sm bg-white rounded-3xl shadow-elev-lg p-8">
         <div className="flex flex-col items-center mb-6">
-          <div className="h-14 w-14 rounded-2xl bg-white shadow flex items-center justify-center mb-3 overflow-hidden">
-            <Image src="/logo-icon.avif" alt="Finvvritti" width={52} height={52} className="object-contain w-full h-full" />
-          </div>
+          <Image src="/logo-light.png" alt="Finvvritti" width={500} height={500} className="h-20 w-auto object-contain mb-1" />
           <h1 className="font-display text-2xl text-[var(--color-primary)]">Admin Login</h1>
           <p className="text-sm text-[var(--color-muted)] mt-1">Finvvritti Dashboard</p>
         </div>

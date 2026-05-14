@@ -7,9 +7,24 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const items = [
-  { quote: "Enjoyed working with CVM, great learning experience!", name: "Kamal K. Advani", role: "CEO, KK & Co", color: "#0A2540" },
-  { quote: "Exceptional Service, great value & surprising insights.", name: "Rajat Mehta", role: "Zedcom Global", color: "#1E6B4F" },
-  { quote: "Service Oriented, responsive, terrific value to add!", name: "A. Raghuvanshi", role: "CEO, VivaLife Pharma", color: "#B45309" },
+  {
+    quote: "Pleased to have worked with Gagan and Finvvritti team. They are the go to persons for anything finance related under the sun. Think of them as a ready made finance team, and you can focus on solving the hard problems. Strongly recommend.",
+    name: "Saurabh Goel",
+    role: "Co-Founder & CEO, Amberstudent",
+    color: "#0A2540",
+  },
+  {
+    quote: "Finvvritti has been an invaluable partner in our corporate finance journey. Their team combines deep expertise with a highly approachable and collaborative approach. The comprehensive range of services offered under one roof has been particularly beneficial. Gagan and Finvvritti team is a complete delight to work with. I would recommend Finvvritti to all financial leaders who are looking to solve both strategic and operational problems faster, without compromising on quality.",
+    name: "Eshika Lohani",
+    role: "AVP-Finance, Osmos.ai",
+    color: "#0369A1",
+  },
+  {
+    quote: "The Finvvritti team's ownership mindset and proactive approach are every founder's dream. If someone is looking to offload financial headaches and bring real order to your books, Finvvritti is the partner you want by your side.",
+    name: "Shivam Gupta",
+    role: "Co-Founder, MySivi.ai",
+    color: "#1E6B4F",
+  },
 ];
 
 export default function Testimonials() {

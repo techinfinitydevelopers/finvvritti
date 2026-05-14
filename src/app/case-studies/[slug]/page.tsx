@@ -9,6 +9,7 @@ import { caseStudies, getCaseStudyMeta } from "@/lib/case-studies";
 import { getCaseStudyContent } from "@/lib/case-study-content";
 import { readStudies } from "@/lib/blob-studies";
 
+export const dynamic = "force-dynamic";
 export const dynamicParams = true;
 
 export function generateStaticParams() {

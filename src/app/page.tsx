@@ -7,6 +7,7 @@ import CoreValue from "@/components/CoreValue";
 import TrustedBy from "@/components/TrustedBy";
 import CaseStudy from "@/components/CaseStudy";
 import Testimonials from "@/components/Testimonials";
+import YoutubeShorts from "@/components/YoutubeShorts";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import ContactSection from "@/components/ContactSection";
@@ -23,6 +24,7 @@ export default function Home() {
         <Process />
         <CoreValue />
         <TrustedBy />
+        <YoutubeShorts />
         <CaseStudy />
         <Testimonials />
         <FAQ />
