@@ -9,9 +9,7 @@ export default function Footer() {
       <div className="container-x grid md:grid-cols-12 gap-8 md:gap-10">
         <div className="md:col-span-5">
           <Link href="/" className="flex items-center">
-            <div className="bg-white rounded-xl px-4 py-2.5 inline-flex items-center justify-center">
-              <span className="font-display text-3xl font-bold tracking-tight text-[var(--color-primary)] leading-none">FV</span>
-            </div>
+            <Image src="/logo-dark.png" alt="Finvvritti" width={233} height={263} className="h-16 w-auto object-contain" />
           </Link>
           <p className="mt-4 text-white/70 max-w-md leading-relaxed">
             Finvvritti provides accurate accounting and trusted financial
