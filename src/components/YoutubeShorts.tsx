@@ -10,13 +10,44 @@ function Icon({ size=16 }:{size?:number}) {
   );
 }
 
+const API_KEY = process.env.YOUTUBE_API_KEY;
+const UPLOADS_PLAYLIST_ID = "UU2rQSc83cV69urS91V_KchA";
+
 async function fetchShorts(): Promise<string[]> {
   try {
-    const base = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000";
-    const res = await fetch(`${base}/api/youtube-shorts`, { next: { revalidate: 3600 } });
-    if (!res.ok) return FALLBACK;
-    const d = await res.json();
-    return d.shorts?.length ? d.shorts : FALLBACK;
+    if (!API_KEY) return FALLBACK;
+
+    const listRes = await fetch(
+      `https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=${UPLOADS_PLAYLIST_ID}&maxResults=20&key=${API_KEY}`,
+      { next: { revalidate: 3600 } }
+    );
+    if (!listRes.ok) return FALLBACK;
+    const listData = await listRes.json();
+    const videoIds: string[] = (listData.items ?? []).map(
+      (item: { contentDetails: { videoId: string } }) => item.contentDetails.videoId
+    );
+    if (!videoIds.length) return FALLBACK;
+
+    const detailRes = await fetch(
+      `https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${videoIds.join(",")}&key=${API_KEY}`,
+      { next: { revalidate: 3600 } }
+    );
+    if (!detailRes.ok) return FALLBACK;
+    const detailData = await detailRes.json();
+
+    const shorts = (detailData.items ?? [])
+      .filter((v: { contentDetails: { duration: string } }) => {
+        const d = v.contentDetails.duration;
+        const match = d.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+        if (!match) return false;
+        const h = parseInt(match[1] ?? "0");
+        const m = parseInt(match[2] ?? "0");
+        return h === 0 && m <= 1;
+      })
+      .map((v: { id: string }) => v.id)
+      .slice(0, 5);
+
+    return shorts.length ? shorts : FALLBACK;
   } catch { return FALLBACK; }
 }
 
