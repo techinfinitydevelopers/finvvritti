@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { readStudies } from "@/lib/blob-studies";
+import { prisma } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  const data = await readStudies();
-  return NextResponse.json(data);
+  const studies = await prisma.caseStudy.findMany({ orderBy: { createdAt: "desc" } });
+  return NextResponse.json(studies);
 }

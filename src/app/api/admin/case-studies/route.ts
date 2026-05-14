@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { readStudies, writeStudies } from "@/lib/blob-studies";
+import { prisma } from "@/lib/db";
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "finvvritti@admin";
 
@@ -11,43 +11,35 @@ export const dynamic = "force-dynamic";
 
 export async function GET(req: Request) {
   if (!auth(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  const studies = await readStudies();
+  const studies = await prisma.caseStudy.findMany({ orderBy: { createdAt: "desc" } });
   return NextResponse.json(studies);
 }
 
 export async function POST(req: Request) {
   if (!auth(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  const body = await req.json();
-  const { title, subtitle, category, image, slug, content } = body;
+  const { title, subtitle, category, image, slug, content } = await req.json();
   if (!title || !slug || !category)
     return NextResponse.json({ error: "title, slug and category are required" }, { status: 400 });
 
-  const studies = await readStudies();
-  if (studies.find((s: { slug: string }) => s.slug === slug))
-    return NextResponse.json({ error: "Slug already exists" }, { status: 400 });
+  const existing = await prisma.caseStudy.findUnique({ where: { slug } });
+  if (existing) return NextResponse.json({ error: "Slug already exists" }, { status: 400 });
 
-  const newStudy = { slug, title, subtitle: subtitle || "", category, image: image || "", content: content || "", createdAt: new Date().toISOString() };
-  studies.push(newStudy);
-  await writeStudies(studies);
-  return NextResponse.json({ ok: true, study: newStudy });
+  const study = await prisma.caseStudy.create({
+    data: { slug, title, subtitle: subtitle || "", category, image: image || "", content: content || "" },
+  });
+  return NextResponse.json({ ok: true, study });
 }
 
 export async function PUT(req: Request) {
   if (!auth(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  const body = await req.json();
-  const { slug, ...updates } = body;
-  const studies = await readStudies();
-  const idx = studies.findIndex((s: { slug: string }) => s.slug === slug);
-  if (idx === -1) return NextResponse.json({ error: "Not found" }, { status: 404 });
-  studies[idx] = { ...studies[idx], ...updates };
-  await writeStudies(studies);
-  return NextResponse.json({ ok: true });
+  const { slug, ...updates } = await req.json();
+  const study = await prisma.caseStudy.update({ where: { slug }, data: updates });
+  return NextResponse.json({ ok: true, study });
 }
 
 export async function DELETE(req: Request) {
   if (!auth(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   const { slug } = await req.json();
-  const studies = await readStudies();
-  await writeStudies(studies.filter((s: { slug: string }) => s.slug !== slug));
+  await prisma.caseStudy.delete({ where: { slug } });
   return NextResponse.json({ ok: true });
 }
