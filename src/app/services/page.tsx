@@ -5,6 +5,28 @@ import PageHero from "@/components/PageHero";
 import CTA from "@/components/CTA";
 import ContactSection from "@/components/ContactSection";
 import ServicesGrid from "@/components/ServicesGrid";
+import Testimonials from "@/components/Testimonials";
+
+const serviceTestimonials = [
+  {
+    quote: "Pleased to have worked with Gagan and Finvvritti team. They are the go to persons for anything finance related under the sun. Think of them as a ready made finance team, and you can focus on solving the hard problems. Strongly recommend.",
+    name: "Saurabh Goel",
+    role: "Co-Founder & CEO, Amberstudent",
+    color: "#0A2540",
+  },
+  {
+    quote: "Finvvritti has been an invaluable partner in our corporate finance journey. Their team combines deep expertise with a highly approachable and collaborative approach. The comprehensive range of services offered under one roof has been particularly beneficial. Gagan and Finvvritti team is a complete delight to work with. I would recommend Finvvritti to all financial leaders who are looking to solve both strategic and operational problems faster, without compromising on quality.",
+    name: "Eshika Lohani",
+    role: "AVP-Finance, Osmos.ai",
+    color: "#0369A1",
+  },
+  {
+    quote: "The Finvvritti team's ownership mindset and proactive approach are every founder's dream. If someone is looking to offload financial headaches and bring real order to your books, Finvvritti is the partner you want by your side.",
+    name: "Shivam Gupta",
+    role: "Co-Founder, MySivi.ai",
+    color: "#1E6B4F",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Services | Finvvritti | CA & CS Advisory",
@@ -33,6 +55,8 @@ export default function ServicesPage() {
         <WhatWeProvideIntro />
 
         <ServicesGrid />
+
+        <Testimonials items={serviceTestimonials} />
 
         <CTA />
         <ContactSection />

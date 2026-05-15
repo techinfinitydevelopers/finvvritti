@@ -6,7 +6,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const items = [
+type TestimonialItem = { quote: string; name: string; role: string; color: string };
+
+const defaultItems: TestimonialItem[] = [
   {
     quote: "I'm impressed with Finvvritti's tax expertise, which aligns well with my business needs. Despite diverse operations, the team provides holistic advice that keeps everything on track.",
     name: "Ronak Parikh",
@@ -27,7 +29,7 @@ const items = [
   },
 ];
 
-export default function Testimonials() {
+export default function Testimonials({ items = defaultItems }: { items?: TestimonialItem[] }) {
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
