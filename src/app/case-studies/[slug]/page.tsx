@@ -33,8 +33,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const m = getCaseStudyMeta(slug) ?? await getDynamicStudy(slug);
-  if (!m) return { title: "Case Study — Finvvritti" };
-  return { title: `${m.title} — Finvvritti`, description: m.subtitle };
+  if (!m) return { title: "Case Study | Finvvritti" };
+  return { title: `${m.title} | Finvvritti`, description: m.subtitle };
 }
 
 export default async function CaseStudyPage({

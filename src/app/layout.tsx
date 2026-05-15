@@ -20,9 +20,9 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Finvvritti — CA & CS Advisory | Accounting, Tax, Compliance",
+  title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
   description:
-    "Finvvritti combines CA & CS expertise across auditing, accounting, taxation, debt advisory, CFO services and valuation — a one-stop solution for finance, compliance & growth.",
+    "Finvvritti combines CA & CS expertise across auditing, accounting, taxation, debt advisory, CFO services and valuation - a one-stop solution for finance, compliance & growth.",
 };
 
 export default function RootLayout({

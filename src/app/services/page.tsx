@@ -7,9 +7,9 @@ import ContactSection from "@/components/ContactSection";
 import ServicesGrid from "@/components/ServicesGrid";
 
 export const metadata: Metadata = {
-  title: "Services — Finvvritti | CA & CS Advisory",
+  title: "Services | Finvvritti | CA & CS Advisory",
   description:
-    "Endowed with a substantial array of abilities and unwavering dedication to excellence — Finvvritti is your strategic partner across compliance, accounting, advisory, and capital services.",
+    "Endowed with a substantial array of abilities and unwavering dedication to excellence - Finvvritti is your strategic partner across compliance, accounting, advisory, and capital services.",
 };
 
 export default function ServicesPage() {
@@ -58,7 +58,7 @@ function WhatWeProvideIntro() {
           </h2>
           <p className="mt-4 text-[var(--color-ink)]/75 text-base md:text-lg max-w-2xl">
             From incorporation and compliance to valuations, audits, and capital
-            advisory — our team of CAs and CSs supports every stage of your
+            advisory, our team of CAs and CSs supports every stage of your
             business, in India and abroad.
           </p>
         </div>

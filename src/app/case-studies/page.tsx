@@ -8,9 +8,9 @@ import Testimonials from "@/components/Testimonials";
 import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Case Studies — Finvvritti | How We Help Businesses Thrive",
+  title: "Case Studies | Finvvritti | How We Help Businesses Thrive",
   description:
-    "Real stories of clarity, control and growth — see how Finvvritti partners with families, founders and SMEs across financial decisions.",
+    "Real stories of clarity, control and growth - see how Finvvritti partners with families, founders and SMEs across financial decisions.",
 };
 
 export default function CaseStudiesPage() {
@@ -22,7 +22,7 @@ export default function CaseStudiesPage() {
           eyebrow="Case Studies"
           title="How We Help"
           highlight="Businesses Thrive"
-          description="Real stories of clarity, control and growth — see how Finvvritti partners with families, founders, and SMEs across critical financial decisions."
+          description="Real stories of clarity, control and growth - see how Finvvritti partners with families, founders, and SMEs across critical financial decisions."
           image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
           imageAlt="Finvvritti analytical financial dashboard for case studies"
           crumbs={[

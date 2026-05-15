@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Finvvritti",
+  title: "Privacy Policy | Finvvritti",
   description:
     "Learn how Finvvritti collects, uses, and protects your personal information.",
 };
@@ -12,7 +12,7 @@ const sections = [
   {
     title: "Information We Collect",
     body: [
-      "When you contact us through our website, we collect information you voluntarily provide — such as your name, email address, phone number, company name, and the message you submit via our contact form.",
+      "When you contact us through our website, we collect information you voluntarily provide - such as your name, email address, phone number, company name, and the message you submit via our contact form.",
       "We may also collect non-personal information automatically, including your browser type, IP address, referring URL, and pages visited on our site. This data is used solely to improve website performance and user experience.",
     ],
   },
@@ -29,7 +29,7 @@ const sections = [
     body: [
       "Finvvritti does not sell, rent, or trade your personal information to third parties.",
       "We may share data with trusted service providers (such as email delivery platforms or cloud storage providers) solely to operate our business. These parties are contractually obligated to keep your information confidential.",
-      "We may disclose information if required by law, a court order, or regulatory authority — including obligations under the Income Tax Act, Companies Act, or SEBI regulations applicable to our CA & CS practice.",
+      "We may disclose information if required by law, a court order, or regulatory authority - including obligations under the Income Tax Act, Companies Act, or SEBI regulations applicable to our CA & CS practice.",
     ],
   },
   {
@@ -51,7 +51,7 @@ const sections = [
   {
     title: "Retention of Data",
     body: [
-      "We retain personal information only for as long as necessary to fulfil the purpose for which it was collected, or as required by applicable laws — including statutory retention periods for financial and tax records.",
+      "We retain personal information only for as long as necessary to fulfil the purpose for which it was collected, or as required by applicable laws - including statutory retention periods for financial and tax records.",
       "Enquiry data submitted via the contact form is retained for up to 24 months unless you request deletion earlier.",
     ],
   },

@@ -187,7 +187,7 @@ export default function AdminDashboard() {
           <form onSubmit={handleAdd} className="bg-white rounded-3xl border border-[var(--color-line)] shadow-elev p-6 md:p-8 mb-8 space-y-4">
             <h3 className="font-display text-lg text-[var(--color-primary)]">New Case Study</h3>
             <div className="grid md:grid-cols-2 gap-4">
-              <FormField label="Title *" value={form.title} onChange={(v) => setForm({ ...form, title: v, slug: autoSlug(v) })} placeholder="Client Name — Result achieved" />
+              <FormField label="Title *" value={form.title} onChange={(v) => setForm({ ...form, title: v, slug: autoSlug(v) })} placeholder="Client Name - Result achieved" />
               <FormField label="Slug (auto)" value={form.slug} onChange={(v) => setForm({ ...form, slug: v })} placeholder="auto-generated-from-title" />
               <div>
                 <label className="block text-xs font-semibold tracking-wide text-[var(--color-muted)] uppercase mb-1.5">Category *</label>

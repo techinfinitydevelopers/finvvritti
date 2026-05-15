@@ -222,7 +222,7 @@ export const services: Service[] = [
     slug: "debt-raise",
     title: "Debt Raise",
     blurb:
-      "End-to-end debt fundraising — CMA data, project reports, lender identification, and disbursement support.",
+      "End-to-end debt fundraising - CMA data, project reports, lender identification, and disbursement support.",
     Icon: Banknote,
     image:
       "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=900&q=80",
@@ -242,7 +242,7 @@ export const services: Service[] = [
     slug: "virtual-cfo-services",
     title: "Virtual CFO Services",
     blurb:
-      "CFO-level financial strategy, MIS reporting, investor relations, and fundraising support — on a flexible basis.",
+      "CFO-level financial strategy, MIS reporting, investor relations, and fundraising support - on a flexible basis.",
     Icon: Briefcase,
     image:
       "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80",
@@ -292,7 +292,7 @@ export const services: Service[] = [
     slug: "foreign-compliance-reporting",
     title: "Foreign Compliance & Ongoing Reporting",
     blurb:
-      "Complete ongoing compliance for Indian businesses with foreign entities — secretarial, tax, accounting, and FEMA.",
+      "Complete ongoing compliance for Indian businesses with foreign entities - secretarial, tax, accounting, and FEMA.",
     Icon: Network,
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",

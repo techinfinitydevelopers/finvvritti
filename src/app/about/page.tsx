@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us — Finvvritti | Driving Smarter Business Growth",
+  title: "About Us | Finvvritti | Driving Smarter Business Growth",
   description:
     "Finvvritti helps businesses scale with clear strategy, data-driven insights, and expert execution.",
 };
@@ -39,7 +39,7 @@ const values = [
   },
   {
     h3: "Your Finance, Our Responsibility!",
-    body: "Our role goes beyond accounting — we provide accurate financial reporting and practical advice that brings clarity, control, and confidence.",
+    body: "Our role goes beyond accounting - we provide accurate financial reporting and practical advice that brings clarity, control, and confidence.",
   },
   {
     h3: "Collaboration",

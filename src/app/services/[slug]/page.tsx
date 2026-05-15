@@ -20,9 +20,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const s = getServiceBySlug(slug);
-  if (!s) return { title: "Service — Finvvritti" };
+  if (!s) return { title: "Service | Finvvritti" };
   return {
-    title: `${s.title} — Finvvritti`,
+    title: `${s.title} | Finvvritti`,
     description: s.blurb,
   };
 }

@@ -6,7 +6,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "FAQs — Finvvritti | Your Questions Answered",
+  title: "FAQs | Finvvritti | Your Questions Answered",
   description:
     "Frequently asked questions about Finvvritti's CA & CS services, compliance, valuation, CFO advisory, and how we work.",
 };

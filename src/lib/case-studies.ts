@@ -10,7 +10,7 @@ export type CaseStudyMeta = {
 export const caseStudies: CaseStudyMeta[] = [
   {
     slug: "dita-rafi-planning-their-dream-home-without-financial-stress",
-    title: "Dita & Rafi — Planning Their Dream Home Without Financial Stress",
+    title: "Dita & Rafi - Planning Their Dream Home Without Financial Stress",
     subtitle:
       "How a young couple aligned goals, paid down debt, and saved 20× for their first home.",
     image:
@@ -19,7 +19,7 @@ export const caseStudies: CaseStudyMeta[] = [
   },
   {
     slug: "jonathan-t-from-financial-uncertainty-to-total-clarity",
-    title: "Jonathan T. — From Financial Uncertainty to Total Clarity",
+    title: "Jonathan T. - From Financial Uncertainty to Total Clarity",
     subtitle:
       "A young tech professional rebuilds his finances from scratch with a structured plan.",
     image:
@@ -28,7 +28,7 @@ export const caseStudies: CaseStudyMeta[] = [
   },
   {
     slug: "mr-budi-optimizing-retirement-funds-for-a-worry-free-future",
-    title: "Mr. Budi — Optimizing Retirement Funds for a Worry-Free Future",
+    title: "Mr. Budi - Optimizing Retirement Funds for a Worry-Free Future",
     subtitle:
       "Holistic retirement strategy: structured income, inflation protection, and estate clarity.",
     image:
@@ -38,7 +38,7 @@ export const caseStudies: CaseStudyMeta[] = [
   {
     slug: "adi-nisa-turning-their-local-coffee-shop-into-a-profitable-scalable-business",
     title:
-      "Adi & Nisa — Turning Their Local Coffee Shop Into a Profitable, Scalable Business",
+      "Adi & Nisa - Turning Their Local Coffee Shop Into a Profitable, Scalable Business",
     subtitle:
       "From cash-stressed shop to disciplined business with 3.5× monthly profit growth.",
     image:
@@ -48,7 +48,7 @@ export const caseStudies: CaseStudyMeta[] = [
   {
     slug: "rina-a-freelance-writer-builds-financial-stability-from-unpredictable-income",
     title:
-      "Rina A. — Freelance Writer Builds Financial Stability from Unpredictable Income",
+      "Rina A. - Freelance Writer Builds Financial Stability from Unpredictable Income",
     subtitle:
       "Variable income tamed: emergency fund, steady savings, and confidence to raise rates.",
     image:

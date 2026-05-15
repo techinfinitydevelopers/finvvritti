@@ -50,16 +50,16 @@ export async function POST(req: Request) {
       from: fromEmail,
       to: [toEmail],
       replyTo: email,
-      subject: `New consultation request — ${name}${company ? ` (${company})` : ""}`,
+      subject: `New consultation request - ${name}${company ? ` (${company})` : ""}`,
       html: `
         <div style="font-family:Inter,Arial,sans-serif;max-width:560px;margin:auto;color:#0F172A">
           <h2 style="color:#0A2540;margin:0 0 12px">New consultation request</h2>
-          <p style="margin:0 0 16px;color:#64748B">Submitted via finvvritti.com — <strong>${escape(source || "Unknown")}</strong></p>
+          <p style="margin:0 0 16px;color:#64748B">Submitted via finvvritti.com - <strong>${escape(source || "Unknown")}</strong></p>
           <table style="width:100%;border-collapse:collapse">
             <tr><td style="padding:8px 0;color:#64748B">Name</td><td style="padding:8px 0">${escape(name)}</td></tr>
             <tr><td style="padding:8px 0;color:#64748B">Email</td><td style="padding:8px 0">${escape(email)}</td></tr>
-            <tr><td style="padding:8px 0;color:#64748B">Phone</td><td style="padding:8px 0">${escape(phone || "—")}</td></tr>
-            <tr><td style="padding:8px 0;color:#64748B">Company</td><td style="padding:8px 0">${escape(company || "—")}</td></tr>
+            <tr><td style="padding:8px 0;color:#64748B">Phone</td><td style="padding:8px 0">${escape(phone || "N/A")}</td></tr>
+            <tr><td style="padding:8px 0;color:#64748B">Company</td><td style="padding:8px 0">${escape(company || "N/A")}</td></tr>
           </table>
           <div style="margin-top:16px;padding:16px;background:#F8F5EE;border-radius:12px">
             <p style="margin:0 0 8px;color:#64748B;font-size:12px;text-transform:uppercase;letter-spacing:1px">Message</p>
