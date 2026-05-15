@@ -46,6 +46,8 @@ export async function POST(req: Request) {
     }
 
     const resend = new Resend(resendApiKey);
+
+    // 1. Notify admin
     const { error } = await resend.emails.send({
       from: fromEmail,
       to: [toEmail],
@@ -72,6 +74,38 @@ export async function POST(req: Request) {
     if (error) {
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
+
+    // 2. Send confirmation to user
+    await resend.emails.send({
+      from: fromEmail,
+      to: [email],
+      subject: `We received your enquiry - Finvvritti`,
+      html: `
+        <div style="font-family:Inter,Arial,sans-serif;max-width:560px;margin:auto;color:#0F172A">
+          <div style="background:#0A2540;padding:32px 32px 24px;border-radius:16px 16px 0 0;text-align:center">
+            <h1 style="margin:0;color:#ffffff;font-size:22px;font-weight:700;letter-spacing:-0.3px">Finvvritti</h1>
+            <p style="margin:6px 0 0;color:#C69B3A;font-size:12px;letter-spacing:2px;text-transform:uppercase">CA & CS Advisory</p>
+          </div>
+          <div style="background:#ffffff;padding:32px;border:1px solid #E8E4D9;border-top:none;border-radius:0 0 16px 16px">
+            <h2 style="margin:0 0 12px;color:#0A2540;font-size:20px">Hi ${escape(name)},</h2>
+            <p style="margin:0 0 16px;color:#475569;line-height:1.6">Thank you for reaching out to Finvvritti. We have received your enquiry and our team will get back to you within <strong>1 business day</strong>.</p>
+            <div style="background:#F8F5EE;border-radius:12px;padding:16px;margin:20px 0">
+              <p style="margin:0 0 8px;color:#64748B;font-size:11px;text-transform:uppercase;letter-spacing:1px">Your submission</p>
+              <table style="width:100%;border-collapse:collapse">
+                <tr><td style="padding:6px 0;color:#64748B;font-size:13px;width:40%">Name</td><td style="padding:6px 0;font-size:13px;color:#0F172A">${escape(name)}</td></tr>
+                <tr><td style="padding:6px 0;color:#64748B;font-size:13px">Phone</td><td style="padding:6px 0;font-size:13px;color:#0F172A">${escape(phone || "N/A")}</td></tr>
+                <tr><td style="padding:6px 0;color:#64748B;font-size:13px">Source</td><td style="padding:6px 0;font-size:13px;color:#0F172A">${escape(source || "Website")}</td></tr>
+              </table>
+            </div>
+            <p style="margin:16px 0 0;color:#475569;line-height:1.6">If you have any urgent queries, feel free to call us directly at <strong>+91 80803 86506</strong> or reply to this email.</p>
+            <div style="margin-top:28px;padding-top:20px;border-top:1px solid #E8E4D9;text-align:center">
+              <p style="margin:0;color:#94A3B8;font-size:12px">Finvvritti Advisors &nbsp;|&nbsp; Charni Road, Mumbai 400004</p>
+              <p style="margin:4px 0 0;color:#94A3B8;font-size:12px">gagan@finvvritti.com &nbsp;|&nbsp; +91 80803 86506</p>
+            </div>
+          </div>
+        </div>
+      `,
+    }).catch(() => {}); // don't fail if auto-reply errors
 
     return NextResponse.json({ ok: true });
   } catch (err) {
