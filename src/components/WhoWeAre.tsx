@@ -114,7 +114,7 @@ export default function WhoWeAre() {
             difference to SMEs and Start-ups.
           </p>
 
-          <a href="#services" className="whoweare-link mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)] group">
+          <a href="/about" className="whoweare-link mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)] group">
             Learn More About Us
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
