@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -51,7 +52,19 @@ export default function ContactSection() {
             and timeline. Or contact us directly using the details below.
           </p>
 
-          <div className="contact-details mt-8 space-y-3">
+          {/* Office image */}
+          <div className="mt-8 rounded-2xl overflow-hidden border border-[var(--color-line)] shadow-elev h-48 md:h-52 relative">
+            <Image
+              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80"
+              alt="Finvvritti Office – Professional financial advisory team"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 500px"
+            />
+            <div className="absolute inset-0 bg-[var(--color-primary)]/20" />
+          </div>
+
+          <div className="contact-details mt-6 space-y-3">
             <ContactRow Icon={Phone} label="Call Us" value="+91 80803 86506" href="tel:+918080386506" />
             <ContactRow Icon={Mail} label="Email Us" value="gagan@finvvritti.com" href="mailto:gagan@finvvritti.com" />
             <ContactRow

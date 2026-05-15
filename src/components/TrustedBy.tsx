@@ -1,7 +1,9 @@
 "use client";
 import Image from "next/image";
 
-const logos = [
+type LogoEntry = { src: string; alt: string; text?: never } | { src?: never; alt: string; text: string };
+
+const logos: LogoEntry[] = [
   { src: "/logos/logo1.png", alt: "Client Logo 1" },
   { src: "/logos/logo2.png", alt: "Client Logo 2" },
   { src: "/logos/logo3.png", alt: "Client Logo 3" },
@@ -13,6 +15,9 @@ const logos = [
   { src: "/logos/logo12.jpg", alt: "India BBQ" },
   { src: "/logos/logo13.jpg", alt: "Theona" },
   { src: "/logos/logo14.jpg", alt: "Blacksphere" },
+  { alt: "GFXBandits IT Solutions", text: "GFXBandits" },
+  { alt: "Stancor Alloys Private Limited", text: "Stancor Alloys" },
+  { alt: "LLM Foods", text: "LLM Foods" },
 ];
 
 export default function TrustedBy() {
@@ -37,13 +42,19 @@ export default function TrustedBy() {
               key={i}
               className="flex-shrink-0 flex items-center justify-center w-[110px] h-[48px] md:w-[160px] md:h-[64px]"
             >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={160}
-                height={64}
-                className="object-contain w-full h-full opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
-              />
+              {logo.src ? (
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={160}
+                  height={64}
+                  className="object-contain w-full h-full opacity-60 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+                />
+              ) : (
+                <span className="px-3 py-2 rounded-lg border border-[var(--color-line)] bg-white text-[var(--color-primary)] text-xs md:text-sm font-semibold opacity-60 hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                  {logo.text}
+                </span>
+              )}
             </div>
           ))}
         </div>
