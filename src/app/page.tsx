@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import WhoWeAre from "@/components/WhoWeAre";
 import Process from "@/components/Process";
 import CoreValue from "@/components/CoreValue";
-import Industries from "@/components/Industries";
+import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 import TrustedBy from "@/components/TrustedBy";
 import CaseStudy from "@/components/CaseStudy";
 import Testimonials from "@/components/Testimonials";
@@ -22,7 +22,7 @@ export default function Home() {
         <WhoWeAre />
         <Process />
         <CoreValue />
-        <Industries />
+        <WhyChooseUsSection />
         <TrustedBy />
         <YoutubeShorts />
         <CaseStudy />
