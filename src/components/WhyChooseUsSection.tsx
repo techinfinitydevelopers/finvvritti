@@ -1,13 +1,14 @@
 "use client";
-import { Award, BarChart3, Target, Hammer, TrendingUp } from "lucide-react";
+import { Award, BarChart3, Target, Hammer, TrendingUp, ShieldCheck } from "lucide-react";
 import AboutAnimated from "@/components/AboutAnimated";
 
 const reasons = [
-  { Icon: Award,       h4: "Proven Track Record",    body: "Over 200 businesses successfully scaled with our guidance." },
-  { Icon: BarChart3,   h4: "Data-Driven Decisions",  body: "Every strategy is backed by analytics and insights." },
-  { Icon: Target,      h4: "Tailored Strategies",    body: "Solutions customized to each client's unique goals." },
-  { Icon: Hammer,      h4: "Hands-On Execution",     body: "We don't just advise; we help implement and optimize." },
-  { Icon: TrendingUp,  h4: "Sustainable Growth Focus", body: "Strategies are designed for long-term success, not short-term wins." },
+  { Icon: Award,       h4: "Proven Track Record",        body: "Over 200 businesses successfully scaled with our guidance." },
+  { Icon: BarChart3,   h4: "Data-Driven Decisions",      body: "Every strategy is backed by analytics and insights." },
+  { Icon: Target,      h4: "Tailored Strategies",        body: "Solutions customized to each client's unique goals." },
+  { Icon: Hammer,      h4: "Hands-On Execution",         body: "We don't just advise; we help implement and optimize." },
+  { Icon: TrendingUp,  h4: "Sustainable Growth Focus",   body: "Strategies are designed for long-term success, not short-term wins." },
+  { Icon: ShieldCheck, h4: "Proactive Compliance Support", body: "We don't wait for problems to arise; we help you stay ahead with timely compliance, regular reviews, and practical guidance." },
 ];
 
 export default function WhyChooseUsSection() {
