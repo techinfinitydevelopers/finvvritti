@@ -33,8 +33,8 @@ export default function CTA() {
               Get In Touch
             </span>
             <h2 className="font-display mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
-              Take Your Business to The{" "}
-              <span className="text-gradient-gold">Next Financial Level</span>
+              Take the Next Step Towards{" "}
+              <span className="text-gradient-gold">Financial Security</span>
             </h2>
             <p className="mt-5 text-white/80 text-base md:text-lg">
               Partner with Finvvritti for precise accounting and actionable

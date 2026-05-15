@@ -23,7 +23,7 @@ const steps = [
   },
   {
     n: 4,
-    title: "Advise & optimize",
+    title: "Advise and optimise",
     text: "Ongoing CFO-level guidance on tax, debt, valuation, and capital, turning numbers into next moves.",
   },
   {
@@ -64,7 +64,7 @@ export default function Process() {
       <div className="container-x relative">
         <div className="process-header max-w-2xl">
           <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary)] font-semibold uppercase">
-            Our 5-Step Process
+            Our Process
           </span>
           <h2 className="font-display mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
             From clarity to{" "}

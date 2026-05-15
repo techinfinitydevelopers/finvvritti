@@ -9,7 +9,6 @@ const otherLinks = [
   { label: "About Us", href: "/about" },
   { label: "Careers", href: "https://cfobridge.com/career" },
   { label: "Case Studies", href: "/case-studies" },
-  { label: "FAQs", href: "/faq" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -27,17 +26,6 @@ const megaGroups: MenuGroup[] = [
       { label: "Company Secretarial Services", slug: "company-secretary-services" },
       { label: "Online Registration Services", slug: "online-registration-services" },
       { label: "Trademark Registration", slug: "trademark-registration" },
-    ],
-  },
-  {
-    title: "International Services",
-    color: "#0369A1",
-    items: [
-      { label: "Company Incorporation in USA", slug: "incorporation-services-in-the-usa" },
-      { label: "Company Incorporation in Dubai", slug: "business-setup-dubai" },
-      { label: "Company Incorporation in Singapore", slug: "company-incorporation-singapore" },
-      { label: "Financial Audits in the USA", slug: "professional-financial-audit-services-in-the-usa" },
-      { label: "Foreign Compliance & Ongoing Reporting", slug: "foreign-compliance-reporting" },
     ],
   },
   {
@@ -72,6 +60,17 @@ const megaGroups: MenuGroup[] = [
       { label: "ESOP Advisory", slug: "esop" },
       { label: "Internal Audit", slug: "internal-audit" },
       { label: "Business Plan", slug: "business-plan" },
+    ],
+  },
+  {
+    title: "International Services",
+    color: "#0369A1",
+    items: [
+      { label: "Company Incorporation in USA", slug: "incorporation-services-in-the-usa" },
+      { label: "Company Incorporation in Dubai", slug: "business-setup-dubai" },
+      { label: "Company Incorporation in Singapore", slug: "company-incorporation-singapore" },
+      { label: "Financial Audits in the USA", slug: "professional-financial-audit-services-in-the-usa" },
+      { label: "Foreign Compliance & Ongoing Reporting", slug: "foreign-compliance-reporting" },
     ],
   },
 ];
@@ -135,6 +134,11 @@ export default function Navbar() {
             Home
           </a>
 
+          {/* About Us — before Services */}
+          <a href="/about" className={`text-sm font-medium transition-colors ${onHero ? "text-white/85 hover:text-[var(--color-secondary)]" : "text-[var(--color-ink)]/80 hover:text-[var(--color-primary)]"}`}>
+            About Us
+          </a>
+
           {/* Services mega menu trigger */}
           <div
             ref={megaRef}
@@ -154,8 +158,8 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Other links */}
-          {otherLinks.slice(1).map((l) => (
+          {/* Remaining links (skip Home & About Us) */}
+          {otherLinks.slice(2).map((l) => (
             <a
               key={l.href}
               href={l.href}
