@@ -9,19 +9,6 @@ export type TeamMember = {
 
 export const team: TeamMember[] = [
   {
-    slug: "ashok",
-    name: "Ashok Chaudhary",
-    role: "Chartered Accountant",
-    avatar: "/team/ashok.avif",
-    linkedin: "https://www.linkedin.com/in/caashokchaudhary/",
-    bio: [
-      "Ashok Chaudhary is a seasoned Chartered Accountant with a diverse background with exposure to Audit, Accounts, Budgeting, MIS, Taxation and Compliances, and Payroll Execution.",
-      "He has extensive experience working with professionally managed corporates as a consultant, focusing on GST-related services, including registrations, return filings, reconciliations, and audits.",
-      "He has successfully guided numerous organizations through the complexities of GST compliance, helping them navigate the regulatory environment with ease.",
-      "In addition to his expertise in GST, he has played a key role in assisting businesses with their corporate affairs, ensuring a seamless setup and smooth operations in India. His in-depth understanding of taxation and regulatory frameworks makes him a reliable partner for businesses seeking expert financial guidance.",
-    ],
-  },
-  {
     slug: "gagan",
     name: "Gagan Mittal",
     role: "Chartered Accountant",
@@ -32,6 +19,19 @@ export const team: TeamMember[] = [
       "At Amberstudent (global student accommodation booking platform), he was working as Director of Finance and was heading finance and legal function. He managed global operations by helping setting up systems and processes from scratch for group entities in India, US, China and Dubai. He managed fund raise of Series A from Gaja Capital of approximately USD 20 Mn and Venture debt of approximately USD 3 Mn. He raised cumulative debt to the tune of approximately USD 10 Mn. He also played a key role in automating financial operations.",
       "At Deloitte, he was part of Corporate Finance & Restructuring team working across sectors and successfully completing more than 6 M&A deals with size of USD 2.4 Bn and raised debts in excess of USD 100 Mn. He was also an integral part of the team managing BPCL disinvestment for DIPAM.",
       "Prior to Deloitte, he was leading Virtual CFO services for clients with end to end execution like Rapido, Amber, Housing, Toppr, Bewakoof, Truebil, BC Jukebox, Flyrobe, Azuro, Handyhomes, Niffler, Mydidi, etc. He has experience of working with 50+ startups. He has exposure of working directly with CXOs, founders and investors.",
+    ],
+  },
+  {
+    slug: "ashok",
+    name: "Ashok Chaudhary",
+    role: "Chartered Accountant",
+    avatar: "/team/ashok.avif",
+    linkedin: "https://www.linkedin.com/in/caashokchaudhary/",
+    bio: [
+      "Ashok Chaudhary is a seasoned Chartered Accountant with a diverse background with exposure to Audit, Accounts, Budgeting, MIS, Taxation and Compliances, and Payroll Execution.",
+      "He has extensive experience working with professionally managed corporates as a consultant, focusing on GST-related services, including registrations, return filings, reconciliations, and audits.",
+      "He has successfully guided numerous organizations through the complexities of GST compliance, helping them navigate the regulatory environment with ease.",
+      "In addition to his expertise in GST, he has played a key role in assisting businesses with their corporate affairs, ensuring a seamless setup and smooth operations in India. His in-depth understanding of taxation and regulatory frameworks makes him a reliable partner for businesses seeking expert financial guidance.",
     ],
   },
   {

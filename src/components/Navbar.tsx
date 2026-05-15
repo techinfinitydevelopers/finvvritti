@@ -7,6 +7,7 @@ import { Menu, X, Phone, ChevronDown, ArrowRight } from "lucide-react";
 const otherLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
+  { label: "Careers", href: "https://cfobridge.com/career" },
   { label: "Case Studies", href: "/case-studies" },
   { label: "FAQs", href: "/faq" },
   { label: "Contact Us", href: "/contact" },

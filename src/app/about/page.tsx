@@ -8,6 +8,7 @@ import ContactSection from "@/components/ContactSection";
 import Testimonials from "@/components/Testimonials";
 import AboutAnimated from "@/components/AboutAnimated";
 import TeamSection from "@/components/TeamSection";
+import Industries from "@/components/Industries";
 import {
   CheckCircle2,
   Award,
@@ -43,6 +44,10 @@ const values = [
   {
     h3: "Collaboration",
     body: "We work closely with clients to ensure strategies are practical and effective.",
+  },
+  {
+    h3: "Compliance Made Simple!",
+    body: "We make taxation, accounting, and compliance easy to manage through timely guidance, practical solutions, and proactive support for your business.",
   },
 ];
 
@@ -246,6 +251,9 @@ export default function AboutPage() {
             </AboutAnimated>
           </div>
         </section>
+
+        {/* Industries We Serve */}
+        <Industries />
 
         {/* Team */}
         <section className="py-16 md:py-24 bg-[var(--color-tertiary)]">

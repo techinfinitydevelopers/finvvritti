@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Libre_Baskerville, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import ScrollToTop from "@/components/ScrollToTop";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const libreBaskerville = Libre_Baskerville({
   variable: "--font-playfair",
@@ -37,6 +38,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-white text-[var(--color-ink)]" suppressHydrationWarning>
         <ScrollToTop />
+        <WhatsAppButton />
         {children}
       </body>
     </html>

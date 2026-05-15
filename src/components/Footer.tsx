@@ -81,7 +81,7 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-2.5">
               <MapPin size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
-              <span>Office No 504, D Wing, 5th Floor, Shreepati Jewels, Khattar Galli, Mumbai, Maharashtra 400004</span>
+              <span>Office No 504, D Wing, 5th Floor, Shreepati Jewels, Khattar Galli, Charni Road, Mumbai, Maharashtra 400004</span>
             </li>
           </ul>
         </div>

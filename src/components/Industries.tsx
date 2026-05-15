@@ -1,19 +1,19 @@
 "use client";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { Stethoscope, Radio, Cpu, Building2, UtensilsCrossed, Film } from "lucide-react";
+import { Stethoscope, Cpu, Building2, UtensilsCrossed, Hammer, Scissors } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const items = [
-  { Icon: Stethoscope, name: "Healthcare", blurb: "Hospitals, clinics & life sciences", img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" },
-  { Icon: Radio, name: "Communications", blurb: "Media, telecom & broadcasting", img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=900&q=80" },
-  { Icon: Cpu, name: "Infotech", blurb: "SaaS, IT services & startups", img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" },
-  { Icon: Building2, name: "Real Estate", blurb: "Developers, REITs & brokers", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80" },
+  { Icon: Cpu, name: "Infotech", blurb: "SaaS, IT services, influencers & startups", img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" },
+  { Icon: Hammer, name: "Metals & Minerals", blurb: "Steel, mining & commodity trading", img: "https://images.unsplash.com/photo-1567361808960-dec9cb578182?auto=format&fit=crop&w=900&q=80" },
   { Icon: UtensilsCrossed, name: "Food & Beverages", blurb: "Restaurants, FMCG & cloud kitchens", img: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=900&q=80" },
-  { Icon: Film, name: "Entertainment", blurb: "Production, OTT & live events", img: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80" },
+  { Icon: Building2, name: "Real Estate", blurb: "Developers, architects & brokers", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80" },
+  { Icon: Scissors, name: "Textile", blurb: "Garments, fabrics & fashion retail", img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=900&q=80" },
+  { Icon: Stethoscope, name: "Healthcare", blurb: "Hospitals, clinics & life sciences", img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" },
 ];
 
 export default function Industries() {

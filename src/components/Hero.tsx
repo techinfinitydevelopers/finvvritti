@@ -79,7 +79,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/20 bg-white/5 text-xs md:text-sm tracking-wide"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-secondary)]" />
-            Accounting and Financial Advisory
+            ACCOUNTING AND TRUSTED FINANCIAL ADVISORY
           </span>
 
           <h1
@@ -92,8 +92,12 @@ export default function Hero() {
 
           <p
             ref={paraRef}
-            className="mt-5 text-base md:text-lg text-white/80 max-w-xl"
+            className="mt-2 text-sm md:text-base text-white/65 max-w-xl"
           >
+            India&apos;s leading advisory and Chartered Accountant Firm in Mumbai
+          </p>
+
+          <p className="mt-3 text-base md:text-lg text-white/80 max-w-xl">
             One-stop solution for finance, compliance & growth. We combine CA &
             CS expertise across auditing, accounting, taxation, debt advisory,
             CFO services, and valuation.
@@ -104,20 +108,20 @@ export default function Hero() {
             className="mt-7 flex flex-wrap items-center gap-4"
           >
             <a
-              href="/contact"
+              href="/services"
               className="group inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[var(--color-secondary)] text-[var(--color-primary)] font-semibold hover:bg-[var(--color-secondary-light)] transition-colors text-sm"
             >
-              Book Free Consultation
+              Our Services
               <ArrowRight
                 size={18}
                 className="group-hover:translate-x-0.5 transition-transform"
               />
             </a>
             <a
-              href="#about"
+              href="/contact"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-white/25 text-white font-medium hover:bg-white/5 transition-colors text-sm"
             >
-              Learn More About Us
+              Book Free Consultation
             </a>
           </div>
 

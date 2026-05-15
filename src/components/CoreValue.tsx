@@ -11,6 +11,8 @@ const points = [
   "Practical, plain-English advice, no jargon",
   "Audit-ready, compliant, transparent operations",
   "Always know exactly where your business stands",
+  "Proactive Compliance Support",
+  "Timely compliance & regular reviews",
 ];
 
 export default function CoreValue() {

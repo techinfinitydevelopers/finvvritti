@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { caseStudies, type CaseStudyMeta } from "@/lib/case-studies";
 
-const FILTERS = ["All", "Personal Finance", "Freelancer", "Retirement", "SME"];
+const FILTERS = ["All", "Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
 
 export default function CaseStudiesGrid() {
   const [active, setActive] = useState("All");

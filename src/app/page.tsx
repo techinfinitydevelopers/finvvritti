@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhoWeAre from "@/components/WhoWeAre";
-import Industries from "@/components/Industries";
 import Process from "@/components/Process";
 import CoreValue from "@/components/CoreValue";
 import TrustedBy from "@/components/TrustedBy";
@@ -20,7 +19,6 @@ export default function Home() {
       <main>
         <Hero />
         <WhoWeAre />
-        <Industries />
         <Process />
         <CoreValue />
         <TrustedBy />

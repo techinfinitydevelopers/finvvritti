@@ -57,7 +57,7 @@ export default function ContactSection() {
             <ContactRow
               Icon={MapPin}
               label="Our Office"
-              value="Office No 504, D Wing, 5th Floor, Shreepati Jewels, Khattar Galli, Mumbai, Maharashtra 400004"
+              value="Office No 504, D Wing, 5th Floor, Shreepati Jewels, Khattar Galli, Charni Road, Mumbai, Maharashtra 400004"
             />
             <ContactRow
               Icon={Clock}
