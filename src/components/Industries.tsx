@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const items = [
   { Icon: Cpu, name: "Infotech", blurb: "SaaS, IT services, influencers & startups", img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" },
-  { Icon: Hammer, name: "Metals & Minerals", blurb: "Steel, mining & commodity trading", img: "https://images.unsplash.com/photo-1567361808960-dec9cb578182?auto=format&fit=crop&w=900&q=80" },
+  { Icon: Hammer, name: "Metals & Minerals", blurb: "Steel, mining & commodity trading", img: "/industries/metals.jpg" },
   { Icon: UtensilsCrossed, name: "Food & Beverages", blurb: "Restaurants, FMCG & cloud kitchens", img: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=900&q=80" },
   { Icon: Building2, name: "Real Estate", blurb: "Developers, architects & brokers", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80" },
   { Icon: Scissors, name: "Textile", blurb: "Garments, fabrics & fashion retail", img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=900&q=80" },
