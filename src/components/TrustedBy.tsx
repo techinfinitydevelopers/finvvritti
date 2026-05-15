@@ -15,7 +15,6 @@ const logos: LogoEntry[] = [
   { src: "/logos/logo12.jpg", alt: "India BBQ" },
   { src: "/logos/logo13.jpg", alt: "Theona" },
   { src: "/logos/logo14.jpg", alt: "Blacksphere" },
-  { src: "/logos/logo15.png", alt: "Client Logo 15" },
   { src: "/logos/logo16.png", alt: "Client Logo 16" },
 ];
 
