@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { CheckCircle2, Sparkles, ArrowRight, ChevronDown, Shield, Infinity, RefreshCw, PiggyBank, BadgeCheck } from "lucide-react";
+import { CheckCircle2, Sparkles, ArrowRight, ChevronDown, Shield, Infinity, RefreshCw, PiggyBank, BadgeCheck, TrendingUp, Globe, Briefcase, Receipt, Percent, Search, Banknote, Network } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import type { ServiceContent } from "@/lib/service-content";
@@ -142,11 +142,19 @@ export default function ServiceDetail({
 
   /* Icon map for benefits */
   const benefitIconMap: Record<string, React.ReactNode> = {
-    "shield":      <Shield size={20} />,
-    "infinity":    <Infinity size={20} />,
-    "repeat":      <RefreshCw size={20} />,
-    "piggy-bank":  <PiggyBank size={20} />,
-    "badge-check": <BadgeCheck size={20} />,
+    "shield":       <Shield size={20} />,
+    "infinity":     <Infinity size={20} />,
+    "repeat":       <RefreshCw size={20} />,
+    "piggy-bank":   <PiggyBank size={20} />,
+    "badge-check":  <BadgeCheck size={20} />,
+    "trending-up":  <TrendingUp size={20} />,
+    "globe":        <Globe size={20} />,
+    "briefcase":    <Briefcase size={20} />,
+    "receipt":      <Receipt size={20} />,
+    "percent":      <Percent size={20} />,
+    "search":       <Search size={20} />,
+    "banknote":     <Banknote size={20} />,
+    "network":      <Network size={20} />,
   };
 
   /* Derive highlight stats */

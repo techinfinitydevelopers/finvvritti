@@ -17,6 +17,14 @@ import {
   Handshake,
   TrendingUp,
   ListChecks,
+  Banknote,
+  RefreshCw,
+  Briefcase,
+  Receipt,
+  Percent,
+  ClipboardList,
+  MapPin,
+  Network,
   type LucideIcon,
 } from "lucide-react";
 
@@ -209,6 +217,86 @@ export const services: Service[] = [
     image:
       "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=900&q=80",
     category: "Capital",
+  },
+  {
+    slug: "debt-raise",
+    title: "Debt Raise",
+    blurb:
+      "End-to-end debt fundraising — CMA data, project reports, lender identification, and disbursement support.",
+    Icon: Banknote,
+    image:
+      "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=900&q=80",
+    category: "Capital",
+  },
+  {
+    slug: "debt-restructuring-advisory",
+    title: "Debt Restructuring Advisory",
+    blurb:
+      "Renegotiate loan terms, restore cash flow, and build a sustainable path forward with creditors.",
+    Icon: RefreshCw,
+    image:
+      "https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=900&q=80",
+    category: "Capital",
+  },
+  {
+    slug: "virtual-cfo-services",
+    title: "Virtual CFO Services",
+    blurb:
+      "CFO-level financial strategy, MIS reporting, investor relations, and fundraising support — on a flexible basis.",
+    Icon: Briefcase,
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80",
+    category: "Advisory",
+  },
+  {
+    slug: "direct-tax-services",
+    title: "Direct Tax Services",
+    blurb:
+      "Income tax planning, return filing, written opinions, TDS compliance, and representation before the department.",
+    Icon: Receipt,
+    image:
+      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=900&q=80",
+    category: "Compliance",
+  },
+  {
+    slug: "indirect-tax-services",
+    title: "Indirect Tax Services",
+    blurb:
+      "GST registration, return filing, ITC optimisation, refunds, written opinions, and departmental representation.",
+    Icon: Percent,
+    image:
+      "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?auto=format&fit=crop&w=900&q=80",
+    category: "Compliance",
+  },
+  {
+    slug: "internal-audit",
+    title: "Internal Audit",
+    blurb:
+      "Risk-based internal audit to strengthen controls, ensure compliance, and protect stakeholder interests.",
+    Icon: ClipboardList,
+    image:
+      "https://images.unsplash.com/photo-1542744094-24638eff58bb?auto=format&fit=crop&w=900&q=80",
+    category: "Compliance",
+  },
+  {
+    slug: "company-incorporation-singapore",
+    title: "Company Incorporation in Singapore",
+    blurb:
+      "ACRA incorporation, nominee director, registered office, bank account opening, and post-incorporation compliance.",
+    Icon: MapPin,
+    image:
+      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=900&q=80",
+    category: "Global",
+  },
+  {
+    slug: "foreign-compliance-reporting",
+    title: "Foreign Compliance & Ongoing Reporting",
+    blurb:
+      "Complete ongoing compliance for Indian businesses with foreign entities — secretarial, tax, accounting, and FEMA.",
+    Icon: Network,
+    image:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
+    category: "Global",
   },
 ];
 

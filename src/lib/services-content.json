@@ -1434,5 +1434,353 @@
         "a": "An LLP must file annual returns and financial statements with the ROC, maintain books of accounts, conduct a statutory audit if turnover exceeds ₹40 lakh or contribution exceeds ₹25 lakh, and comply with GST, income tax, and other applicable laws. Finvvritti provides ongoing compliance support."
       }
     ]
+  },
+  "debt-raise": {
+    "title": "Debt Raise",
+    "overview": [
+      "Businesses require financing at every stage — for expansion, working capital, acquisitions, project finance, or capital restructuring. Raising debt effectively requires more than just approaching a lender; it demands a thorough understanding of your own financial position, the available market options, and the ability to negotiate favourable terms. Finvvritti's debt advisory service helps businesses navigate this complexity end-to-end.",
+      "The process begins with a detailed study of the client's financial position — specifically the debt capacity — what the business can realistically borrow and service. This is followed by a structured market exploration to identify the best available deal from banks, NBFCs, financial institutions, or private capital sources. The right option is selected based on both the present situation and future financial goals.",
+      "Advisory extends across all forms of debt — term loans, working capital lines, project finance, structured finance, non-convertible debentures (NCDs), commercial paper, and acquisition finance. The advisor also evaluates proposals from lenders, assists in negotiation, and ensures the debt structure is optimised to reduce financing costs.",
+      "For businesses preparing to raise debt, having a CMA (Credit Monitoring Arrangement) data report and a detailed project report is essential. Banks require these documents to assess eligibility and viability. Our team — including ex-bankers — prepares CMA data, projected financial statements for 5+ years, key ratio analysis (DSCR, current ratio, interest coverage ratio, debt-equity ratio), and full loan eligibility analysis."
+    ],
+    "benefits": [
+      { "icon": "banknote",     "title": "Wide Lender Network",         "desc": "Access to banks, NBFCs, financial institutions, private equity, and structured finance providers." },
+      { "icon": "shield",       "title": "Conflict-Free Advisory",      "desc": "Objective advice on the best financing structure for your situation — independent of any lender." },
+      { "icon": "trending-up",  "title": "End-to-End Coordination",     "desc": "From financial analysis through disbursement, we relieve management of the entire burden." },
+      { "icon": "badge-check",  "title": "CMA & Documentation Ready",   "desc": "Full preparation of CMA data, project reports, financial projections, and compliance certificates." },
+      { "icon": "piggy-bank",   "title": "Optimised Loan Terms",        "desc": "Negotiation support on interest rates, tenure, and covenants to achieve the most favourable terms." }
+    ],
+    "sections": [
+      "Debt Capacity Assessment",
+      "CMA Data & Project Reports",
+      "Term Loans & Working Capital",
+      "Structured & Project Finance",
+      "Capital Market Instruments",
+      "Post-Sanction Compliance"
+    ],
+    "bullets": [
+      "Financial position analysis and debt capacity assessment before approaching any lender.",
+      "Preparation of CMA data, project feasibility reports, and detailed project reports (DPR).",
+      "Documentation for term loans, working capital, structured finance, and project loans.",
+      "Execution of capital market transactions: commercial paper, NCDs, and bonds.",
+      "Evaluation of lender funding proposals and negotiation support for optimal terms.",
+      "Assistance in obtaining funding from Indian banks and financial institutions.",
+      "Advisory on debt syndication, structured finance, and acquisition finance.",
+      "Projected financial statements (5+ years) with key ratio analysis (DSCR, debt-equity, ICR).",
+      "CA certification for loan eligibility and financial projections.",
+      "Post-sanction compliance and drawdown coordination support."
+    ],
+    "faqs": [
+      { "q": "What is debt advisory?", "a": "Debt advisory is a service that helps businesses identify, structure, and raise debt financing from banks, financial institutions, and capital markets. An advisor studies the company's financial position, explores the available market options, selects the best fit, and executes the transaction." },
+      { "q": "What is CMA data?", "a": "CMA (Credit Monitoring Arrangement) data is a set of financial documents required by banks when a business applies for a loan. It includes historical financials, projected financial statements, key ratios, and cash flow analysis. It must be prepared by a Chartered Accountant." },
+      { "q": "What is loan syndication?", "a": "Loan syndication is a process where multiple lenders collectively provide a large loan to a single borrower. Finvvritti facilitates this by identifying multiple lenders and coordinating the transaction on behalf of the borrower." },
+      { "q": "What types of debt can Finvvritti help raise?", "a": "Term loans, working capital facilities, project finance, structured finance, acquisition finance, NCDs, commercial paper, and external commercial borrowings (ECBs)." },
+      { "q": "What is project finance?", "a": "Project finance is a method of financing large infrastructure or industrial projects where the lender relies on the projected cash flows of the project rather than the balance sheet of the sponsor as security." }
+    ]
+  },
+  "debt-restructuring-advisory": {
+    "title": "Debt Restructuring Advisory",
+    "overview": [
+      "Debt restructuring is a strategic process through which a financially stressed business reorganises its existing debt obligations to restore stability, avoid default, and build a sustainable path forward. It is not just a crisis-response tool — in today's dynamic business environment, periodic reassessment of financial structures is essential to stay competitive and resilient.",
+      "Businesses may need restructuring due to a range of circumstances: revenue disruption, demand fluctuations, deterioration of debt service coverage, rising interest burdens, or mismatch between repayment schedules and cash flows. Early engagement with a restructuring advisor — before stress becomes distress — significantly improves outcomes.",
+      "The restructuring process involves a comprehensive financial assessment, development of a customised restructuring plan, and structured negotiations with banks and creditors. The objective is to modify existing loan terms — extending repayment periods, reducing interest rates, converting short-term obligations to long-term, or settling for partial amounts — in a way that addresses immediate cash flow constraints and preserves the business as a going concern.",
+      "Restructuring can take several forms: corporate restructuring (merger, demerger, strategic alliance), debt restructuring (renegotiating loan terms), financial restructuring (recapitalisation), or operational restructuring (cost rationalisation). Finvvritti coordinates all dimensions throughout planning, execution, and post-implementation to ensure full regulatory and legal compliance."
+    ],
+    "benefits": [
+      { "icon": "repeat",       "title": "Immediate Cash Flow Relief",   "desc": "Deferred or reduced instalments and lower interest obligations provide immediate breathing room." },
+      { "icon": "shield",       "title": "Avoid Default & NPA",          "desc": "Prevents NPA classification and the associated legal and reputational consequences." },
+      { "icon": "trending-up",  "title": "Business Continuity",          "desc": "Preserves operations, protects jobs, and maintains stakeholder relationships throughout the process." },
+      { "icon": "badge-check",  "title": "Creditor Confidence",          "desc": "Structured, credible plans rebuild lender trust and create viable paths to debt normalisation." },
+      { "icon": "piggy-bank",   "title": "Aligned Repayments",           "desc": "Repayment schedules restructured to match actual business cash flow cycles and seasonality." }
+    ],
+    "sections": [
+      "Financial Stress Assessment",
+      "Restructuring Plan Development",
+      "Creditor Negotiations",
+      "One-Time Settlement (OTS)",
+      "Legal Formalities & IBC Support",
+      "Post-Restructuring Monitoring"
+    ],
+    "bullets": [
+      "Detailed financial assessment — income, expenses, existing debt obligations, and cash flow stress analysis.",
+      "Preparation of business plans and financial projections to present to creditors.",
+      "Development of restructuring plans: one-time settlement, rescheduling, recapitalisation, or conversion.",
+      "Creditor negotiations with banks, NBFCs, debenture holders, and institutional lenders.",
+      "Legal formalities — drafting revised agreements, obtaining court approvals, regulatory filings.",
+      "Cost reduction initiative identification and cash conservation guidelines.",
+      "Communication management between company management and creditors.",
+      "Stabilisation of business operations during the restructuring process.",
+      "Post-restructuring implementation monitoring and compliance support.",
+      "Coordination with legal counsel for IBC and NCLT matters where required."
+    ],
+    "faqs": [
+      { "q": "What is debt restructuring?", "a": "Debt restructuring is the process of renegotiating the terms of a company's existing debt obligations — such as interest rates, repayment schedules, or principal amounts — to make them more manageable given the business's current financial capacity." },
+      { "q": "When should a business consider debt restructuring?", "a": "When the business is facing cash flow stress, declining debt service coverage ratios, impending defaults, or a mismatch between repayment obligations and cash generation. Earlier engagement produces significantly better outcomes." },
+      { "q": "Does debt restructuring affect the company's credit rating?", "a": "Restructuring does impact credit scores, but it is almost always a better outcome than a default or NPA classification. Many restructured accounts recover credit standing over time once the business stabilises." },
+      { "q": "What is the difference between debt restructuring and debt settlement?", "a": "Debt restructuring modifies loan terms (schedule, rate, tenure) while keeping the obligation alive. Debt settlement involves negotiating to pay less than the full outstanding amount, typically as a one-time payment." },
+      { "q": "Can debt restructuring help avoid insolvency proceedings?", "a": "Yes. In many cases, well-executed restructuring prevents the need for IBC/NCLT proceedings by creating a viable repayment path that creditors can accept and that management can sustain." }
+    ]
+  },
+  "virtual-cfo-services": {
+    "title": "Virtual CFO Services",
+    "overview": [
+      "Running a business in today's dynamic landscape involves juggling numerous responsibilities — sales, marketing, finances, product development, and customer service. While financial management is crucial, companies of all sizes are increasingly seeking innovative solutions to manage their financial operations efficiently. One such solution is the Virtual CFO (VCFO) service offered by Finvvritti.",
+      "The role of a Chief Financial Officer has evolved from mere number-crunching to a strategic leadership position. A Virtual CFO provides CFO-level expertise on a fractional basis — offering strategic financial guidance without the overhead of a full-time executive. Unlike a traditional CFO who is physically present in the office, a VCFO provides expertise on a part-time or project basis, remotely, acting as an extension of the management team.",
+      "Virtual CFOs bring big-picture thinking and hands-on expertise — from financial analysis and cash flow management to investor relations and fundraising support. They help transform financial data into strategic decisions that drive business growth. The scope of services is adaptable to the company's specific needs and growth trajectory.",
+      "A Virtual CFO can be a game-changer at various stages: during the startup phase for securing funding and establishing financial systems; during rapid growth when financial complexity increases; during financial turbulence for cost reduction and restructuring; or when planning major financial events like IPOs, acquisitions, or sales."
+    ],
+    "benefits": [
+      { "icon": "briefcase",    "title": "CFO Expertise, Fraction of Cost", "desc": "Access senior financial leadership without the salary, benefits, and overhead of a full-time hire." },
+      { "icon": "trending-up",  "title": "Strategic Financial Guidance",     "desc": "Advice aligned with your business goals, growth stage, and investment horizon." },
+      { "icon": "repeat",       "title": "Scalable Engagement",              "desc": "Services expand or contract as the business needs change — fully flexible." },
+      { "icon": "shield",       "title": "Objective Outside Perspective",    "desc": "An experienced professional who has seen multiple business cycles providing unbiased guidance." },
+      { "icon": "badge-check",  "title": "Investor-Ready Reporting",         "desc": "Financial decks, MIS, and board presentations that can withstand investor scrutiny at any time." }
+    ],
+    "sections": [
+      "Financial Analysis & MIS Reporting",
+      "Cash Flow Management",
+      "Budgeting & Projections",
+      "Investor Relations & Fundraising",
+      "Risk Management",
+      "Strategic Planning Support"
+    ],
+    "bullets": [
+      "In-depth financial analysis and review of books of accounts (GAAP, Ind AS, IFRS).",
+      "Preparation of budgets, cash flow statements, and projected financial statements.",
+      "Financial reporting — management reports, MIS, and board-level reporting.",
+      "Cash flow management — forecasting, receivables, payables, and liquidity optimisation.",
+      "Risk identification and mitigation strategy development.",
+      "Investor relations and fundraising support — financial decks, pitch presentations, investor-ready documentation.",
+      "Contract review and negotiation with employees, vendors, and customers.",
+      "Business valuation services for fundraising, M&A, and ESOPs.",
+      "KPI identification, tracking, and performance reporting.",
+      "Strategic planning support for IPOs, acquisitions, M&A, and major financial events."
+    ],
+    "faqs": [
+      { "q": "Can a Virtual CFO work with my existing finance team?", "a": "Yes. A VCFO typically works alongside your existing accounting and finance team, providing strategic oversight and guidance rather than replacing operational finance staff." },
+      { "q": "How much does a Virtual CFO cost?", "a": "Costs vary based on the scope and hours required. It is significantly lower than the total cost of a full-time CFO (salary, benefits, bonuses), making it viable for SMEs, startups, and growing companies." },
+      { "q": "Which industries benefit from Virtual CFO services?", "a": "Virtual CFO services are beneficial across technology, healthcare, manufacturing, retail, professional services, and any business that needs financial expertise without a full-time executive." },
+      { "q": "What is the difference between an accounting team and a Virtual CFO?", "a": "An accounting team handles day-to-day bookkeeping and compliance. A Virtual CFO operates at a strategic level — interpreting the numbers, advising on business decisions, planning for growth, and ensuring the overall financial health of the business." },
+      { "q": "Can a Virtual CFO help with fundraising?", "a": "Yes — including preparation of financial decks, identifying funding sources, negotiating terms, and representing the financial position of the business to investors and lenders." },
+      { "q": "How long does it take to see results?", "a": "Most clients see meaningful improvements in financial reporting quality, cash flow visibility, and decision-making support within the first 60 to 90 days of engagement." }
+    ]
+  },
+  "direct-tax-services": {
+    "title": "Direct Tax Services",
+    "overview": [
+      "The Income Tax Act is among the most important laws governing businesses and individuals in India. Every business owner wants to plan taxes effectively while remaining fully compliant with the law. The challenge lies in navigating a complex, frequently amended legislation — while ensuring that every available benefit is correctly claimed and no unnecessary taxes are paid.",
+      "On many occasions, a business may enter into complex transactions — slump sales, business transfers, restructuring, ESOP arrangements, investments, or cross-border dealings — that require an expert's opinion on the tax implications before the transaction is executed. Getting the tax position wrong can lead to exposure, penalties, or disputes that take years to resolve.",
+      "Finvvritti's team of qualified and experienced Chartered Accountants provides written tax opinions on nearly all matters contained in the Income Tax Act. Beyond opinions, we assist with comprehensive tax compliance — filing returns, computing tax liability, representing clients before tax authorities, and providing proactive tax planning advice to minimise exposure.",
+      "We guide businesses through the entire process to ensure compliance, identify benefits the company may be entitled to, and recommend the best lawful approach to structure transactions and plan taxes across the business lifecycle."
+    ],
+    "benefits": [
+      { "icon": "receipt",      "title": "Proactive Tax Planning",        "desc": "Reduce the overall tax burden within the framework of the law, legally and sustainably." },
+      { "icon": "shield",       "title": "Expert Written Opinions",       "desc": "Pre-transaction opinions on complex deals protect the business from future litigation." },
+      { "icon": "trending-up",  "title": "Full Compliance Support",       "desc": "From computation through filing, departmental representation, and assessment support." },
+      { "icon": "badge-check",  "title": "Benefits Maximised",            "desc": "Applicable deductions, exemptions, and incentives that many businesses miss are identified and claimed." },
+      { "icon": "piggy-bank",   "title": "Dispute Prevention",            "desc": "Proactive structuring and documentation to prevent assessments, notices, and tax disputes." }
+    ],
+    "sections": [
+      "Tax Planning & Advisory",
+      "Income Tax Return Filing",
+      "TDS Compliance",
+      "Transfer Pricing",
+      "Tax Assessments & Representation",
+      "NRI & Cross-Border Taxation"
+    ],
+    "bullets": [
+      "Written tax opinions on complex transactions: corporate tax, LLP tax, slump sales, business transfers, amalgamations.",
+      "Start-up investment, angel tax, and ESOP-related tax advisory.",
+      "TDS advisory and compliance — including TDS applicable to non-residents (Form 15CA/15CB).",
+      "Employee tax and payroll tax compliance.",
+      "Income tax return filing — corporate, LLP, partnership, individual/salaried, and NGOs.",
+      "Tax computation and advance tax planning to avoid interest and penalties.",
+      "Income tax audit under Section 44AB.",
+      "Representation before the Income Tax Department for assessments, scrutiny, and notices.",
+      "Transfer pricing advisory and documentation for related-party transactions.",
+      "NRI taxation advisory — residential status, treaty benefits, and repatriation."
+    ],
+    "faqs": [
+      { "q": "What is tax planning and is it legal?", "a": "Tax planning is the legal process of organising financial affairs to minimise tax liability using provisions specifically allowed under the Income Tax Act. It is distinct from tax evasion, which is illegal, and tax avoidance, which exploits loopholes." },
+      { "q": "When should I obtain a tax opinion?", "a": "Before entering into any major or unusual transaction — such as a business acquisition, slump sale, restructuring, cross-border investment, or significant ESOP issuance. A written opinion establishes your position and protects against future disputes." },
+      { "q": "What is angel tax?", "a": "Angel tax (Section 56(2)(viib)) applies when an unlisted company issues shares at a price higher than its fair market value to a resident or non-resident investor. Expert advisory helps structure investment transactions to mitigate this exposure." },
+      { "q": "How often should companies review their tax position?", "a": "At minimum annually, and proactively before any significant transaction, restructuring, or change in business model." },
+      { "q": "Can you help with TDS for payments to non-residents?", "a": "Yes — including analysis of applicable rates, treaty benefits, Form 15CA/15CB certifications, and ongoing TDS compliance for cross-border payments." }
+    ]
+  },
+  "indirect-tax-services": {
+    "title": "Indirect Tax Services",
+    "overview": [
+      "Goods and Services Tax (GST), introduced on 1 July 2017, fundamentally transformed India's indirect tax landscape by replacing a fragmented system of central excise, service tax, state VAT, and numerous other levies with a unified 'One Nation, One Tax' framework. GST applies to all transactions involving goods and services — sale, transfer, purchase, barter, lease, or import.",
+      "India operates a dual GST model: both the Central Government and State Governments administer the regime. The three primary taxes — CGST (Central GST), SGST (State GST), and IGST (Integrated GST) — apply based on whether the supply is intra-state or inter-state. While the intent is to bring simplicity, the GST law is elaborate, continuously evolving, and demands careful attention to circulars, notifications, and court orders.",
+      "The GST law governs the point of taxation, place of supply, applicable rates, input tax credit (ITC) eligibility, return filing, refund claims, and departmental audits. Non-compliance carries significant financial penalties. Finvvritti's team of indirect tax specialists assists businesses at every stage — from registration and classification through compliance, refunds, and departmental representation.",
+      "We also provide written opinions on specific GST questions businesses encounter — covering place of supply, reverse charge mechanism, TDS/TCS under GST, e-commerce supplies, multi-state registrations, input tax credit eligibility, blocked credits, and GST tariff classifications."
+    ],
+    "benefits": [
+      { "icon": "percent",      "title": "Full GST Compliance",          "desc": "Complete support under all four GST laws: CGST, SGST, IGST, and UTGST." },
+      { "icon": "trending-up",  "title": "ITC Optimisation",             "desc": "Expert identification and recovery of eligible input tax credits, improving cash flows." },
+      { "icon": "shield",       "title": "Compliance Gap Prevention",    "desc": "Proactive identification of litigious transactions and compliance gaps before they become disputes." },
+      { "icon": "piggy-bank",   "title": "Refund Assistance",            "desc": "Assistance with GST refunds — reducing capital locked up in refundable credit balances." },
+      { "icon": "badge-check",  "title": "Written Opinions",             "desc": "Documented legal positions on complex GST questions, providing protection in the event of a dispute." }
+    ],
+    "sections": [
+      "GST Registration & Multi-State",
+      "Return Filing (GSTR-1, 3B, 9, 9C)",
+      "Input Tax Credit Management",
+      "GST Refunds",
+      "Written Opinions & Advisory",
+      "Departmental Audits & Representation"
+    ],
+    "bullets": [
+      "GST registration and multi-state registration management.",
+      "Classification of goods and services — determining applicable HSN/SAC codes and tax rates.",
+      "Monthly, quarterly, and annual GST return filing (GSTR-1, GSTR-3B, GSTR-9, GSTR-9C).",
+      "Input tax credit (ITC) reconciliation and optimisation.",
+      "GST refund services — zero-rated exports, inverted duty structure, SEZ supplies, excess payment.",
+      "Preparation of refund documentation and CA certifications.",
+      "Written opinions on complex GST matters: place of supply, RCM, e-commerce, import of services.",
+      "Representation in departmental audits, notices, and disputes.",
+      "Advance Ruling applications.",
+      "GST advisory for business model structuring and restructuring."
+    ],
+    "faqs": [
+      { "q": "Who needs to register for GST?", "a": "Businesses with aggregate annual turnover above the prescribed threshold (Rs. 40 lakh for goods, Rs. 20 lakh for services in most states) are required to register. Certain categories must register regardless of turnover such as inter-state suppliers, e-commerce operators, and reverse charge recipients." },
+      { "q": "What is input tax credit (ITC)?", "a": "ITC allows businesses to offset the GST paid on purchases and business expenses against the GST collected on sales, reducing net tax liability. Proper ITC management is critical to cash flow optimisation." },
+      { "q": "What are blocked credits?", "a": "Certain categories of GST paid cannot be claimed as input tax credit — such as GST on motor vehicles, food and beverages, personal expenses, and certain other items specified under Section 17(5) of the CGST Act." },
+      { "q": "What is the reverse charge mechanism (RCM)?", "a": "Under RCM, the recipient of goods/services (rather than the supplier) is liable to pay GST. This applies to specified categories of supplies and all supplies from unregistered persons in notified cases." },
+      { "q": "Can we claim a GST refund?", "a": "Yes — for zero-rated exports, supplies to SEZs, inverted duty structure situations, and excess payments. Finvvritti assists with the full refund process including documentation, application, and follow-up with the department." },
+      { "q": "What is a GST departmental audit?", "a": "The GST authorities may conduct an audit of a taxpayer's records to verify the accuracy of returns filed, tax paid, and ITC claimed. Finvvritti provides representation and full assistance during such audits." }
+    ]
+  },
+  "internal-audit": {
+    "title": "Internal Audit",
+    "overview": [
+      "Internal Audit is a risk management function performed independently within an organisation to evaluate and strengthen its internal controls, governance processes, and operational efficiency. Unlike statutory (external) audit which focuses on whether financial statements present a true and fair view, internal audit's purpose is to identify and fix loopholes, gaps, and weaknesses in the application of company policies, procedures, and controls — before they cause financial or reputational damage.",
+      "Internal auditing is not just a compliance requirement — it is a strategic tool for management. It assesses whether operations are running efficiently, whether the risk management framework is adequate, whether assets are being protected, and whether the organisation is in adherence to applicable laws and regulations. A well-executed internal audit function provides management with independent assurance and actionable insights.",
+      "Under the Companies Act, listed companies must mandatorily conduct internal audits. Non-listed companies are also required if they cross prescribed thresholds: turnover above Rs. 200 crore, paid-up capital above Rs. 50 crore, outstanding bank or public financial institution borrowings above Rs. 100 crore, or outstanding deposits above Rs. 25 crore at any point during the financial year.",
+      "At Finvvritti, our internal audit goes beyond reporting findings — we interpret them, advise management on workable controls, and help transition the organisation from existing practices to more effective, risk-focused operations. Our goal is to support corporate governance and build financial integrity within the business."
+    ],
+    "benefits": [
+      { "icon": "search",       "title": "Control Weakness Detection",   "desc": "Independent identification and remediation of control gaps before they result in fraud or losses." },
+      { "icon": "shield",       "title": "Regulatory Compliance",        "desc": "Ensures full adherence to statutory laws, regulations, and internal company policies." },
+      { "icon": "trending-up",  "title": "Operational Efficiency",       "desc": "Identifies process gaps and redundancies that can be addressed to improve business performance." },
+      { "icon": "badge-check",  "title": "Fraud Prevention",             "desc": "Regular audits are among the most effective deterrents against fraud and financial misappropriation." },
+      { "icon": "piggy-bank",   "title": "Stakeholder Protection",       "desc": "Safeguards the interests of shareholders, lenders, and regulators through transparent governance." }
+    ],
+    "sections": [
+      "Risk-Based Audit Planning",
+      "Internal Controls Review",
+      "Regulatory Compliance Review",
+      "Financial Process Audit",
+      "Corporate Governance Assessment",
+      "Audit Reporting & Follow-Up"
+    ],
+    "bullets": [
+      "Risk-based audit planning — identification of high-risk areas and processes for prioritised review.",
+      "Evaluation of internal controls across finance, operations, procurement, HR, and IT.",
+      "Review of compliance with applicable laws, regulations, and company policies.",
+      "Process documentation review and gap analysis.",
+      "Review of financial accounting processes and accuracy.",
+      "Assessment of corporate governance structures and board-level controls.",
+      "Advisory on establishing and improving the internal control environment.",
+      "Management of core operational risks, particularly in building operational reliability.",
+      "Detailed audit report with findings, risk ratings, and management recommendations.",
+      "Follow-up on implementation of previous audit recommendations."
+    ],
+    "faqs": [
+      { "q": "What is the difference between internal audit and statutory audit?", "a": "Statutory audit is performed by an independent external auditor to verify that financial statements present a true and fair view, as required by law. Internal audit is an ongoing management tool conducted to evaluate internal controls, risk management, and operational efficiency." },
+      { "q": "Is internal audit mandatory for all companies?", "a": "Mandatory for all listed companies. For unlisted companies, it is mandatory if any of the following thresholds are met: turnover above Rs. 200 crore, paid-up capital above Rs. 50 crore, outstanding bank borrowings above Rs. 100 crore, or outstanding deposits above Rs. 25 crore." },
+      { "q": "How frequently should internal audits be conducted?", "a": "Best practice is quarterly or semi-annually for high-risk areas, with an annual comprehensive audit. The frequency should be calibrated to the risk profile and size of the organisation." },
+      { "q": "Can internal audit help prevent fraud?", "a": "Yes. Regular internal audits are among the most effective deterrents against fraud and financial misappropriation, as they create visibility and accountability across all processes." },
+      { "q": "What is the output of an internal audit?", "a": "An internal audit report containing findings categorised by risk level (high/medium/low), root cause analysis, management observations, and actionable recommendations for remediation." }
+    ]
+  },
+  "company-incorporation-singapore": {
+    "title": "Company Incorporation in Singapore",
+    "overview": [
+      "Singapore is one of the most attractive business destinations in the world — consistently ranked among the top globally in the Ease of Doing Business index, offering political stability, a well-developed legal system, and one of the lowest corporate tax rates in the world (headline rate of 17%, with startup exemption schemes reducing the effective rate significantly for early-stage companies).",
+      "For Indian startups and businesses in particular, Singapore incorporation offers significant structural advantages: venture capital and private equity investors — especially US-based funds — strongly prefer Singapore-incorporated entities, as they can exit without being subject to Indian capital gains tax and face lower dividend taxes. Singapore's robust IP protection framework, DTAAs with over 80 countries, and access to sophisticated financial markets make it a powerful platform for global growth.",
+      "Incorporating a Singapore company requires navigating ACRA (Accounting and Corporate Regulatory Authority) requirements, appointing a locally resident director, setting up a registered office, and fulfilling post-incorporation obligations including company secretarial compliance, GST registration if applicable, and corporate tax filings. The process can be completed remotely and typically takes 1–2 business days.",
+      "Finvvritti provides end-to-end incorporation and post-incorporation support for Indian businesses setting up in Singapore — from company name approval and ACRA filing through bank account opening support, ongoing secretarial compliance, and corporate tax filings."
+    ],
+    "benefits": [
+      { "icon": "globe",        "title": "VC/PE Preferred Jurisdiction",  "desc": "Singapore entities are strongly preferred by US and global venture capital funds, expanding your fundraising universe." },
+      { "icon": "piggy-bank",   "title": "Tax-Efficient Structure",       "desc": "17% headline corporate tax, startup exemption schemes, and no capital gains tax in Singapore." },
+      { "icon": "network",      "title": "80+ DTAA Countries",            "desc": "Extensive double tax avoidance agreement network for efficient cross-border tax planning." },
+      { "icon": "trending-up",  "title": "Remote Incorporation",          "desc": "Complete the entire process remotely in 1–2 business days once documentation is in order." },
+      { "icon": "badge-check",  "title": "100% Foreign Ownership",        "desc": "Singapore allows full foreign ownership in most business sectors with no local partner requirement." }
+    ],
+    "sections": [
+      "ACRA Company Name & Filing",
+      "Constitution & Share Structure",
+      "Nominee Director Services",
+      "Registered Office Address",
+      "Bank Account Opening Support",
+      "Post-Incorporation Compliance"
+    ],
+    "bullets": [
+      "Company name search and reservation with ACRA (Accounting and Corporate Regulatory Authority).",
+      "Preparation and filing of incorporation documents via ACRA's BizFile+ portal.",
+      "Drafting of Company Constitution (previously called Memorandum & Articles of Association).",
+      "Appointment of nominee local director if required — Singapore law mandates at least one resident director.",
+      "Registered office address arrangement.",
+      "Share allotment and issuance of share certificates.",
+      "Corporate bank account opening support and guidance.",
+      "Appointment and filing of Company Secretary within 6 months of incorporation.",
+      "Maintenance of statutory registers — Directors, Members, and Controllers.",
+      "Post-incorporation board resolutions and ongoing annual compliance (Annual Return, AGM, tax filings)."
+    ],
+    "faqs": [
+      { "q": "Can an Indian resident incorporate a Singapore company without visiting Singapore?", "a": "Yes. Incorporation can be completed entirely remotely. However, Singapore law requires at least one director who is ordinarily resident in Singapore. A nominee director can be appointed through a corporate secretarial provider like Finvvritti." },
+      { "q": "What is the minimum capital required?", "a": "Minimum paid-up capital is S$1. There is no minimum capital requirement to commence operations in Singapore." },
+      { "q": "How long does incorporation take?", "a": "Typically 1–2 business days once all documents are submitted and approved through ACRA's BizFile+ portal. Name approval is usually instant unless it requires regulatory review." },
+      { "q": "Can foreign shareholders own 100% of a Singapore company?", "a": "Yes. Singapore allows 100% foreign ownership in most business sectors. Restrictions apply only in a limited number of regulated sectors such as media, banking, and legal services." },
+      { "q": "What are the annual compliance obligations after incorporation?", "a": "Annual compliance includes: holding an AGM within 6 months of financial year-end, filing an Annual Return with ACRA within 7 months of year-end, filing Estimated Chargeable Income (ECI) within 3 months of year-end, and filing the corporate income tax return by 30 November each year." },
+      { "q": "Do I need to register for GST in Singapore?", "a": "GST registration is mandatory when taxable turnover exceeds S$1 million per calendar year. Voluntary registration is possible and may be beneficial if you have significant local business expenses that carry GST." }
+    ]
+  },
+  "foreign-compliance-reporting": {
+    "title": "Foreign Compliance & Ongoing Reporting",
+    "overview": [
+      "For Indian businesses that have incorporated a foreign entity — whether in Singapore, UAE, UK, or elsewhere — the work does not end at incorporation. Running a foreign-registered company comes with a continuous set of legal, tax, and regulatory obligations that must be met accurately and on time. Missed filings, incorrect reporting, or poor governance documentation can result in penalties, loss of good standing, banking complications, and difficulties during investor due diligence.",
+      "Foreign compliance covers the full spectrum of ongoing obligations: corporate secretarial compliance with the relevant regulatory authority, financial reporting under local accounting standards, corporate income tax filings, GST/VAT compliance, payroll and employment law adherence, withholding tax on cross-border payments, transfer pricing documentation, and data protection obligations.",
+      "From an Indian perspective, maintaining a foreign subsidiary also involves RBI/FEMA compliance — including annual filing of the Annual Performance Report (APR) with the RBI, compliance with FEMA regulations governing cross-border transactions, and proper documentation of intercompany services, loans, and royalty payments to support transfer pricing positions.",
+      "Finvvritti provides comprehensive ongoing compliance support for Indian businesses with foreign entities, managing all regulatory, tax, and governance obligations in the foreign jurisdiction while also ensuring Indian FEMA/RBI reporting obligations are met — giving management a single point of accountability for all cross-border compliance."
+    ],
+    "benefits": [
+      { "icon": "network",      "title": "Single-Point Management",      "desc": "All foreign entity obligations — secretarial, tax, accounting, and regulatory — managed from one place." },
+      { "icon": "shield",       "title": "No Missed Deadlines",          "desc": "Proactive tracking and reminders ensure every statutory deadline is met in every jurisdiction." },
+      { "icon": "badge-check",  "title": "Investor-Ready Records",       "desc": "Financial records and governance documentation that can withstand due diligence scrutiny at any time." },
+      { "icon": "repeat",       "title": "India FEMA/RBI Compliance",    "desc": "Seamless management of both India-side and foreign-side regulatory obligations in parallel." },
+      { "icon": "trending-up",  "title": "Transfer Pricing Protection",  "desc": "Documentation and arm's length analysis protecting against related-party transaction disputes." }
+    ],
+    "sections": [
+      "Corporate Secretarial & Governance",
+      "Accounting & Financial Reporting",
+      "Corporate Tax Compliance",
+      "GST/VAT Compliance",
+      "Transfer Pricing & Intercompany",
+      "India FEMA/RBI Reporting"
+    ],
+    "bullets": [
+      "Annual Return filing with the foreign regulatory authority (ACRA, Companies House, etc.).",
+      "Annual General Meeting organisation and board resolution documentation.",
+      "Maintenance of statutory registers — directors, members, controllers, and UBOs.",
+      "Monthly bookkeeping and reconciliations under local accounting standards (SFRS, IFRS, UK GAAP).",
+      "Annual financial statements preparation and statutory audit coordination.",
+      "Corporate income tax returns filing in the foreign jurisdiction.",
+      "Estimated Chargeable Income (ECI) filings and GST/VAT return filing.",
+      "Withholding tax management on payments to non-residents.",
+      "Intercompany agreements for services, IP licensing, goods, and loans with arm's length pricing analysis.",
+      "Annual Performance Report (APR) filing with RBI for overseas direct investments under FEMA."
+    ],
+    "faqs": [
+      { "q": "What is the Annual Return and when must it be filed?", "a": "In Singapore, the Annual Return must be filed with ACRA within 7 months after the financial year-end for private companies. It confirms the company's financial position, officers, and solvency status. Similar requirements exist in other jurisdictions." },
+      { "q": "What is FEMA compliance for Indian companies with foreign subsidiaries?", "a": "Under FEMA, Indian companies that have made overseas direct investments must file annual returns with the Reserve Bank of India, report any changes in shareholding, and comply with regulations governing cross-border fund flows, intercompany loans, and guarantees." },
+      { "q": "What is withholding tax on cross-border payments?", "a": "When a company pays interest, royalties, management fees, or director fees to non-residents, it must withhold a portion of the payment and remit it to the local tax authority. Treaty relief may reduce applicable rates." },
+      { "q": "What is transfer pricing documentation?", "a": "Documentation that supports the arm's length nature of transactions between related parties — such as an Indian parent paying a Singapore subsidiary for services. Without proper documentation, tax authorities may adjust the pricing and levy penalties." },
+      { "q": "Can I manage my foreign entity compliance from India?", "a": "Yes — with the right service partner. Finvvritti coordinates all foreign regulatory, accounting, and tax obligations on your behalf, requiring only your periodic input for approvals, board decisions, and information provision." },
+      { "q": "What is the Estimated Chargeable Income (ECI) in Singapore?", "a": "ECI is Singapore's requirement for companies to file an estimate of their taxable income within 3 months after the financial year-end. Even companies with nil income must file unless they qualify for a waiver." }
+    ]
   }
 }
