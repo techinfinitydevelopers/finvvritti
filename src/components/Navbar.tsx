@@ -24,51 +24,53 @@ const megaGroups: MenuGroup[] = [
       { label: "Accounting & Bookkeeping", slug: "accounting-bookkeeping-services" },
       { label: "Compliance Management Services", slug: "compliance-management-services" },
       { label: "Company Secretarial Services", slug: "company-secretary-services" },
-      { label: "Goods & Service Tax (GST)", slug: null },
-      { label: "Tax Deduction at Source (TDS)", slug: null },
+      { label: "Online Registration Services", slug: "online-registration-services" },
+      { label: "Trademark Registration", slug: "trademark-registration" },
     ],
   },
   {
-    title: "International Taxation",
+    title: "International Services",
     color: "#0369A1",
     items: [
       { label: "Company Incorporation in USA", slug: "incorporation-services-in-the-usa" },
       { label: "Company Incorporation in Dubai", slug: "business-setup-dubai" },
-      { label: "Financial Audits & Special Purpose Audit", slug: "professional-financial-audit-services-in-the-usa" },
-      { label: "Company Incorporation in Singapore", slug: null },
-      { label: "Foreign Compliances & Ongoing Reporting", slug: null },
-    ],
-  },
-  {
-    title: "Business Setup Services",
-    color: "#1E6B4F",
-    items: [
-      { label: "Business Incorporation", slug: "business-incorporation-services" },
-      { label: "Regulatory Registrations", slug: "regulatory-registration" },
-      { label: "Startup Registration", slug: "startup-registration" },
-      { label: "LLP Registration Services", slug: "llp-registration-services" },
-      { label: "Registration Services", slug: "online-registration-services" },
-    ],
-  },
-  {
-    title: "Business Advisory Services",
-    color: "#7C3AED",
-    items: [
-      { label: "Entry India Strategies", slug: "entry-india-strategies" },
-      { label: "IPO Advisory", slug: "what-is-sme-ipo" },
-      { label: "Transaction Advisory", slug: "transaction-advisory" },
-      { label: "Business Valuation", slug: "business-valuation-services-in-india" },
-      { label: "Business Plan", slug: "business-plan" },
-      { label: "ESOP Advisory", slug: "esop" },
+      { label: "Company Incorporation in Singapore", slug: "company-incorporation-singapore" },
+      { label: "Financial Audits in the USA", slug: "professional-financial-audit-services-in-the-usa" },
+      { label: "Foreign Compliance & Ongoing Reporting", slug: "foreign-compliance-reporting" },
     ],
   },
   {
     title: "Specialized Services",
     color: "#B45309",
     items: [
-      { label: "Virtual CFO Services", slug: null },
-      { label: "Opinion on Direct Tax Matters", slug: null },
-      { label: "Opinion on Indirect Tax Matters", slug: null },
+      { label: "Virtual CFO Services", slug: "virtual-cfo-services" },
+      { label: "Debt Raise", slug: "debt-raise" },
+      { label: "Debt Restructuring Advisory", slug: "debt-restructuring-advisory" },
+      { label: "SME IPO Advisory", slug: "what-is-sme-ipo" },
+      { label: "Business Valuation", slug: "business-valuation-services-in-india" },
+      { label: "Transaction Advisory", slug: "transaction-advisory" },
+    ],
+  },
+  {
+    title: "Business Setup Services",
+    color: "#1E6B4F",
+    items: [
+      { label: "Entry India Strategies", slug: "entry-india-strategies" },
+      { label: "Business Incorporation", slug: "business-incorporation-services" },
+      { label: "Regulatory Registrations", slug: "regulatory-registration" },
+      { label: "Startup Registration", slug: "startup-registration" },
+      { label: "LLP Registration Services", slug: "llp-registration-services" },
+    ],
+  },
+  {
+    title: "Business Advisory Services",
+    color: "#7C3AED",
+    items: [
+      { label: "Direct Tax Services", slug: "direct-tax-services" },
+      { label: "Indirect Tax Services", slug: "indirect-tax-services" },
+      { label: "ESOP Advisory", slug: "esop" },
+      { label: "Internal Audit", slug: "internal-audit" },
+      { label: "Business Plan", slug: "business-plan" },
     ],
   },
 ];
@@ -230,7 +232,7 @@ export default function Navbar() {
 
             {/* Footer strip */}
             <div className="mt-6 pt-4 border-t border-[var(--color-line)] flex items-center justify-between">
-              <p className="text-xs text-[var(--color-muted)]">25 services across 5 practice areas</p>
+              <p className="text-xs text-[var(--color-muted)]">26 services across 5 practice areas</p>
               <Link
                 href="/services"
                 onClick={() => setMegaOpen(false)}
