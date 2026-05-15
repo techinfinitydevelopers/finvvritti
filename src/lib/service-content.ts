@@ -15,6 +15,7 @@ export type ServiceContent = {
   title: string;
   overview: string[];
   benefits?: ServiceBenefit[];
+  benefitHeading?: string;
   sections: string[];
   bullets: string[];
   documents?: string[];

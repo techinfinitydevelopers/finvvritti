@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const faqs = [
   { q: "What services does Finvvritti provide?", a: "Finvvritti offers end-to-end CA & CS services, auditing, accounting & taxation, GST and income tax compliance, debt advisory, CFO services, valuation advisory, and company secretarial support. We provide one-stop financial and corporate solutions tailored for SMEs and startups." },
-  { q: "Who do you work with?", a: "We work with SMEs, startups, and growing businesses across Healthcare, Communications, Infotech, Real Estate, Food & Beverages, and Entertainment. Whether you're a founder, finance head, or owner-operator, we tailor our advisory to your stage and industry." },
+  { q: "Who do you work with?", a: "We work with SMEs, startups, and growing businesses across Infotech, Metals & Minerals, Food & Beverages, Real Estate, Textile, and Healthcare. Whether you're a founder, finance head, or owner-operator, we tailor our advisory to your stage and industry." },
   { q: "Do you work with startups and early-stage businesses?", a: "Yes. A large part of our practice supports founders from incorporation through funding and scale. We help with company setup, books, statutory compliance, valuations, ESOPs, and CFO-level guidance, without the cost of a full in-house team." },
   { q: "How do I get started with Finvvritti?", a: "Book a free consultation through the form on this page. We'll understand your business, identify priorities, and propose a clear scope and timeline before any engagement begins." },
   { q: "How do you ensure accuracy and confidentiality?", a: "Every engagement runs on documented checklists, four-eyes review, and secure data handling. Client information is shared on a strict need-to-know basis and protected under signed confidentiality agreements." },
@@ -16,6 +16,7 @@ const faqs = [
   { q: "Do you handle tax filing and compliance?", a: "Yes, GST, income tax, TDS, ROC filings, statutory audits, and regulatory registrations are all in scope. We track due dates, prepare returns, and represent you in routine departmental queries." },
   { q: "How often will I receive financial reports?", a: "Standard engagements include monthly MIS, quarterly performance reviews, and an annual strategic close. Cadence is fully customizable based on your decision-making rhythm." },
   { q: "How quickly will you respond to inquiries?", a: "Routine queries are answered within one business day. Urgent compliance or filing issues are prioritized and addressed the same day." },
+  { q: "What software do you use for bookkeeping?", a: "We work with QuickBooks, Tally, Xero, and Zoho Books. We recommend the best fit based on your business size, industry, and reporting needs, ensuring real-time access and seamless collaboration." },
 ];
 
 export default function FAQ() {

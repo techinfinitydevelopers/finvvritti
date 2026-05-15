@@ -61,7 +61,7 @@ export default function ServiceDetail({
   content: ServiceContent;
   serviceTitle: string;
 }) {
-  const { overview, benefits, sections, bullets, documents, faqs } = content;
+  const { overview, benefits, benefitHeading, sections, bullets, documents, faqs } = content;
   const wrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -234,7 +234,7 @@ export default function ServiceDetail({
         <section className="sd-benefits py-14 md:py-20 bg-[var(--color-tertiary)] border-y border-[var(--color-line)]">
           <div className="container-x">
             <p className="text-center text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary-dark)] font-semibold uppercase mb-8">
-              Why Incorporate Your Business
+              {benefitHeading ?? "Why Incorporate Your Business"}
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
               {benefits.map((b) => (

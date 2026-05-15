@@ -821,6 +821,7 @@
   },
   "accounting-bookkeeping-services": {
     "title": "Accounting & Bookkeeping Services",
+    "benefitHeading": "Why Accurate Accounting Matters",
     "overview": [
       "Evolving business practices demand efficient accounting skills. Increased pressure for transparency, frequent tax amendments, compliance with local GAAP or IFRS, consolidations, mergers and acquisitions, and cybersecurity challenges have made accounting more complex than ever. Finvvritti, with 30+ years of combined experience, tailors solutions to your specific requirements, anticipating the needs of auditors, investors, and regulators before they arise.",
       "Finvvritti provides a comprehensive suite of accounting and bookkeeping services designed to help businesses maintain accurate, compliant financial records. This includes meticulous recording of all financial transactions, journals, ledgers, and key statements such as the Profit & Loss Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
@@ -891,7 +892,7 @@
       },
       {
         "q": "What software does Finvvritti use for bookkeeping?",
-        "a": "Finvvritti primarily uses cloud-based accounting software such as Zoho Books, enabling real-time access to your financials, reduced manual errors, and seamless collaboration between your team and ours."
+        "a": "Finvvritti works with leading cloud-based accounting platforms including QuickBooks, Tally, Xero, and Zoho Books. We recommend the best fit based on your business size, industry, and reporting needs, ensuring real-time access, reduced manual errors, and seamless collaboration."
       },
       {
         "q": "What is Management Reporting and why does it matter?",
@@ -901,6 +902,7 @@
   },
   "company-secretary-services": {
     "title": "Company Secretary Services",
+    "benefitHeading": "Your Corporate Compliance Partner",
     "overview": [
       "We take care of your compliance so that you can focus on the real stuff, growing your business. Keeping pace with the government's ever-expanding list of statutory obligations can become complicated and time-consuming. Finvvritti's qualified CS professionals ensure all your secretarial and regulatory requirements are met accurately and on time.",
       "A Company Secretary brings deep expertise in corporate law, governance, and compliance, managing everything from board meetings and statutory registers to ROC filings, FEMA compliances, and shareholder communications. This expertise is invaluable for businesses and startups that do not have in-house capabilities to manage these complex requirements.",
@@ -976,6 +978,7 @@
   },
   "compliance-management-services": {
     "title": "Compliance Management Services",
+    "benefitHeading": "Why Businesses Need Compliance Management",
     "overview": [
       "Outsourcing compliance management enables complete control over your statutory obligations. Finvvritti guides businesses through all compliances enforced by Central and State authorities, keeping you fully protected from non-compliance risk, penalties, and legal exposure.",
       "Compliance Management is a set of complex legal requirements that every organisation must adhere to. Legal obligations vary across Central and State laws depending on industry, location, and jurisdiction, and they are updated frequently. Organisations of every size must stay compliant to avoid legal trouble, financial penalties, and reputational damage.",
