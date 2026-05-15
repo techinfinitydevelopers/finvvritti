@@ -16,9 +16,7 @@ const logos: LogoEntry[] = [
   { src: "/logos/logo13.jpg", alt: "Theona" },
   { src: "/logos/logo14.jpg", alt: "Blacksphere" },
   { src: "/logos/logo15.png", alt: "Client Logo 15" },
-  { alt: "GFXBandits IT Solutions", text: "GFXBandits" },
-  { alt: "Stancor Alloys Private Limited", text: "Stancor Alloys" },
-  { alt: "LLM Foods", text: "LLM Foods" },
+  { src: "/logos/logo16.png", alt: "Client Logo 16" },
 ];
 
 export default function TrustedBy() {
