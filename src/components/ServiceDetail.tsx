@@ -61,7 +61,7 @@ export default function ServiceDetail({
   content: ServiceContent;
   serviceTitle: string;
 }) {
-  const { overview, benefits, benefitHeading, sections, bullets, documents, faqs } = content;
+  const { overview, benefits, benefitHeading, sections, bullets, bulletsHeading, bulletsSubheading, documents, faqs, faqImage } = content;
   const wrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -307,14 +307,15 @@ export default function ServiceDetail({
           <div className="container-x">
             <div className="sd-inclusions-header max-w-2xl">
               <span className="text-xs md:text-sm tracking-[0.2em] text-[var(--color-secondary-dark)] font-semibold uppercase">
-                Post-Incorporation
+                {bulletsHeading ? "What We Cover" : "Post-Incorporation"}
               </span>
               <h2 className="font-display mt-3 text-3xl md:text-4xl text-[var(--color-primary)] leading-tight">
-                What happens{" "}
-                <span className="italic text-[var(--color-secondary-dark)]">after incorporation</span>
+                {bulletsHeading ?? (
+                  <>What happens{" "}<span className="italic text-[var(--color-secondary-dark)]">after incorporation</span></>
+                )}
               </h2>
               <p className="mt-3 text-[var(--color-ink)]/70 text-base">
-                Mandatory compliance steps under the Companies Act 2013, Finvvritti walks you through every one.
+                {bulletsSubheading ?? "Mandatory compliance steps under the Companies Act 2013, Finvvritti walks you through every one."}
               </p>
             </div>
 
@@ -409,8 +410,8 @@ export default function ServiceDetail({
               {/* Left, image */}
               <div className="rounded-2xl overflow-hidden shadow-[0_8px_40px_rgba(10,37,64,0.12)] aspect-[4/3]">
                 <img
-                  src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80"
-                  alt="Business incorporation consultation"
+                  src={faqImage ?? "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80"}
+                  alt={`${serviceTitle} - FAQ`}
                   className="w-full h-full object-cover"
                 />
               </div>

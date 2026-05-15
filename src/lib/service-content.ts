@@ -18,8 +18,11 @@ export type ServiceContent = {
   benefitHeading?: string;
   sections: string[];
   bullets: string[];
+  bulletsHeading?: string;
+  bulletsSubheading?: string;
   documents?: string[];
   faqs?: ServiceFAQ[];
+  faqImage?: string;
 };
 
 const data = raw as Record<string, ServiceContent>;

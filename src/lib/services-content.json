@@ -738,9 +738,9 @@
   "business-incorporation-services": {
     "title": "Business Incorporation Services",
     "overview": [
-      "Incorporating a business, whether in India or abroad, is a complex process that demands careful navigation of legal and regulatory requirements. From choosing the right business structure and managing documentation to handling taxation, compliance, intellectual property protection, and labour laws, the process can be daunting for any entrepreneur.",
-      "Finvvritti acts as a catalyst, guiding and supporting you through every step of the incorporation journey. Our experts ensure all legal and regulatory aspects are meticulously addressed so you can focus on building your business with confidence.",
-      "Business incorporation marks the formal birth of a new legal entity, one that is separate from its owners, with its own rights, responsibilities, and obligations. Beyond registering a name, incorporation provides limited liability protection, perpetual existence, ease of ownership transfer, potential tax benefits, and enhanced credibility with customers, partners, and investors."
+      "Starting a business, whether in India or overseas, involves much more than just registering a name. It requires careful planning, selection of the right business structure, proper documentation, tax planning, regulatory approvals, compliance management, intellectual property considerations, and understanding of applicable employment and labour laws.",
+      "At Finvvritti, we simplify this entire journey for entrepreneurs and growing businesses. Our team provides end-to-end assistance at every stage of incorporation, ensuring that all legal, regulatory, tax, and compliance requirements are properly addressed. This allows you to focus on building and expanding your business with confidence.",
+      "Business incorporation gives formal legal recognition to your enterprise and creates a separate legal identity distinct from its owners. It not only enhances the credibility of the business but also offers several important advantages such as limited liability protection, perpetual succession, easier transfer of ownership, better access to investors and funding, structured governance, and potential tax efficiencies. With our practical guidance and compliance-focused approach, Finvvritti helps you lay a strong foundation for your business from day one."
     ],
     "benefits": [
       {
@@ -821,12 +821,14 @@
   },
   "accounting-bookkeeping-services": {
     "title": "Accounting & Bookkeeping Services",
-    "benefitHeading": "Why Accurate Accounting Matters",
+    "benefitHeading": "Why Accurate Accounting Matters?",
+    "bulletsHeading": "Reliable Books. Compliant Records. Better Decisions.",
+    "bulletsSubheading": "Finvvritti provides end-to-end accounting and bookkeeping support - from transaction recording to management reporting - ensuring your finance function stays accurate, compliant, and decision-ready.",
     "overview": [
-      "Evolving business practices demand efficient accounting skills. Increased pressure for transparency, frequent tax amendments, compliance with local GAAP or IFRS, consolidations, mergers and acquisitions, and cybersecurity challenges have made accounting more complex than ever. Finvvritti, with 30+ years of combined experience, tailors solutions to your specific requirements, anticipating the needs of auditors, investors, and regulators before they arise.",
-      "Finvvritti provides a comprehensive suite of accounting and bookkeeping services designed to help businesses maintain accurate, compliant financial records. This includes meticulous recording of all financial transactions, journals, ledgers, and key statements such as the Profit & Loss Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
-      "Beyond compliance, Finvvritti delivers strategic value through Management Reporting, documenting, analysing, and communicating your business's financial affairs on a monthly, quarterly, or annual basis. Our KPI dashboards, variance analysis, and expert commentary give you the financial visibility needed for confident decision-making.",
-      "We leverage cloud-based accounting software to enhance accuracy, reduce manual error, and provide real-time access to your financials, while continuously upskilling our team to stay current with the latest regulations and industry standards."
+      "In today's changing business environment, accounting is no longer limited to recording transactions. Increasing regulatory requirements, frequent tax amendments, evolving business models, audit expectations, investor reporting, local GAAP or IFRS compliance, consolidations, mergers and acquisitions, and data security concerns have made financial reporting more detailed and complex.",
+      "At Finvvritti, we bring 30+ years of combined professional experience to deliver accounting and bookkeeping solutions that are practical, accurate, and aligned with your business requirements. Our approach is designed not only to maintain proper books of accounts but also to anticipate the expectations of auditors, investors, lenders, and regulatory authorities. We provide end-to-end accounting and bookkeeping support, including systematic recording of financial transactions, preparation and maintenance of journals, ledgers, reconciliations, and financial statements such as the Profit & Loss Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
+      "Beyond routine compliance, Finvvritti adds strategic value through structured Management Reporting. We help businesses review and understand their financial performance on a monthly, quarterly, or annual basis through KPI dashboards, variance analysis, meaningful reports, and expert commentary. This enables management to take informed decisions with greater clarity and confidence.",
+      "We also leverage modern cloud-based accounting tools - QuickBooks, Tally, Xero, and Zoho Books - to improve accuracy, reduce manual errors, streamline workflows, and provide real-time access to financial information. Our team continuously updates its knowledge of changing regulations, accounting practices, and industry standards, ensuring that your finance function remains reliable, compliant, and future-ready."
     ],
     "benefits": [
       {
@@ -903,11 +905,13 @@
   "company-secretary-services": {
     "title": "Company Secretary Services",
     "benefitHeading": "Your Corporate Compliance Partner",
+    "bulletsHeading": "What We Manage for Your Company",
+    "bulletsSubheading": "Our qualified Company Secretary professionals handle all your secretarial and regulatory obligations with proper documentation, timely filings, and professional diligence.",
     "overview": [
-      "We take care of your compliance so that you can focus on the real stuff, growing your business. Keeping pace with the government's ever-expanding list of statutory obligations can become complicated and time-consuming. Finvvritti's qualified CS professionals ensure all your secretarial and regulatory requirements are met accurately and on time.",
-      "A Company Secretary brings deep expertise in corporate law, governance, and compliance, managing everything from board meetings and statutory registers to ROC filings, FEMA compliances, and shareholder communications. This expertise is invaluable for businesses and startups that do not have in-house capabilities to manage these complex requirements.",
-      "Outsourcing company secretarial services is a cost-effective solution for most companies. Engaging Finvvritti is significantly more economical than hiring a full-time CS, while delivering superior expertise, responsiveness, and coverage across all applicable regulations.",
-      "When selecting a company secretary firm, local expertise, a proven track record, and strong client testimonials matter. Finvvritti has consistently delivered high-quality secretarial services, praised by clients for streamlining compliance, professional execution, and reliable financial guidance."
+      "Managing company law compliance can be complex, time-consuming, and highly procedural. With regular statutory filings, board meeting requirements, ROC compliances, registers, resolutions, governance documentation, and regulatory updates, businesses need reliable professional support to stay compliant.",
+      "At Finvvritti, we provide end-to-end company secretarial services to help businesses, startups, private limited companies, LLPs, and growing organisations manage their corporate compliance requirements accurately and on time. Our qualified Company Secretary professionals ensure that your secretarial and regulatory obligations are handled with proper documentation, timely filings, and professional diligence.",
+      "Our services cover key areas such as board meeting compliance, preparation of minutes and resolutions, maintenance of statutory registers, ROC filings, annual compliances, FEMA compliance, shareholder communication, corporate governance support, and advisory on Companies Act requirements. For many businesses, outsourcing company secretarial work is a practical and cost-effective alternative to hiring a full-time Company Secretary.",
+      "Finvvritti gives you access to experienced professionals, strong compliance processes, timely execution, and complete support across applicable corporate laws and regulatory requirements. With our local expertise, practical approach, and proven experience, we help businesses streamline secretarial compliance, reduce the risk of penalties, and maintain a strong corporate governance framework."
     ],
     "benefits": [
       {
@@ -979,11 +983,13 @@
   "compliance-management-services": {
     "title": "Compliance Management Services",
     "benefitHeading": "Why Businesses Need Compliance Management",
+    "bulletsHeading": "What We Manage Under Compliance Support",
+    "bulletsSubheading": "Finvvritti helps businesses manage ongoing statutory, tax, regulatory, and industry-specific compliances through structured checklists, timely filings, regular updates, and proactive compliance monitoring.",
     "overview": [
-      "Outsourcing compliance management enables complete control over your statutory obligations. Finvvritti guides businesses through all compliances enforced by Central and State authorities, keeping you fully protected from non-compliance risk, penalties, and legal exposure.",
-      "Compliance Management is a set of complex legal requirements that every organisation must adhere to. Legal obligations vary across Central and State laws depending on industry, location, and jurisdiction, and they are updated frequently. Organisations of every size must stay compliant to avoid legal trouble, financial penalties, and reputational damage.",
-      "Keeping pace with changing government norms is a challenge for most companies. Finvvritti's experts stay ahead of recent legislation and provide end-to-end support across registrations, renewals, filings, audits, reporting, and document collation.",
-      "Today's stakeholders, investors, independent directors, and business partners, expect a unified and consistent compliance approach. Finvvritti delivers exactly that, ensuring your compliance posture remains strong across all regulatory fronts."
+      "Managing statutory compliance is essential for every business to avoid penalties, legal exposure, and reputational risk. With frequent changes in Central and State laws, industry-specific regulations, registrations, renewals, filings, audits, and reporting requirements, businesses need a reliable compliance management system.",
+      "At Finvvritti, we provide end-to-end compliance management services to help businesses stay compliant with applicable laws and regulatory requirements. Our team assists with identifying applicable compliances, tracking due dates, preparing documents, managing statutory filings, handling renewals, and supporting audits.",
+      "We help companies maintain a structured and consistent compliance framework that meets the expectations of stakeholders, investors, independent directors, lenders, and business partners. By staying updated with the latest regulatory changes and government notifications, Finvvritti ensures that your business remains compliant, organised, and audit-ready.",
+      "With our professional compliance support, you can focus on business growth while we manage your statutory obligations with accuracy, timeliness, and diligence."
     ],
     "benefits": [
       {
