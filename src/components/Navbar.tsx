@@ -9,6 +9,7 @@ const otherLinks = [
   { label: "About Us", href: "/about" },
   { label: "Careers", href: "/careers" },
   { label: "Case Studies", href: "/case-studies" },
+  { label: "FAQs", href: "/faq" },
   { label: "Contact Us", href: "/contact" },
 ];
 
