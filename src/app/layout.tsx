@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Finvvritti",
     images: [
       {
-        url: "/opengraph-image",
+        url: "https://finvvritti.com/opengraph-image",
         width: 1200,
         height: 630,
         alt: "Finvvritti – CA & CS Advisory",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
     description:
       "One-stop solution for finance, compliance & growth. CA & CS expertise across auditing, accounting, taxation, CFO services and valuation.",
-    images: ["/opengraph-image"],
+    images: ["https://finvvritti.com/opengraph-image"],
   },
 };
 
