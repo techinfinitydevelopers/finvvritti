@@ -1612,10 +1612,11 @@
   "virtual-cfo-services": {
     "title": "Virtual CFO Services",
     "overview": [
-      "Running a business in today's dynamic landscape involves juggling numerous responsibilities — sales, marketing, finances, product development, and customer service. While financial management is crucial, companies of all sizes are increasingly seeking innovative solutions to manage their financial operations efficiently. One such solution is the Virtual CFO (VCFO) service offered by Finvvritti.",
-      "The role of a Chief Financial Officer has evolved from mere number-crunching to a strategic leadership position. A Virtual CFO provides CFO-level expertise on a fractional basis — offering strategic financial guidance without the overhead of a full-time executive. Unlike a traditional CFO who is physically present in the office, a VCFO provides expertise on a part-time or project basis, remotely, acting as an extension of the management team.",
-      "Virtual CFOs bring big-picture thinking and hands-on expertise — from financial analysis and cash flow management to investor relations and fundraising support. They help transform financial data into strategic decisions that drive business growth. The scope of services is adaptable to the company's specific needs and growth trajectory.",
-      "A Virtual CFO can be a game-changer at various stages: during the startup phase for securing funding and establishing financial systems; during rapid growth when financial complexity increases; during financial turbulence for cost reduction and restructuring; or when planning major financial events like IPOs, acquisitions, or sales."
+      "Running a business today requires constant attention to sales, marketing, operations, finance, product development, customer relationships, and growth planning. While financial management is one of the most critical areas of any business, not every company needs or can justify the cost of a full-time Chief Financial Officer. This is where Finvvritti's Virtual CFO services help businesses access senior-level financial expertise in a flexible and cost-effective manner.",
+      "A Virtual CFO provides strategic financial leadership on a part-time, remote, or project-based model. Instead of only managing numbers, a VCFO works closely with the management team to strengthen financial systems, improve reporting, monitor cash flows, analyse business performance, and support key decisions. The role is designed to act as an extension of your leadership team without the fixed cost of hiring a full-time CFO.",
+      "At Finvvritti, our Virtual CFO services combine big-picture financial strategy with practical execution. We assist businesses with financial planning, budgeting, MIS reporting, cash flow management, profitability analysis, investor reporting, fundraising support, compliance coordination, internal controls, and decision-oriented financial insights. Our support is customised based on your business size, stage, industry, and growth plans.",
+      "A Virtual CFO can add significant value at different stages of business growth. For startups, it helps in setting up financial processes, preparing investor-ready reports, and supporting funding discussions. For growing businesses, it helps manage increasing financial complexity, improve controls, and bring clarity to decision-making. During challenging phases, a VCFO can support cost optimisation, restructuring, cash flow planning, and turnaround strategies.",
+      "Whether your business is preparing for fundraising, rapid expansion, acquisition, sale, restructuring, or long-term financial planning, Finvvritti provides the strategic guidance and financial discipline needed to move forward with confidence."
     ],
     "benefits": [
       {
@@ -1689,7 +1690,10 @@
         "q": "How long does it take to see results?",
         "a": "Most clients see meaningful improvements in financial reporting quality, cash flow visibility, and decision-making support within the first 60 to 90 days of engagement."
       }
-    ]
+    ],
+    "benefitHeading": "Why Businesses Choose a Virtual CFO",
+    "bulletsHeading": "From Financial Planning to Strategic Decisions",
+    "bulletsSubheading": "Finvvritti supports businesses with financial analysis, MIS reporting, cash flow planning, budgeting, investor documentation, valuation, risk review, and strategic financial advisory."
   },
   "direct-tax-services": {
     "title": "Direct Tax Services",
