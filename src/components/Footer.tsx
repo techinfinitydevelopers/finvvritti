@@ -12,7 +12,7 @@ export default function Footer() {
             <Image src="/logo-dark.png" alt="Finvvritti" width={233} height={263} className="h-16 w-auto object-contain" />
           </Link>
           <p className="mt-4 text-white/70 max-w-md leading-relaxed">
-            Your trusted CA &amp; CS partner for <span className="text-white font-medium">accounting</span>, compliance, taxation, and strategic financial growth — helping SMEs and startups thrive with confidence.
+            Finvvritti provides accurate <strong className="text-white font-semibold">Accounting</strong> and trusted Financial Advisory services for growing businesses.
           </p>
           <div className="flex items-center gap-3 mt-5">
             <a href="https://www.instagram.com/finvvritti?igsh=MTVmOXRkMmptd29rcw==" target="_blank" rel="noopener noreferrer"
