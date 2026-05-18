@@ -5,22 +5,33 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { caseStudies, type CaseStudyMeta } from "@/lib/case-studies";
 
-const FILTERS = ["All", "Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
+const DEFAULT_FILTERS = ["All", "Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
 
 export default function CaseStudiesGrid() {
   const [active, setActive] = useState("All");
   const [dynamic, setDynamic] = useState<CaseStudyMeta[]>([]);
+  const [filters, setFilters] = useState<string[]>(DEFAULT_FILTERS);
 
   useEffect(() => {
+    // Load dynamic case studies
     fetch("/api/case-studies")
       .then((r) => r.json())
       .then((data: CaseStudyMeta[]) => {
-        // newest first, no duplicates
         const staticSlugs = new Set(caseStudies.map((c) => c.slug));
         const newOnes = [...data]
-          .filter((d) => !staticSlugs.has(d.slug))
+          .filter((d) => !staticSlugs.has(d.slug) && !d.slug.startsWith("__config__"))
           .sort((a, b) => new Date(b.createdAt || 0).getTime() - new Date(a.createdAt || 0).getTime());
         setDynamic(newOnes);
+      })
+      .catch(() => {});
+
+    // Load dynamic categories
+    fetch("/api/categories")
+      .then((r) => r.json())
+      .then((cats: string[]) => {
+        if (Array.isArray(cats) && cats.length > 0) {
+          setFilters(["All", ...cats]);
+        }
       })
       .catch(() => {});
   }, []);
@@ -34,7 +45,7 @@ export default function CaseStudiesGrid() {
       <div className="container-x">
         {/* Filter tabs */}
         <div className="flex flex-wrap gap-2 mb-10">
-          {FILTERS.map((f) => (
+          {filters.map((f) => (
             <button
               key={f}
               onClick={() => setActive(f)}

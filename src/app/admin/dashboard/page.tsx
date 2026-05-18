@@ -2,9 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { PlusCircle, Trash2, LogOut, BookOpen, Pencil, X, Check, Lock } from "lucide-react";
-
-const CATEGORIES = ["Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
+import { PlusCircle, Trash2, LogOut, BookOpen, Pencil, X, Check, Lock, Tag, Plus } from "lucide-react";
 
 type Study = {
   slug: string;
@@ -14,7 +12,7 @@ type Study = {
   image: string;
   content: string;
   createdAt?: string;
-  isStatic?: boolean; // UI only flag
+  isStatic?: boolean;
 };
 
 // Static case studies (seeded from lib/case-studies.ts)
@@ -66,38 +64,98 @@ const STATIC_STUDIES: Study[] = [
   },
 ];
 
-const EMPTY: Omit<Study, "createdAt" | "isStatic"> = {
-  slug: "", title: "", subtitle: "", category: "Advisory", image: "", content: "",
-};
+const DEFAULT_CATEGORIES = ["Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
+
+function makeEmpty(firstCat: string) {
+  return { slug: "", title: "", subtitle: "", category: firstCat || "Advisory", image: "", content: "" };
+}
 
 export default function AdminDashboard() {
   const router = useRouter();
   const [token, setToken] = useState("");
+
+  // Case studies
   const [dbStudies, setDbStudies] = useState<Study[]>([]);
   const [allStudies, setAllStudies] = useState<Study[]>([]);
   const [loading, setLoading] = useState(true);
-  const [form, setForm] = useState({ ...EMPTY });
+  const [form, setForm] = useState(makeEmpty(DEFAULT_CATEGORIES[0]));
   const [showForm, setShowForm] = useState(false);
   const [editingSlug, setEditingSlug] = useState<string | null>(null);
   const [editForm, setEditForm] = useState<Study | null>(null);
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState("");
 
+  // Categories
+  const [categories, setCategories] = useState<string[]>(DEFAULT_CATEGORIES);
+  const [showCatPanel, setShowCatPanel] = useState(false);
+  const [newCat, setNewCat] = useState("");
+  const [catMsg, setCatMsg] = useState("");
+  const [catSaving, setCatSaving] = useState(false);
+
   useEffect(() => {
     const t = sessionStorage.getItem("admin_token") || "";
     if (!t) { router.push("/admin"); return; }
     setToken(t);
     fetchStudies(t);
+    fetchCategories(t);
   }, [router]);
 
+  // ── Categories API ──────────────────────────────
+  async function fetchCategories(t: string) {
+    try {
+      const res = await fetch("/api/admin/categories", { headers: { "x-admin-token": t } });
+      if (res.ok) {
+        const data = await res.json();
+        setCategories(data);
+        setForm((f) => ({ ...f, category: data[0] || "Advisory" }));
+      }
+    } catch { /* use defaults */ }
+  }
+
+  async function addCategory() {
+    if (!newCat.trim()) return;
+    setCatSaving(true); setCatMsg("");
+    const res = await fetch("/api/admin/categories", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-admin-token": token },
+      body: JSON.stringify({ name: newCat.trim() }),
+    });
+    const data = await res.json();
+    if (res.ok) {
+      setCategories(data);
+      setNewCat("");
+      setCatMsg("Category added!");
+    } else {
+      setCatMsg(data.error || "Failed to add");
+    }
+    setCatSaving(false);
+  }
+
+  async function deleteCategory(name: string) {
+    if (!confirm(`Delete category "${name}"? Existing case studies will keep this label.`)) return;
+    setCatSaving(true); setCatMsg("");
+    const res = await fetch("/api/admin/categories", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json", "x-admin-token": token },
+      body: JSON.stringify({ name }),
+    });
+    const data = await res.json();
+    if (res.ok) {
+      setCategories(data);
+      setCatMsg("Deleted.");
+    } else {
+      setCatMsg(data.error || "Failed to delete");
+    }
+    setCatSaving(false);
+  }
+
+  // ── Case Studies API ────────────────────────────
   async function fetchStudies(t: string) {
     setLoading(true);
     const res = await fetch("/api/admin/case-studies", { headers: { "x-admin-token": t } });
     if (!res.ok) { router.push("/admin"); return; }
-    const db: Study[] = await res.json();
+    const db: Study[] = (await res.json()).filter((s: Study) => !s.slug.startsWith("__config__"));
     setDbStudies(db);
-
-    // Merge: DB overrides static for same slug, then append remaining static
     const dbSlugs = new Set(db.map((s) => s.slug));
     const staticOnly = STATIC_STUDIES.filter((s) => !dbSlugs.has(s.slug));
     const merged = [
@@ -118,8 +176,7 @@ export default function AdminDashboard() {
       setMsg("Image must be a URL starting with http:// or https://");
       return;
     }
-    setSaving(true);
-    setMsg("");
+    setSaving(true); setMsg("");
     const payload = { ...form, slug: form.slug || autoSlug(form.title) };
     const res = await fetch("/api/admin/case-studies", {
       method: "POST",
@@ -129,7 +186,7 @@ export default function AdminDashboard() {
     const data = await res.json();
     if (res.ok) {
       setMsg("Case study published successfully!");
-      setForm({ ...EMPTY });
+      setForm(makeEmpty(categories[0]));
       setShowForm(false);
       fetchStudies(token);
     } else {
@@ -141,13 +198,9 @@ export default function AdminDashboard() {
   async function handleEdit(e: React.FormEvent) {
     e.preventDefault();
     if (!editForm) return;
-    setSaving(true);
-    setMsg("");
-
-    // Check if slug exists in DB — if not (static), create it; otherwise update
+    setSaving(true); setMsg("");
     const isInDb = dbStudies.some((s) => s.slug === editForm.slug);
     const method = isInDb ? "PUT" : "POST";
-
     const res = await fetch("/api/admin/case-studies", {
       method,
       headers: { "Content-Type": "application/json", "x-admin-token": token },
@@ -155,8 +208,7 @@ export default function AdminDashboard() {
     });
     const data = await res.json();
     if (res.ok) {
-      setEditingSlug(null);
-      setEditForm(null);
+      setEditingSlug(null); setEditForm(null);
       setMsg("Changes saved successfully!");
       fetchStudies(token);
     } else {
@@ -167,7 +219,7 @@ export default function AdminDashboard() {
 
   async function handleDelete(slug: string, isStatic?: boolean) {
     if (isStatic) {
-      setMsg("Static case studies cannot be deleted from admin. Edit the code to remove them.");
+      setMsg("Static case studies cannot be deleted from admin.");
       return;
     }
     if (!confirm("Are you sure you want to delete this case study?")) return;
@@ -192,27 +244,20 @@ export default function AdminDashboard() {
     setShowForm(false);
   }
 
-  function cancelEdit() {
-    setEditingSlug(null);
-    setEditForm(null);
-  }
+  function cancelEdit() { setEditingSlug(null); setEditForm(null); }
 
   function logout() {
     sessionStorage.removeItem("admin_token");
     router.push("/admin");
   }
 
-  const totalCount = allStudies.length;
-
   return (
     <div className="min-h-screen bg-[var(--color-tertiary)]">
       {/* Header */}
       <header className="bg-[var(--color-primary)] text-white px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="flex flex-col">
-            <Image src="/logo-dark.png" alt="Finvvritti" width={233} height={263} className="h-10 w-auto object-contain" />
-            <p className="text-[10px] text-white/60 -mt-0.5">Admin Dashboard</p>
-          </div>
+        <div className="flex flex-col">
+          <Image src="/logo-dark.png" alt="Finvvritti" width={233} height={263} className="h-10 w-auto object-contain" />
+          <p className="text-[10px] text-white/60 -mt-0.5">Admin Dashboard</p>
         </div>
         <button onClick={logout} className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">
           <LogOut size={16} /> Logout
@@ -220,11 +265,12 @@ export default function AdminDashboard() {
       </header>
 
       <div className="max-w-5xl mx-auto px-4 py-10">
-        {/* Stats */}
+
+        {/* Stats by category */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          {CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <div key={cat} className="bg-white rounded-2xl border border-[var(--color-line)] p-4">
-              <p className="text-xs text-[var(--color-muted)] uppercase tracking-wider">{cat}</p>
+              <p className="text-xs text-[var(--color-muted)] uppercase tracking-wider truncate">{cat}</p>
               <p className="font-display text-2xl text-[var(--color-primary)] mt-1">
                 {allStudies.filter((s) => s.category === cat).length}
               </p>
@@ -232,10 +278,74 @@ export default function AdminDashboard() {
           ))}
         </div>
 
-        {/* Header row */}
+        {/* ── Manage Categories Panel ── */}
+        <div className="bg-white rounded-2xl border border-[var(--color-line)] mb-8 overflow-hidden">
+          <button
+            onClick={() => { setShowCatPanel(!showCatPanel); setCatMsg(""); }}
+            className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-[var(--color-tertiary)] transition-colors"
+          >
+            <div className="flex items-center gap-2">
+              <Tag size={16} className="text-[var(--color-secondary-dark)]" />
+              <span className="font-semibold text-[var(--color-primary)] text-sm">Manage Categories</span>
+              <span className="text-xs text-[var(--color-muted)]">({categories.length} total)</span>
+            </div>
+            <span className="text-[var(--color-muted)] text-lg leading-none">{showCatPanel ? "−" : "+"}</span>
+          </button>
+
+          {showCatPanel && (
+            <div className="border-t border-[var(--color-line)] p-6 space-y-4">
+              {/* Add new */}
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={newCat}
+                  onChange={(e) => setNewCat(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && (e.preventDefault(), addCategory())}
+                  placeholder="New category name..."
+                  className="flex-1 rounded-xl border border-[var(--color-line)] bg-[var(--color-tertiary)] px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-secondary)]/40"
+                />
+                <button
+                  onClick={addCategory}
+                  disabled={catSaving || !newCat.trim()}
+                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-[var(--color-primary)] text-white text-sm font-semibold disabled:opacity-50 hover:bg-[var(--color-primary-light)] transition-colors"
+                >
+                  <Plus size={15} /> Add
+                </button>
+              </div>
+
+              {catMsg && (
+                <p className={`text-xs px-3 py-2 rounded-lg ${catMsg.includes("added") || catMsg.includes("Deleted") ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"}`}>
+                  {catMsg}
+                </p>
+              )}
+
+              {/* Category chips */}
+              <div className="flex flex-wrap gap-2">
+                {categories.map((cat) => (
+                  <div
+                    key={cat}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[var(--color-tertiary)] border border-[var(--color-line)] text-sm text-[var(--color-primary)]"
+                  >
+                    <span>{cat}</span>
+                    <button
+                      onClick={() => deleteCategory(cat)}
+                      disabled={catSaving}
+                      className="text-[var(--color-muted)] hover:text-red-500 transition-colors ml-0.5"
+                      title={`Remove ${cat}`}
+                    >
+                      <X size={13} />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* ── Case Studies Header ── */}
         <div className="flex items-center justify-between mb-6">
           <h2 className="font-display text-xl text-[var(--color-primary)]">
-            Case Studies <span className="text-[var(--color-muted)] text-base font-sans font-normal">({totalCount} total)</span>
+            Case Studies <span className="text-[var(--color-muted)] text-base font-sans font-normal">({allStudies.length} total)</span>
           </h2>
           <button
             onClick={() => { setShowForm(!showForm); cancelEdit(); }}
@@ -263,7 +373,7 @@ export default function AdminDashboard() {
                 <label className="block text-xs font-semibold tracking-wide text-[var(--color-muted)] uppercase mb-1.5">Category *</label>
                 <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })}
                   className="w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-tertiary)] px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-secondary)]/40">
-                  {CATEGORIES.map((c) => <option key={c}>{c}</option>)}
+                  {categories.map((c) => <option key={c}>{c}</option>)}
                 </select>
               </div>
               <FormField label="Image URL" value={form.image} onChange={(v) => setForm({ ...form, image: v })} placeholder="https://images.unsplash.com/..." />
@@ -309,7 +419,7 @@ export default function AdminDashboard() {
                         <label className="block text-xs font-semibold tracking-wide text-[var(--color-muted)] uppercase mb-1.5">Category</label>
                         <select value={editForm.category} onChange={(e) => setEditForm({ ...editForm, category: e.target.value })}
                           className="w-full rounded-xl border border-[var(--color-line)] bg-[var(--color-tertiary)] px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-secondary)]/40">
-                          {CATEGORIES.map((c) => <option key={c}>{c}</option>)}
+                          {categories.map((c) => <option key={c}>{c}</option>)}
                         </select>
                       </div>
                       <FormField label="Image URL" value={editForm.image} onChange={(v) => setEditForm({ ...editForm, image: v })} />
