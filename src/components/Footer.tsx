@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Clock } from "lucide-react";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -49,6 +49,7 @@ export default function Footer() {
               { label: "Case Studies", href: "/case-studies" },
               { label: "FAQs", href: "/faq" },
               { label: "Contact Us", href: "/contact" },
+              { label: "Terms & Conditions", href: "/terms-and-conditions" },
             ].map((l) => (
               <li key={l.href}>
                 <a
@@ -82,6 +83,10 @@ export default function Footer() {
             <li className="flex items-start gap-2.5">
               <MapPin size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
               <span>Office No 504, D Wing, 5th Floor, Shreepati Jewels, Khattar Galli, Charni Road, Mumbai, Maharashtra 400004</span>
+            </li>
+            <li className="flex items-start gap-2.5">
+              <Clock size={16} className="mt-0.5 text-[var(--color-secondary)] shrink-0" />
+              <span>Mon - Sat, 10:30 AM - 7:00 PM</span>
             </li>
           </ul>
         </div>

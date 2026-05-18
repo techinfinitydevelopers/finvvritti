@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
 import CaseStudiesGrid from "@/components/CaseStudiesGrid";
 import CaseStudy from "@/components/CaseStudy";
+import YoutubeShorts from "@/components/YoutubeShorts";
 import Testimonials from "@/components/Testimonials";
 import ContactSection from "@/components/ContactSection";
 
@@ -44,6 +45,8 @@ export default function CaseStudiesPage() {
         </section>
 
         <CaseStudy />
+
+        <YoutubeShorts />
 
         <Testimonials />
 

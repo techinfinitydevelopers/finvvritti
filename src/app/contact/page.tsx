@@ -20,7 +20,7 @@ export default function ContactPage() {
           title="Let's Talk About"
           highlight="Your Numbers"
           description="Fill the form and our team will reach out with a clear plan, scope, and timeline. Or contact us directly."
-          image="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80"
+          image="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=1200&q=80"
           imageAlt="Contact Finvvritti"
           crumbs={[
             { label: "Home", href: "/" },
