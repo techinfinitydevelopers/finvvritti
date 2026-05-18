@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { PlusCircle, Trash2, LogOut, BookOpen, Pencil, X, Check } from "lucide-react";
 
-const CATEGORIES = ["Personal Finance", "Freelancer", "Retirement", "SME"];
+const CATEGORIES = ["Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
 
 type Study = {
   slug: string;
@@ -17,7 +17,7 @@ type Study = {
 };
 
 const EMPTY: Omit<Study, "createdAt"> = {
-  slug: "", title: "", subtitle: "", category: "SME", image: "", content: "",
+  slug: "", title: "", subtitle: "", category: "Advisory", image: "", content: "",
 };
 
 export default function AdminDashboard() {
