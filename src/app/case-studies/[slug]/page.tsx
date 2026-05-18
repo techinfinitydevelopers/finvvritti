@@ -7,7 +7,6 @@ import ContactSection from "@/components/ContactSection";
 import CaseStudyDetail from "@/components/CaseStudyDetail";
 import { caseStudies, getCaseStudyMeta } from "@/lib/case-studies";
 import { getCaseStudyContent } from "@/lib/case-study-content";
-import { readStudies } from "@/lib/blob-studies";
 
 export const dynamic = "force-dynamic";
 export const dynamicParams = true;
@@ -18,8 +17,10 @@ export function generateStaticParams() {
 
 async function getDynamicStudy(slug: string) {
   try {
-    const studies = await readStudies();
-    return studies.find((s: { slug: string }) => s.slug === slug) ?? null;
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://finvvritti.com";
+    const res = await fetch(`${baseUrl}/api/case-studies/${slug}`, { cache: "no-store" });
+    if (!res.ok) return null;
+    return await res.json();
   } catch (e) {
     console.error("[getDynamicStudy]", e);
     return null;

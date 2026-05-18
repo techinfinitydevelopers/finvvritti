@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { PlusCircle, Trash2, LogOut, BookOpen, Pencil, X, Check } from "lucide-react";
+import { PlusCircle, Trash2, LogOut, BookOpen, Pencil, X, Check, Lock } from "lucide-react";
 
 const CATEGORIES = ["Virtual CFO", "Direct Tax", "Indirect Tax", "Advisory"];
 
@@ -14,16 +14,67 @@ type Study = {
   image: string;
   content: string;
   createdAt?: string;
+  isStatic?: boolean; // UI only flag
 };
 
-const EMPTY: Omit<Study, "createdAt"> = {
+// Static case studies (seeded from lib/case-studies.ts)
+const STATIC_STUDIES: Study[] = [
+  {
+    slug: "adi-nisa-turning-their-local-coffee-shop-into-a-profitable-scalable-business",
+    title: "Adi & Nisa - Turning Their Local Coffee Shop Into a Profitable, Scalable Business",
+    subtitle: "From cash-stressed shop to disciplined business with 3.5x monthly profit growth.",
+    category: "Virtual CFO",
+    image: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1200&q=80",
+    content: "",
+    isStatic: true,
+  },
+  {
+    slug: "mr-budi-optimizing-retirement-funds-for-a-worry-free-future",
+    title: "Mr. Budi - Optimizing Tax Planning for a Worry-Free Future",
+    subtitle: "Holistic direct tax strategy: structured planning, deductions optimized, and full compliance.",
+    category: "Direct Tax",
+    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+    content: "",
+    isStatic: true,
+  },
+  {
+    slug: "rina-a-freelance-writer-builds-financial-stability-from-unpredictable-income",
+    title: "Rina A. - GST Compliance & Indirect Tax for a Growing Business",
+    subtitle: "Streamlined GST filings, reduced penalties, and clear indirect tax framework.",
+    category: "Indirect Tax",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+    content: "",
+    isStatic: true,
+  },
+  {
+    slug: "dita-rafi-planning-their-dream-home-without-financial-stress",
+    title: "Dita & Rafi - Strategic Advisory for Business Expansion",
+    subtitle: "How a growing business aligned financial goals, reduced debt, and secured funding.",
+    category: "Advisory",
+    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+    content: "",
+    isStatic: true,
+  },
+  {
+    slug: "jonathan-t-from-financial-uncertainty-to-total-clarity",
+    title: "Jonathan T. - From Financial Uncertainty to Total Clarity",
+    subtitle: "A startup founder rebuilds financial structure with expert advisory and a clear growth roadmap.",
+    category: "Advisory",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80",
+    content: "",
+    isStatic: true,
+  },
+];
+
+const EMPTY: Omit<Study, "createdAt" | "isStatic"> = {
   slug: "", title: "", subtitle: "", category: "Advisory", image: "", content: "",
 };
 
 export default function AdminDashboard() {
   const router = useRouter();
   const [token, setToken] = useState("");
-  const [studies, setStudies] = useState<Study[]>([]);
+  const [dbStudies, setDbStudies] = useState<Study[]>([]);
+  const [allStudies, setAllStudies] = useState<Study[]>([]);
   const [loading, setLoading] = useState(true);
   const [form, setForm] = useState({ ...EMPTY });
   const [showForm, setShowForm] = useState(false);
@@ -43,9 +94,17 @@ export default function AdminDashboard() {
     setLoading(true);
     const res = await fetch("/api/admin/case-studies", { headers: { "x-admin-token": t } });
     if (!res.ok) { router.push("/admin"); return; }
-    const data = await res.json();
-    // Newest first
-    setStudies([...data].sort((a, b) => new Date(b.createdAt || 0).getTime() - new Date(a.createdAt || 0).getTime()));
+    const db: Study[] = await res.json();
+    setDbStudies(db);
+
+    // Merge: DB overrides static for same slug, then append remaining static
+    const dbSlugs = new Set(db.map((s) => s.slug));
+    const staticOnly = STATIC_STUDIES.filter((s) => !dbSlugs.has(s.slug));
+    const merged = [
+      ...db.sort((a, b) => new Date(b.createdAt || 0).getTime() - new Date(a.createdAt || 0).getTime()),
+      ...staticOnly,
+    ];
+    setAllStudies(merged);
     setLoading(false);
   }
 
@@ -84,8 +143,13 @@ export default function AdminDashboard() {
     if (!editForm) return;
     setSaving(true);
     setMsg("");
+
+    // Check if slug exists in DB — if not (static), create it; otherwise update
+    const isInDb = dbStudies.some((s) => s.slug === editForm.slug);
+    const method = isInDb ? "PUT" : "POST";
+
     const res = await fetch("/api/admin/case-studies", {
-      method: "PUT",
+      method,
       headers: { "Content-Type": "application/json", "x-admin-token": token },
       body: JSON.stringify(editForm),
     });
@@ -101,7 +165,11 @@ export default function AdminDashboard() {
     setSaving(false);
   }
 
-  async function handleDelete(slug: string) {
+  async function handleDelete(slug: string, isStatic?: boolean) {
+    if (isStatic) {
+      setMsg("Static case studies cannot be deleted from admin. Edit the code to remove them.");
+      return;
+    }
     if (!confirm("Are you sure you want to delete this case study?")) return;
     setMsg("");
     const res = await fetch("/api/admin/case-studies", {
@@ -120,7 +188,7 @@ export default function AdminDashboard() {
 
   function startEdit(s: Study) {
     setEditingSlug(s.slug);
-    setEditForm({ ...s });
+    setEditForm({ ...s, isStatic: undefined });
     setShowForm(false);
   }
 
@@ -133,6 +201,8 @@ export default function AdminDashboard() {
     sessionStorage.removeItem("admin_token");
     router.push("/admin");
   }
+
+  const totalCount = allStudies.length;
 
   return (
     <div className="min-h-screen bg-[var(--color-tertiary)]">
@@ -156,7 +226,7 @@ export default function AdminDashboard() {
             <div key={cat} className="bg-white rounded-2xl border border-[var(--color-line)] p-4">
               <p className="text-xs text-[var(--color-muted)] uppercase tracking-wider">{cat}</p>
               <p className="font-display text-2xl text-[var(--color-primary)] mt-1">
-                {studies.filter((s) => s.category === cat).length}
+                {allStudies.filter((s) => s.category === cat).length}
               </p>
             </div>
           ))}
@@ -165,7 +235,7 @@ export default function AdminDashboard() {
         {/* Header row */}
         <div className="flex items-center justify-between mb-6">
           <h2 className="font-display text-xl text-[var(--color-primary)]">
-            Case Studies <span className="text-[var(--color-muted)] text-base font-sans font-normal">({studies.length} total)</span>
+            Case Studies <span className="text-[var(--color-muted)] text-base font-sans font-normal">({totalCount} total)</span>
           </h2>
           <button
             onClick={() => { setShowForm(!showForm); cancelEdit(); }}
@@ -177,7 +247,7 @@ export default function AdminDashboard() {
         </div>
 
         {msg && (
-          <div className={`mb-4 px-4 py-3 rounded-xl text-sm ${msg.includes("success") ? "bg-green-50 text-green-700 border border-green-200" : "bg-red-50 text-red-700 border border-red-200"}`}>
+          <div className={`mb-4 px-4 py-3 rounded-xl text-sm ${msg.includes("success") || msg.includes("saved") ? "bg-green-50 text-green-700 border border-green-200" : "bg-red-50 text-red-700 border border-red-200"}`}>
             {msg}
           </div>
         )}
@@ -221,17 +291,16 @@ export default function AdminDashboard() {
         {/* List */}
         {loading ? (
           <p className="text-center text-[var(--color-muted)] py-16">Loading...</p>
-        ) : studies.length === 0 ? (
+        ) : allStudies.length === 0 ? (
           <div className="bg-white rounded-3xl border border-[var(--color-line)] p-12 text-center">
             <BookOpen size={40} className="mx-auto text-[var(--color-muted)] mb-3" />
             <p className="text-[var(--color-muted)]">No case studies yet. Add your first one above.</p>
           </div>
         ) : (
           <div className="space-y-3">
-            {studies.map((s) => (
-              <div key={s.slug} className="bg-white rounded-2xl border border-[var(--color-line)] overflow-hidden">
+            {allStudies.map((s) => (
+              <div key={s.slug} className={`bg-white rounded-2xl border overflow-hidden ${s.isStatic ? "border-[var(--color-secondary)]/30" : "border-[var(--color-line)]"}`}>
                 {editingSlug === s.slug && editForm ? (
-                  /* ── EDIT FORM ── */
                   <form onSubmit={handleEdit} className="p-6 space-y-4">
                     <h3 className="font-semibold text-[var(--color-primary)] mb-2">Editing: {s.title}</h3>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -263,13 +332,17 @@ export default function AdminDashboard() {
                     </div>
                   </form>
                 ) : (
-                  /* ── ROW VIEW ── */
                   <div className="p-5 flex items-start justify-between gap-4">
                     <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1">
+                      <div className="flex items-center gap-2 mb-1 flex-wrap">
                         <span className="px-2 py-0.5 rounded-full bg-[var(--color-secondary)]/15 text-[var(--color-secondary-dark)] text-[10px] font-semibold uppercase tracking-wider">
                           {s.category}
                         </span>
+                        {s.isStatic && (
+                          <span className="px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 text-[10px] font-semibold uppercase tracking-wider flex items-center gap-1">
+                            <Lock size={9} /> Static
+                          </span>
+                        )}
                         {s.createdAt && (
                           <span className="text-[10px] text-[var(--color-muted)]">
                             {new Date(s.createdAt).toLocaleDateString("en-IN")}
@@ -284,10 +357,12 @@ export default function AdminDashboard() {
                         className="p-2 rounded-xl text-[var(--color-primary)] hover:bg-[var(--color-tertiary)] transition-colors" title="Edit">
                         <Pencil size={15} />
                       </button>
-                      <button onClick={() => handleDelete(s.slug)}
-                        className="p-2 rounded-xl text-red-500 hover:bg-red-50 transition-colors" title="Delete">
-                        <Trash2 size={15} />
-                      </button>
+                      {!s.isStatic && (
+                        <button onClick={() => handleDelete(s.slug, s.isStatic)}
+                          className="p-2 rounded-xl text-red-500 hover:bg-red-50 transition-colors" title="Delete">
+                          <Trash2 size={15} />
+                        </button>
+                      )}
                     </div>
                   </div>
                 )}
