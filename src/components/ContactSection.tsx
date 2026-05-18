@@ -75,7 +75,7 @@ export default function ContactSection() {
             <ContactRow
               Icon={Clock}
               label="Business Hours"
-              value="10:30 AM to 7 PM, Monday to Saturday"
+              value="10:30 AM to 7.00 PM, Monday to Saturday"
             />
           </div>
         </div>
