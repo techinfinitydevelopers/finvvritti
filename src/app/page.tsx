@@ -4,6 +4,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 import Process from "@/components/Process";
 import CoreValue from "@/components/CoreValue";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
+import OurServices from "@/components/OurServices";
 import TrustedBy from "@/components/TrustedBy";
 import CaseStudy from "@/components/CaseStudy";
 import Testimonials from "@/components/Testimonials";
@@ -23,6 +24,7 @@ export default function Home() {
         <Process />
         <CoreValue />
         <WhyChooseUsSection />
+        <OurServices />
         <TrustedBy />
         <YoutubeShorts />
         <CaseStudy />
