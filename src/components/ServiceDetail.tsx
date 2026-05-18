@@ -210,7 +210,7 @@ export default function ServiceDetail({
             </div>
 
             {/* Highlight stat row */}
-            <div className="sd-highlights mt-14 grid grid-cols-3 gap-4 border-t border-[var(--color-line)] pt-10">
+            <div className="sd-highlights mt-14 grid grid-cols-1 sm:grid-cols-3 gap-4 border-t border-[var(--color-line)] pt-10">
               {highlights.map((h) => (
                 <div
                   key={h.label}
