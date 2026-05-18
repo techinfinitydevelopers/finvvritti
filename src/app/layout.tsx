@@ -23,6 +23,30 @@ export const metadata: Metadata = {
   title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
   description:
     "Finvvritti combines CA & CS expertise across auditing, accounting, taxation, debt advisory, CFO services and valuation - a one-stop solution for finance, compliance & growth.",
+  metadataBase: new URL("https://finvvritti.com"),
+  openGraph: {
+    title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
+    description:
+      "Finvvritti combines CA & CS expertise across auditing, accounting, taxation, debt advisory, CFO services and valuation - a one-stop solution for finance, compliance & growth.",
+    url: "https://finvvritti.com",
+    siteName: "Finvvritti",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Finvvritti – CA & CS Advisory",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
+    description:
+      "One-stop solution for finance, compliance & growth. CA & CS expertise across auditing, accounting, taxation, CFO services and valuation.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function RootLayout({
