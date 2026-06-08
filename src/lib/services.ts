@@ -265,7 +265,7 @@ export const services: Service[] = [
       "GST registration, return filing, ITC optimisation, refunds, written opinions, and departmental representation.",
     Icon: Percent,
     image:
-      "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?auto=format&fit=crop&w=900&q=80",
+      "/service-images/indirect-tax-hero.png",
     category: "Compliance",
   },
   {
@@ -275,7 +275,7 @@ export const services: Service[] = [
       "Risk-based internal audit to strengthen controls, ensure compliance, and protect stakeholder interests.",
     Icon: ClipboardList,
     image:
-      "https://images.unsplash.com/photo-1542744094-24638eff58bb?auto=format&fit=crop&w=900&q=80",
+      "/service-images/internal-audit-hero.png",
     category: "Compliance",
   },
   {
