@@ -2170,6 +2170,28 @@
       "Audit coordination and documentation support",
       "Cross-border compliance accounting"
     ],
-    "sections": []
+    "sections": [],
+    "faqs": [
+      {
+        "q": "How does Finvvritti ensure the security and confidentiality of my business data?",
+        "a": "We treat your data with the same level of care and confidentiality as our own. Finvvritti follows strict security protocols, controlled access systems, and confidentiality standards to safeguard all financial, tax, and business information. Only authorised personnel can access client records, ensuring your sensitive data remains secure, private, and protected at every stage of our engagement."
+      },
+      {
+        "q": "What accounting software does Finvvritti use for international clients?",
+        "a": "Finvvritti works with leading cloud-based accounting platforms including QuickBooks, Xero, Zoho Books, and other international tools. We recommend the best platform based on your business needs, jurisdiction, and reporting requirements to ensure accurate and efficient bookkeeping."
+      },
+      {
+        "q": "Can Finvvritti handle multi-currency bookkeeping?",
+        "a": "Yes. We provide full support for multi-currency transactions, foreign exchange accounting, and intercompany reconciliations. Our team ensures accurate recording of cross-border transactions in compliance with applicable accounting standards and reporting requirements."
+      },
+      {
+        "q": "How does the monthly reporting process work?",
+        "a": "We deliver structured monthly MIS reports covering profit and loss, balance sheet, cash flow, and key financial ratios. Reports are shared on a fixed schedule so management always has timely, accurate financial data for decision-making."
+      },
+      {
+        "q": "Is maintaining books of accounts mandatory for foreign subsidiaries in India?",
+        "a": "Yes. Foreign subsidiaries registered in India are required to maintain books of accounts under the Companies Act 2013, the Income Tax Act 1961, and GST laws. Finvvritti ensures your Indian entity remains fully compliant with all applicable accounting and reporting requirements."
+      }
+    ]
   }
 }
