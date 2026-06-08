@@ -822,8 +822,8 @@
   "accounting-bookkeeping-services": {
     "title": "Accounting & Book keeping Services",
     "benefitHeading": "Reliable Accounting Support for Global Businesses",
-    "bulletsHeading": "Reliable Books. Compliant Records. Better Decisions.",
-    "bulletsSubheading": "Finvvritti provides end-to-end accounting and bookkeeping support - from transaction recording to management reporting - ensuring your finance function stays accurate, compliant, and decision-ready.",
+    "bulletsHeading": "Key Areas of Accounting Support",
+    "bulletsSubheading": "Our structured accounting support helps international clients maintain accurate books, timely reporting, clean reconciliations, and audit-ready financial records across jurisdictions.",
     "overview": [
       "In today's changing business environment, accounting is no longer limited to recording transactions. Increasing regulatory requirements, frequent tax amendments, evolving business models, audit expectations, investor reporting, local GAAP or IFRS compliance, consolidations, mergers and acquisitions, and data security concerns have made financial reporting more detailed and complex.",
       "At Finvvritti, we bring 30+ years of combined professional experience to deliver accounting and bookkeeping solutions that are practical, accurate, and aligned with your business requirements. Our approach is designed not only to maintain proper books of accounts but also to anticipate the expectations of auditors, investors, lenders, and regulatory authorities. We provide end-to-end accounting and bookkeeping support, including systematic recording of financial transactions, preparation and maintenance of journals, ledgers, reconciliations, and financial statements such as the Profit & Loss Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
@@ -866,18 +866,12 @@
       "Budgeting & Variance Analysis"
     ],
     "bullets": [
-      "Income Tax Act, 1961: Mandatory bookkeeping for professionals (legal, medical, engineering) and all business entities.",
-      "CGST Act, 2017: Every GST-registered person must maintain all records at their principal place of business.",
-      "Companies Act, 2013: All registered companies must maintain prescribed books of accounts.",
-      "LLP Act, 2008: Mandatory books of accounts for all registered LLPs.",
-      "Books must be retained for a minimum of 8 years from the end of the relevant financial year.",
-      "Non-compliance under Companies Act 2013 attracts fines ranging from ₹50,000 to ₹5 lakh.",
-      "Records maintained: Journal, Ledgers, Trading Account, P&L Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts.",
-      "Comprehensive Reports: Detailed income statements, balance sheets, cash flow statements, and KPI dashboards.",
-      "Budgeting & Variance Analysis: Track actual performance against targets and identify gaps early.",
-      "Expert Commentary: Contextual explanations on financial data to support management decisions.",
-      "Payroll & Labour Compliance: End-to-end payroll processing, PF, ESI, PT contributions, and salary structuring aligned with applicable labour laws.",
-      "International Taxation Support: Transfer pricing documentation, expatriate taxation, Tax Residency Certificates (TRC), and TDS on outward remittances for cross-border businesses."
+      "Bookkeeping & Ledger Management: Recording day-to-day transactions, journals, ledgers, expenses, invoices, and receipts accurately.",
+      "Bank & Payment Reconciliations: Reconciliation of bank accounts, payment gateways, credit cards, wallets, and merchant accounts.",
+      "Accounts Payable & Receivable: Tracking vendor payments, customer collections, ageing reports, outstanding balances, and follow-ups.",
+      "Payroll Accounting Support: Payroll entries, salary reports, employee reimbursements, and coordination with payroll compliance teams.",
+      "Monthly MIS & Financial Reporting: Preparation of monthly MIS, profit and loss reports, balance sheet summaries, and management dashboards.",
+      "Multi-Currency & Cross-Border Accounting: Accounting support for foreign currency transactions, intercompany entries, and cross-border business operations."
     ],
     "faqs": [
       {
