@@ -50,7 +50,7 @@ export const services: Service[] = [
   },
   {
     slug: "startup-registration",
-    title: "Startup Registration",
+    title: "Startup India Registration",
     blurb:
       "DPIIT recognition, incorporation, and unlocking startup-specific tax & funding benefits.",
     Icon: Rocket,
@@ -90,7 +90,7 @@ export const services: Service[] = [
   },
   {
     slug: "entry-india-strategies",
-    title: "Entry India Strategies",
+    title: "India Entry Strategies",
     blurb:
       "Structure, FDI advisory, regulatory clearances, and compliance for entering the Indian market.",
     Icon: Globe,
@@ -210,9 +210,9 @@ export const services: Service[] = [
   },
   {
     slug: "what-is-sme-ipo",
-    title: "What is SME IPO?",
+    title: "IPO Advisory",
     blurb:
-      "Eligibility, listing path on NSE Emerge / BSE SME, documentation, and post-listing compliance.",
+      "Pre-IPO readiness, listing support on NSE Emerge / BSE SME, post-listing compliance, and long-term growth strategy.",
     Icon: TrendingUp,
     image:
       "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=900&q=80",
@@ -220,9 +220,9 @@ export const services: Service[] = [
   },
   {
     slug: "debt-raise",
-    title: "Debt Raise",
+    title: "Debt Advisory Services",
     blurb:
-      "End-to-end debt fundraising - CMA data, project reports, lender identification, and disbursement support.",
+      "End-to-end debt advisory — CMA data, project reports, lender identification, structuring, and disbursement support.",
     Icon: Banknote,
     image:
       "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=900&q=80",
