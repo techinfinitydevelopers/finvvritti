@@ -315,9 +315,11 @@ export default function ServiceDetail({
                 )}
               </h2>
               {bulletsSubheading ? (
-                <p className="mt-3 text-[var(--color-ink)]/70 text-base">
-                  {bulletsSubheading.includes("\n") ? bulletsSubheading.split("\n")[0] : bulletsSubheading}
-                </p>
+                <div className="mt-3 space-y-2">
+                  {bulletsSubheading.split("\n").map((line, i) => (
+                    <p key={i} className="text-[var(--color-ink)]/70 text-base">{line}</p>
+                  ))}
+                </div>
               ) : (
                 <p className="mt-3 text-[var(--color-ink)]/70 text-base">Mandatory compliance steps under the Companies Act 2013, Finvvritti walks you through every one.</p>
               )}
@@ -334,13 +336,6 @@ export default function ServiceDetail({
                 </li>
               ))}
             </ul>
-
-            {/* Description below bullets */}
-            {bulletsSubheading?.includes("\n") && (
-              <p className="mt-8 text-[var(--color-ink)]/70 text-sm md:text-base leading-relaxed max-w-3xl">
-                {bulletsSubheading.split("\n")[1]}
-              </p>
-            )}
 
             {/* CTA strip */}
             <div className="mt-14 rounded-3xl gradient-primary p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
