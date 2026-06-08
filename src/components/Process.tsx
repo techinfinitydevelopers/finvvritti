@@ -24,7 +24,7 @@ const steps = [
   {
     n: 4,
     title: "Advise and optimise",
-    text: "Ongoing CFO-level guidance on financial planning, tax, debt, valuation, and capital, turning numbers into next moves.",
+    text: "Ongoing CFO-level guidance on **financial planning**, tax, debt, valuation, and capital, turning numbers into next moves.",
   },
   {
     n: 5,
@@ -89,7 +89,11 @@ export default function Process() {
                   </span>
                 </div>
                 <h3 className="font-semibold text-white text-base leading-snug">{s.title}</h3>
-                <p className="mt-2 text-sm text-white/65 leading-relaxed">{s.text}</p>
+                <p className="mt-2 text-sm text-white/65 leading-relaxed">
+                  {s.text.split(/\*\*(.+?)\*\*/).map((part, i) =>
+                    i % 2 === 1 ? <strong key={i} className="text-white font-semibold">{part}</strong> : part
+                  )}
+                </p>
               </div>
 
               {/* Arrow connector between steps */}
@@ -121,7 +125,11 @@ export default function Process() {
               </div>
               <div>
                 <h3 className="font-semibold text-white text-base">{s.title}</h3>
-                <p className="mt-1.5 text-sm text-white/65 leading-relaxed">{s.text}</p>
+                <p className="mt-1.5 text-sm text-white/65 leading-relaxed">
+                  {s.text.split(/\*\*(.+?)\*\*/).map((part, i) =>
+                    i % 2 === 1 ? <strong key={i} className="text-white font-semibold">{part}</strong> : part
+                  )}
+                </p>
               </div>
             </div>
           ))}
