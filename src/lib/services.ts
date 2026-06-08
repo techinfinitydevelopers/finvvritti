@@ -298,6 +298,16 @@ export const services: Service[] = [
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
     category: "Global",
   },
+  {
+    slug: "bookkeeping-accounting-international",
+    title: "Bookkeeping & Accounting Services",
+    blurb:
+      "Reliable bookkeeping, reconciliations, MIS reporting, payroll accounting, and financial statements for international clients and global businesses.",
+    Icon: BookOpen,
+    image:
+      "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=900&q=80",
+    category: "Global",
+  },
 ];
 
 export function getServiceBySlug(slug: string) {
