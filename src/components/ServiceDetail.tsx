@@ -315,7 +315,7 @@ export default function ServiceDetail({
                 )}
               </h2>
               {bulletsSubheading ? (
-                <p className="mt-3 text-[var(--color-primary)] font-semibold text-base">
+                <p className="mt-3 text-[var(--color-ink)]/70 text-base">
                   {bulletsSubheading.includes("\n") ? bulletsSubheading.split("\n")[0] : bulletsSubheading}
                 </p>
               ) : (
