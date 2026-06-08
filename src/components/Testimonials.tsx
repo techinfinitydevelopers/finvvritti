@@ -10,24 +10,6 @@ type TestimonialItem = { quote: string; name: string; role: string; color: strin
 
 const defaultItems: TestimonialItem[] = [
   {
-    quote: "I'm impressed with Finvvritti's tax expertise, which aligns well with my business needs. Despite diverse operations, the team provides holistic advice that keeps everything on track.",
-    name: "Ronak Parikh",
-    role: "Managing Partner, GFXBandits IT Solutions",
-    color: "#0A2540",
-  },
-  {
-    quote: "Service has been excellent and faultless. The team ensures compliance and responds brilliantly to all queries. A reliable partner for all our financial and compliance needs.",
-    name: "Kalpesh Jain",
-    role: "Director, Stancor Alloys Private Limited",
-    color: "#0369A1",
-  },
-  {
-    quote: "Finvvritti offers fantastic services and helped set up accounting processes for streamlined operations. Their proactive approach has made a real difference to our business.",
-    name: "Lloyd Mendes",
-    role: "Managing Partner, LLM Foods",
-    color: "#1E6B4F",
-  },
-  {
     quote: "Pleased to have worked with Gagan and Finvvritti team. They are the go to persons for anything finance related under the sun. Think of them as a ready made finance team, and you can focus on solving the hard problems. Strongly recommend.",
     name: "Saurabh Goel",
     role: "Co-Founder & CEO, Amberstudent",
@@ -43,6 +25,24 @@ const defaultItems: TestimonialItem[] = [
     quote: "The Finvvritti team's ownership mindset and proactive approach are every founder's dream. If someone is looking to offload financial headaches and bring real order to your books, Finvvritti is the partner you want by your side.",
     name: "Shivam Gupta",
     role: "Co-Founder, MySivi.ai",
+    color: "#1E6B4F",
+  },
+  {
+    quote: "I'm impressed with Finvvritti's tax expertise, which aligns well with my business needs. Despite diverse operations, the team provides holistic advice that keeps everything on track.",
+    name: "Ronak Parikh",
+    role: "Managing Partner, GFXBandits IT Solutions",
+    color: "#0A2540",
+  },
+  {
+    quote: "Service has been excellent and faultless. The team ensures compliance and responds brilliantly to all queries. A reliable partner for all our financial and compliance needs.",
+    name: "Kalpesh Jain",
+    role: "Director, Stancor Alloys Private Limited",
+    color: "#0369A1",
+  },
+  {
+    quote: "Finvvritti offers fantastic services and helped set up accounting processes for streamlined operations. Their proactive approach has made a real difference to our business.",
+    name: "Lloyd Mendes",
+    role: "Managing Partner, LLM Foods",
     color: "#1E6B4F",
   },
 ];
