@@ -275,7 +275,7 @@ export const services: Service[] = [
       "Risk-based internal audit to strengthen controls, ensure compliance, and protect stakeholder interests.",
     Icon: ClipboardList,
     image:
-      "/service-images/internal-audit-hero.png",
+      "/service-images/internal-audit-hero.jpg",
     category: "Compliance",
   },
   {
