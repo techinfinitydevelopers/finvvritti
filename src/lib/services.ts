@@ -122,7 +122,7 @@ export const services: Service[] = [
     slug: "business-incorporation-services",
     title: "Business Incorporation Services",
     blurb:
-      "Pvt Ltd, OPC, Partnership, incorporated right with the optimal structure for your goals.",
+      "Company incorporation services for Private Limited Companies, LLPs, OPCs, Partnerships, and startups with complete registration and compliance support.",
     Icon: Building,
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
