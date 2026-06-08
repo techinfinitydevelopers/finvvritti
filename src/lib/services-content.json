@@ -2124,45 +2124,43 @@
       "International businesses need proper accounting to manage multi-currency transactions, tax reporting, audit readiness, investor reporting, cash flow planning, and intercompany transactions. Accurate bookkeeping gives business owners clear financial visibility and helps avoid reporting gaps, delays, and compliance risks.",
       "We offer secure, cloud-based bookkeeping support covering bank reconciliations, accounts payable, accounts receivable, payroll entries, monthly MIS, financial reporting, audit coordination, and cross-border accounting support. Our focus is on accuracy, confidentiality, timely reporting, and dependable finance back-office support."
     ],
-    "benefitHeading": "Why International Businesses Choose Finvvritti",
+    "benefitHeading": "Reliable Accounting Support for Global Businesses",
     "benefits": [
       {
-        "icon": "shield",
-        "title": "Data Security",
-        "desc": "Strict protocols and controlled access to protect all your financial data."
-      },
-      {
-        "icon": "clock",
-        "title": "Timely Reporting",
-        "desc": "Consistent monthly MIS and financial statements delivered on schedule."
+        "icon": "network",
+        "title": "Single-Point Accounting Desk",
+        "desc": "Complete bookkeeping, reconciliations, reporting, payroll accounting, and financial records managed from one place."
       },
       {
         "icon": "globe",
-        "title": "Multi-Currency Support",
-        "desc": "Accurate handling of cross-border transactions and intercompany accounts."
+        "title": "Multi-Currency Accounting",
+        "desc": "Proper recording and reconciliation of foreign currency transactions, international payments, and cross-border business entries."
       },
       {
         "icon": "chart",
-        "title": "Audit Ready",
-        "desc": "Clean, reconciled books ready for investor due diligence and audits."
+        "title": "Cloud-Based Reporting",
+        "desc": "Secure cloud accounting support with timely MIS reports, financial dashboards, and real-time access to business numbers."
       },
       {
-        "icon": "users",
-        "title": "Dedicated Team",
-        "desc": "Experienced professionals managing your complete finance back-office."
+        "icon": "shield",
+        "title": "Audit-Ready Records",
+        "desc": "Clean books, proper documentation, reconciled ledgers, and structured financial records ready for audit and review."
+      },
+      {
+        "icon": "lock",
+        "title": "Data Security & Confidentiality",
+        "desc": "Secure document handling, restricted access, and confidentiality-focused processes to protect sensitive financial information."
       }
     ],
-    "bulletsHeading": "BOOKKEEPING & ACCOUNTING FOR INTERNATIONAL CLIENTS",
-    "bulletsSubheading": "What We Manage for Your Business\nFrom bank reconciliations and accounts payable to payroll entries, MIS reporting, financial statements, audit coordination, and cross-border accounting support, Finvvritti manages your complete finance back-office.",
+    "bulletsHeading": "Key Areas of Accounting Support",
+    "bulletsSubheading": "Our structured accounting support helps international clients maintain accurate books, timely reporting, clean reconciliations, and audit-ready financial records across jurisdictions.",
     "bullets": [
-      "Bank reconciliations and accounts payable/receivable",
-      "Payroll accounting entries and processing support",
-      "Monthly MIS and management reporting",
-      "Financial statement preparation",
-      "Multi-currency transaction recording",
-      "Intercompany transaction management",
-      "Audit coordination and documentation support",
-      "Cross-border compliance accounting"
+      "Bookkeeping & Ledger Management: Recording day-to-day transactions, journals, ledgers, expenses, invoices, and receipts accurately.",
+      "Bank & Payment Reconciliations: Reconciliation of bank accounts, payment gateways, credit cards, wallets, and merchant accounts.",
+      "Accounts Payable & Receivable: Tracking vendor payments, customer collections, ageing reports, outstanding balances, and follow-ups.",
+      "Payroll Accounting Support: Payroll entries, salary reports, employee reimbursements, and coordination with payroll compliance teams.",
+      "Monthly MIS & Financial Reporting: Preparation of monthly MIS, profit and loss reports, balance sheet summaries, and management dashboards.",
+      "Multi-Currency & Cross-Border Accounting: Accounting support for foreign currency transactions, intercompany entries, and cross-border business operations."
     ],
     "sections": [],
     "faqs": [
