@@ -94,7 +94,6 @@ export default function Hero() {
             ref={paraRef}
             className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--color-secondary)]/15 border border-[var(--color-secondary)]/30"
           >
-            <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-secondary)] shrink-0" />
             <p className="text-sm md:text-base text-[var(--color-secondary)] font-semibold">
               India&apos;s leading advisory and Chartered Accountant Firm in Mumbai
             </p>
