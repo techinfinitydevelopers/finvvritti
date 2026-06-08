@@ -20,11 +20,6 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/logo-light.png",
-    shortcut: "/logo-light.png",
-    apple: "/logo-light.png",
-  },
   title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
   description:
     "Finvvritti combines CA & CS expertise across auditing, accounting, taxation, debt advisory, CFO services and valuation - a one-stop solution for finance, compliance & growth.",
