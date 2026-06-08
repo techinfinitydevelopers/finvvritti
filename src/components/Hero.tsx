@@ -90,12 +90,15 @@ export default function Hero() {
             <span className="text-gradient-gold whitespace-nowrap">Our Responsibility</span>
           </h1>
 
-          <p
+          <div
             ref={paraRef}
-            className="mt-2 text-sm md:text-base text-white/65 max-w-xl"
+            className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--color-secondary)]/15 border border-[var(--color-secondary)]/30"
           >
-            India&apos;s leading advisory and Chartered Accountant Firm in Mumbai
-          </p>
+            <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-secondary)] shrink-0" />
+            <p className="text-sm md:text-base text-[var(--color-secondary)] font-semibold">
+              India&apos;s leading advisory and Chartered Accountant Firm in Mumbai
+            </p>
+          </div>
 
           <p className="mt-3 text-base md:text-lg text-white/80 max-w-xl">
             One-stop solution for finance, compliance & growth. We combine CA &
