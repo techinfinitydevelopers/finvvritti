@@ -821,7 +821,7 @@
   },
   "accounting-bookkeeping-services": {
     "title": "Accounting & Book keeping Services",
-    "benefitHeading": "Why Accurate Accounting Matters?",
+    "benefitHeading": "Reliable Accounting Support for Global Businesses",
     "bulletsHeading": "Reliable Books. Compliant Records. Better Decisions.",
     "bulletsSubheading": "Finvvritti provides end-to-end accounting and bookkeeping support - from transaction recording to management reporting - ensuring your finance function stays accurate, compliant, and decision-ready.",
     "overview": [
@@ -832,29 +832,29 @@
     ],
     "benefits": [
       {
-        "icon": "trending-up",
-        "title": "Tax Planning",
-        "desc": "Accurate books enable optimal tax planning, minimising liabilities and avoiding penalties."
+        "icon": "network",
+        "title": "Single-Point Accounting Desk",
+        "desc": "Complete bookkeeping, reconciliations, reporting, payroll accounting, and financial records managed from one place."
       },
       {
-        "icon": "file-text",
-        "title": "Regulatory Compliance",
-        "desc": "Stay fully compliant with Income Tax, GST, Companies Act, and LLP Act requirements."
+        "icon": "globe",
+        "title": "Multi-Currency Accounting",
+        "desc": "Proper recording and reconciliation of foreign currency transactions, international payments, and cross-border business entries."
       },
       {
-        "icon": "users",
-        "title": "Stakeholder Confidence",
-        "desc": "Clean financials build trust with investors, lenders, and business partners."
+        "icon": "chart",
+        "title": "Cloud-Based Reporting",
+        "desc": "Secure cloud accounting support with timely MIS reports, financial dashboards, and real-time access to business numbers."
       },
       {
-        "icon": "badge-check",
-        "title": "Audit Readiness",
-        "desc": "Well-maintained records ensure a smooth, stress-free statutory audit every time."
+        "icon": "shield",
+        "title": "Audit-Ready Records",
+        "desc": "Clean books, proper documentation, reconciled ledgers, and structured financial records ready for audit and review."
       },
       {
-        "icon": "piggy-bank",
-        "title": "Cost Savings",
-        "desc": "Outsourcing eliminates the overhead of recruiting, training, and retaining in-house accounts staff."
+        "icon": "lock",
+        "title": "Data Security & Confidentiality",
+        "desc": "Secure document handling, restricted access, and confidentiality-focused processes to protect sensitive financial information."
       }
     ],
     "sections": [
