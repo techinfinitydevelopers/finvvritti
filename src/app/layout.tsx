@@ -21,9 +21,9 @@ const nunitoSans = Nunito_Sans({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/logo-icon.avif",
-    shortcut: "/logo-icon.avif",
-    apple: "/logo-icon.avif",
+    icon: "/logo-light.png",
+    shortcut: "/logo-light.png",
+    apple: "/logo-light.png",
   },
   title: "Finvvritti | CA & CS Advisory | Accounting, Tax, Compliance",
   description:
