@@ -9,7 +9,7 @@ const steps = [
   {
     n: 1,
     title: "Understand your business",
-    text: "We analyze your financial structure, operations, and goals to identify key challenges and growth opportunities.",
+    text: "We analyze your financial structure, operations, and goals to identify key challenges.",
   },
   {
     n: 2,
@@ -24,7 +24,7 @@ const steps = [
   {
     n: 4,
     title: "Advise and optimise",
-    text: "Ongoing CFO-level guidance on tax, debt, valuation, and capital, turning numbers into next moves.",
+    text: "Ongoing CFO-level guidance on financial planning, tax, debt, valuation, and capital, turning numbers into next moves.",
   },
   {
     n: 5,
