@@ -2153,7 +2153,7 @@
       }
     ],
     "bulletsHeading": "From Daily Accounting to Monthly Reporting",
-    "bulletsSubheading": "INTERNATIONAL BOOKKEEPING SERVICES\nFinvvritti helps international clients manage bookkeeping, reconciliations, payables, receivables, payroll entries, MIS reporting, financial statements, and audit-ready records through secure cloud-based accounting support.",
+    "bulletsSubheading": "Finvvritti helps international clients manage bookkeeping, reconciliations, payables, receivables, payroll entries, MIS reporting, financial statements, and audit-ready records through secure cloud-based accounting support.",
     "bullets": [
       "Daily Bookkeeping: Recording sales, purchases, expenses, receipts, payments, journals, and other day-to-day accounting entries.",
       "Bank & Card Reconciliations: Monthly reconciliation of bank accounts, credit cards, payment gateways, wallets, and merchant accounts.",
@@ -2166,7 +2166,14 @@
       "Intercompany Accounting: Recording and reconciling intercompany transactions, cross-border charges, management fees, and group balances.",
       "Audit-Ready Records: Maintaining clean books, supporting documents, reconciled ledgers, and schedules for audit, review, and investor reporting."
     ],
-    "sections": [],
+    "sections": [
+      "Bookkeeping & Ledger Management",
+      "Bank & Payment Reconciliations",
+      "Accounts Payable & Receivable",
+      "Payroll Accounting Support",
+      "Monthly MIS & Financial Reporting",
+      "Multi-Currency & Cross-Border Accounting"
+    ],
     "faqs": [
       {
         "q": "How does Finvvritti ensure the security and confidentiality of my business data?",
