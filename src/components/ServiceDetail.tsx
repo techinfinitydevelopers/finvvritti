@@ -314,9 +314,19 @@ export default function ServiceDetail({
                   <>What happens{" "}<span className="italic text-[var(--color-secondary-dark)]">after incorporation</span></>
                 )}
               </h2>
-              <p className="mt-3 text-[var(--color-ink)]/70 text-base">
-                {bulletsSubheading ?? "Mandatory compliance steps under the Companies Act 2013, Finvvritti walks you through every one."}
-              </p>
+              {bulletsSubheading ? (
+                bulletsSubheading.includes("\n") ? (
+                  <div className="mt-3 space-y-1.5">
+                    {bulletsSubheading.split("\n").map((line, i) => (
+                      <p key={i} className={`text-base ${i === 0 ? "font-semibold text-[var(--color-primary)]" : "text-[var(--color-ink)]/70"}`}>{line}</p>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="mt-3 text-[var(--color-ink)]/70 text-base">{bulletsSubheading}</p>
+                )
+              ) : (
+                <p className="mt-3 text-[var(--color-ink)]/70 text-base">Mandatory compliance steps under the Companies Act 2013, Finvvritti walks you through every one.</p>
+              )}
             </div>
 
             <ul className="sd-bullets-list mt-10 grid md:grid-cols-2 gap-x-6 gap-y-3">
