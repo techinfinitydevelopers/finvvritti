@@ -2125,7 +2125,11 @@
   },
   "bookkeeping-accounting-international": {
     "title": "Bookkeeping & Accounting Services for International Clients",
-    "overview": "Finvvritti provides reliable bookkeeping and accounting services for international clients, overseas businesses, foreign subsidiaries, startups, and global entrepreneurs. We help maintain accurate books, clean financial records, reconciliations, MIS reports, payroll accounting, and financial statements for smooth business operations and compliance.\n\nInternational businesses need proper accounting to manage multi-currency transactions, tax reporting, audit readiness, investor reporting, cash flow planning, and intercompany transactions. Accurate bookkeeping gives business owners clear financial visibility and helps avoid reporting gaps, delays, and compliance risks.\n\nWe offer secure, cloud-based bookkeeping support covering bank reconciliations, accounts payable, accounts receivable, payroll entries, monthly MIS, financial reporting, audit coordination, and cross-border accounting support. Our focus is on accuracy, confidentiality, timely reporting, and dependable finance back-office support.",
+    "overview": [
+      "Finvvritti provides reliable bookkeeping and accounting services for international clients, overseas businesses, foreign subsidiaries, startups, and global entrepreneurs. We help maintain accurate books, clean financial records, reconciliations, MIS reports, payroll accounting, and financial statements for smooth business operations and compliance.",
+      "International businesses need proper accounting to manage multi-currency transactions, tax reporting, audit readiness, investor reporting, cash flow planning, and intercompany transactions. Accurate bookkeeping gives business owners clear financial visibility and helps avoid reporting gaps, delays, and compliance risks.",
+      "We offer secure, cloud-based bookkeeping support covering bank reconciliations, accounts payable, accounts receivable, payroll entries, monthly MIS, financial reporting, audit coordination, and cross-border accounting support. Our focus is on accuracy, confidentiality, timely reporting, and dependable finance back-office support."
+    ],
     "benefitHeading": "Why International Businesses Choose Finvvritti",
     "benefits": [
       {
@@ -2165,6 +2169,7 @@
       "Intercompany transaction management",
       "Audit coordination and documentation support",
       "Cross-border compliance accounting"
-    ]
+    ],
+    "sections": []
   }
 }
