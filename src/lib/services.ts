@@ -110,7 +110,7 @@ export const services: Service[] = [
   },
   {
     slug: "accounting-bookkeeping-services",
-    title: "Accounting & Bookkeeping Services",
+    title: "Accounting & Book keeping Services",
     blurb:
       "Accurate ledgers, monthly MIS, payroll, and audit-ready records, finance you can trust.",
     Icon: BookOpen,
@@ -300,7 +300,7 @@ export const services: Service[] = [
   },
   {
     slug: "bookkeeping-accounting-international",
-    title: "Bookkeeping & Accounting Services",
+    title: "Book keeping & Accounting Services",
     blurb:
       "Reliable bookkeeping, reconciliations, MIS reporting, payroll accounting, and financial statements for international clients and global businesses.",
     Icon: BookOpen,
