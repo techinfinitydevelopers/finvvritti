@@ -8,27 +8,27 @@ import { ArrowRight, Briefcase, GraduationCap, BarChart3, CheckCircle2, Upload }
 const openings = [
   {
     Icon: BarChart3,
-    title: "CFO Partner",
-    location: "Mumbai",
-    type: "Full-Time / Fractional",
-    desc: "Lead financial strategy for SMEs and startups as a Virtual CFO Partner. Bring your CA/MBA expertise to help businesses grow, raise capital, and stay compliant.",
+    title: "Chartered Accountant",
+    location: "Mumbai/India",
+    type: "Full-Time",
+    desc: "Gain hands on experience on finance, taxation and advisory strategy for SMEs and startups.",
     requirements: [
-      "CA / MBA Finance with 10+ years experience",
-      "Strong background in financial planning & analysis",
-      "Experience with SMEs, startups, or advisory firms",
-      "Excellent client communication and leadership skills",
+      "CA fresher or experienced",
+      "Eagerness to learn and take ownership",
+      "Good knowledge of accounting, excel and tax filings",
+      "Strong attention to detail",
     ],
   },
   {
     Icon: GraduationCap,
-    title: "Industrial Trainee",
-    location: "Mumbai",
-    type: "Internship / Articleship",
-    desc: "Are you an aspiring CA looking for hands-on experience? Join our team, shape your future with real client work across tax, audit, compliance, and advisory.",
+    title: "Senior Finance Executive",
+    location: "Mumbai/India",
+    type: "Full-Time",
+    desc: "Are you an experienced finance professional looking for learning and growth? Join our team, shape your future with real client work across tax, audit, compliance, and advisory.",
     requirements: [
-      "CA Inter cleared or pursuing final",
+      "CA inter or Bachelors/Masters in Commerce",
       "Eagerness to learn and take ownership",
-      "Good knowledge of accounting and tax basics",
+      "Good knowledge of accounting, excel and tax filings",
       "Strong attention to detail",
     ],
   },
@@ -227,8 +227,8 @@ export default function CareersPage() {
                         className="w-full rounded-xl border border-[var(--color-line)] bg-white px-4 py-3 text-sm text-[var(--color-ink)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/20 focus:border-[var(--color-primary)]"
                       >
                         <option value="">Select a role</option>
-                        <option>CFO Partner</option>
-                        <option>Industrial Trainee</option>
+                        <option>Chartered Accountant</option>
+                        <option>Senior Finance Executive</option>
                         <option>Accounts Executive</option>
                         <option>Other</option>
                       </select>

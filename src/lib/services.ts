@@ -70,7 +70,7 @@ export const services: Service[] = [
   },
   {
     slug: "regulatory-registration",
-    title: "Regulatory Registration",
+    title: "Regulatory Registration Services",
     blurb:
       "FSSAI, IEC, MSME, ISO, GST, Shop & Establishment, all your registrations in one place.",
     Icon: Stamp,
