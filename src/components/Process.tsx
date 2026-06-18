@@ -24,7 +24,7 @@ const steps = [
   {
     n: 4,
     title: "Advise and optimise",
-    text: "CFO-level guidance on financial planning, tax, debt, valuation, and capital, turning numbers into next moves.",
+    text: "CFO-level guidance on **financial planning**, tax, debt, valuation, and capital, turning numbers into next moves.",
   },
   {
     n: 5,
